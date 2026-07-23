@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T07:56:02.536189+00:00",
+  "generated": "2026-07-23T16:41:20.259057+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -381,6 +381,16 @@
       "status": "offsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jt"
+    },
+    {
+      "id": "17G8v0G6ClFL9p2",
+      "name": "Rocket de Laval c. Calgary Wranglers au Centre Bell",
+      "localDate": "2026-11-22",
+      "localTime": "15:00:00",
+      "dateTimeUTC": "2026-11-22T20:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.ca/rocket-de-laval-c-calgary-wranglers-montreal-quebec-11-22-2026/event/310064EAC87D758F"
     },
     {
       "id": "Z7r9jZ1A7J4jY",
