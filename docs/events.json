@@ -1,0 +1,1666 @@
+{
+  "generated": "2026-07-23T07:38:14.195719+00:00",
+  "venue": "Bell Centre",
+  "events": [
+    {
+      "id": "1AsZkC7GkegKbiX",
+      "name": "Centre Bell - Repas Restaurant Canti - Dethklok & Amon Amarth",
+      "localDate": "2026-05-02",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-05-02T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-dethklok-montreal-quebec-05-02-2026/event/31006384B54D8B3E"
+    },
+    {
+      "id": "1AsZkotGkd2CIm0",
+      "name": "Centre Bell - Repas Restaurant Canti - IVE",
+      "localDate": "2026-07-23",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-24T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-ive-montreal-quebec-07-23-2026/event/31006469CF3A8BA4"
+    },
+    {
+      "id": "1AsZkotGkdC3znY",
+      "name": "IVE WORLD TOUR <SHOW WHAT I AM> IN MONTREAL",
+      "localDate": "2026-07-23",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-24T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/ive-world-tour-show-what-i-montreal-quebec-07-23-2026/event/31006469CE4B8AB0"
+    },
+    {
+      "id": "17G8v0G65mD2hRG",
+      "name": "Visites Guidées Centre Bell - Bell Centre",
+      "localDate": "2026-07-24",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-07-25T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-07-24-2026/event/310064BBBB3DBBCC"
+    },
+    {
+      "id": "1kG8v0fEGA2hN9R",
+      "name": "Salon des Directeurs CIBC - J.Cole",
+      "localDate": "2026-07-25",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-07-25T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-jcole-montreal-quebec-07-25-2026/event/310064527F6E35EF"
+    },
+    {
+      "id": "1Ad7Z_7GknWBEGR",
+      "name": "Centre Bell - Repas Restaurant Canti - J. Cole",
+      "localDate": "2026-07-25",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-26T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-j-montreal-quebec-07-25-2026/event/3100644ABDEA732F"
+    },
+    {
+      "id": "1Ad7Z_7GknWFMab",
+      "name": "J. Cole: The Fall-Off Tour",
+      "localDate": "2026-07-25",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-26T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/j-cole-the-falloff-tour-montreal-quebec-07-25-2026/event/3100644ABD237258"
+    },
+    {
+      "id": "17G8v0G61Mi5ryZ",
+      "name": "AEW PRESENTS REDEMPTION PPV",
+      "localDate": "2026-07-26",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-07-26T22:00:00Z",
+      "status": "onsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.ca/aew-presents-redemption-ppv-montreal-quebec-07-26-2026/event/310064ADEC2DEE40"
+    },
+    {
+      "id": "1Ad7Z_FGkXDUq7M",
+      "name": "Centre Bell - Repas Restaurant Canti - AEW",
+      "localDate": "2026-07-26",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-07-26T22:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-aew-montreal-quebec-07-26-2026/event/3100648FBBD9D137"
+    },
+    {
+      "id": "17G8v0G65mD8hRo",
+      "name": "Visites Guidées Centre Bell - Bell Centre",
+      "localDate": "2026-07-27",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-07-28T03:59:00Z",
+      "status": "cancelled",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-07-27-2026/event/310064BBBB41BBD1"
+    },
+    {
+      "id": "1AsZkGPGkexK3tv",
+      "name": "Salon des Directeurs CIBC - Ariana Grande",
+      "localDate": "2026-07-28",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-07-28T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-ariana-grande-montreal-quebec-07-28-2026/event/31006325A24D2A41"
+    },
+    {
+      "id": "16d7Zbw16G7y-vb",
+      "name": "Centre Bell - Repas Restaurant Mythik - Ariana Grande",
+      "localDate": "2026-07-28",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-29T00:00:00Z",
+      "status": "offsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-ariana-montreal-quebec-07-28-2026/event/3100632287E61058"
+    },
+    {
+      "id": "16d7Zbw1dG7DOTU",
+      "name": "Centre Bell - Repas Restaurant Canti - Ariana Grande",
+      "localDate": "2026-07-28",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-29T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-ariana-montreal-quebec-07-28-2026/event/3100632283EE0FF6"
+    },
+    {
+      "id": "1AsZkG_GkdqixiL",
+      "name": "Ariana Grande - The Eternal Sunshine Tour",
+      "localDate": "2026-07-28",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-29T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F"
+    },
+    {
+      "id": "1AsZkGPGkexKxtd",
+      "name": "Salon des Directeurs CIBC - Ariana Grande",
+      "localDate": "2026-07-30",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-07-30T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-ariana-grande-montreal-quebec-07-30-2026/event/31006325A24E2A43"
+    },
+    {
+      "id": "16d7Zbw16G7ysvq",
+      "name": "Centre Bell - Repas Restaurant Mythik - Ariana Grande",
+      "localDate": "2026-07-30",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-31T00:00:00Z",
+      "status": "offsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-ariana-montreal-quebec-07-30-2026/event/3100632287E7105D"
+    },
+    {
+      "id": "16d7Zbw1dG7HZTy",
+      "name": "Centre Bell - Repas Restaurant Canti - Ariana Grande",
+      "localDate": "2026-07-30",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-31T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-ariana-montreal-quebec-07-30-2026/event/3100632283F00FF9"
+    },
+    {
+      "id": "1AsZkG_GkdrCxiM",
+      "name": "Ariana Grande - The Eternal Sunshine Tour",
+      "localDate": "2026-07-30",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-07-31T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37"
+    },
+    {
+      "id": "1AsZkGPGkexKwtk",
+      "name": "Salon des Directeurs CIBC - Ariana Grande",
+      "localDate": "2026-07-31",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-07-31T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-ariana-grande-montreal-quebec-07-31-2026/event/31006325A24F2A46"
+    },
+    {
+      "id": "16d7Zbw16G7BovL",
+      "name": "Centre Bell - Repas Restaurant Mythik - Ariana Grande",
+      "localDate": "2026-07-31",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-08-01T00:00:00Z",
+      "status": "offsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-ariana-montreal-quebec-07-31-2026/event/3100632287E9105F"
+    },
+    {
+      "id": "16d7Zbw1dG7H8TD",
+      "name": "Centre Bell - Repas Restaurant Canti - Ariana Grande",
+      "localDate": "2026-07-31",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-08-01T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-ariana-montreal-quebec-07-31-2026/event/3100632283F10FFB"
+    },
+    {
+      "id": "1AsZkG_GkdrMecG",
+      "name": "Ariana Grande - The Eternal Sunshine Tour",
+      "localDate": "2026-07-31",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-08-01T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C"
+    },
+    {
+      "id": "1AsZk8JGkdKTJW3",
+      "name": "Centre Bell - Repas Restaurant Canti - Five Finger Death Punch",
+      "localDate": "2026-08-01",
+      "localTime": "18:45:00",
+      "dateTimeUTC": "2026-08-01T22:45:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-five-montreal-quebec-08-01-2026/event/31006426D3FE6F52"
+    },
+    {
+      "id": "1AsZk8JGkdKhpHb",
+      "name": "Five Finger Death Punch",
+      "localDate": "2026-08-01",
+      "localTime": "18:45:00",
+      "dateTimeUTC": "2026-08-01T22:45:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/five-finger-death-punch-montreal-quebec-08-01-2026/event/31006426D36D6F18"
+    },
+    {
+      "id": "17G8v0G65mDolRf",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-02",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-03T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-02-2026/event/310064BBBB46BBD4"
+    },
+    {
+      "id": "17G8v0G65mD3lR_",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-03",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-04T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-03-2026/event/310064BBBB4ABBD9"
+    },
+    {
+      "id": "17G8v0G65mDKDRL",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-04",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-05T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-04-2026/event/310064BBBB4FBBDF"
+    },
+    {
+      "id": "17G8v0G65mDfDR0",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-05",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-06T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-05-2026/event/310064BBBB53BBE4"
+    },
+    {
+      "id": "1Ad7Z_6GkRLVBch",
+      "name": "Centre Bell - Repas Restaurant Canti - Daniel Caesar",
+      "localDate": "2026-08-06",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-08-06T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-daniel-montreal-quebec-08-06-2026/event/3100647BDFD3AB5B"
+    },
+    {
+      "id": "1Ad7Z_6Gkmt-EQi",
+      "name": "Daniel Caesar - Son Of Spergy Tour",
+      "localDate": "2026-08-06",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-08-06T23:30:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/daniel-caesar-son-of-spergy-tour-montreal-quebec-08-06-2026/event/3100647BA98676AC"
+    },
+    {
+      "id": "1Ad7Z_eGkT7zMXZ",
+      "name": "Salon des Directeurs CIBC - Olivia Dean",
+      "localDate": "2026-08-07",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-08-07T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-olivia-dean-montreal-quebec-08-07-2026/event/3100642FC4E37F80"
+    },
+    {
+      "id": "1Ad7ZbUGkUIQt08",
+      "name": "Olivia Dean: The Art Of Loving Live",
+      "localDate": "2026-08-07",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-08-08T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/olivia-dean-the-art-of-loving-montreal-quebec-08-07-2026/event/3100636DA86A9910"
+    },
+    {
+      "id": "1Ad7ZbUGkUtu_Ex",
+      "name": "Centre Bell - Repas Restaurant Canti - Olivia Dean",
+      "localDate": "2026-08-07",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-08-08T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-olivia-montreal-quebec-08-07-2026/event/3100636DA93599E2"
+    },
+    {
+      "id": "1Ad7ZbMGkmdWgDn",
+      "name": "Avenged Sevenfold and Good Charlotte: North American Tour 2026",
+      "localDate": "2026-08-08",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-08-08T22:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/avenged-sevenfold-and-good-charlotte-north-montreal-quebec-08-08-2026/event/3100637B83F75EEA"
+    },
+    {
+      "id": "1AsZkCvGkeOoJg-",
+      "name": "Centre Bell - Repas Restaurant Canti - Avenged Sevenfold",
+      "localDate": "2026-08-08",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-08-08T22:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-avenged-montreal-quebec-08-08-2026/event/31006381A0466D61"
+    },
+    {
+      "id": "17G8v0G65mDp5RR",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-09",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-10T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-09-2026/event/310064BBBB58BBEF"
+    },
+    {
+      "id": "17G8v0G65mD95RH",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-10",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-11T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-10-2026/event/310064BBBB5CBBFC"
+    },
+    {
+      "id": "17G8v0G65mDbhYZ",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-11",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-12T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-11-2026/event/310064BBBB61BC00"
+    },
+    {
+      "id": "17G8v0G65mD_DY5",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-12",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-13T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-12-2026/event/310064BBBB67BC0B"
+    },
+    {
+      "id": "17G8v0G65mDh5Yr",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-13",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-14T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-13-2026/event/310064BBBB6CBC1E"
+    },
+    {
+      "id": "17G8v0G65mDj5YI",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-14",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-15T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-14-2026/event/310064BBBB70BC28"
+    },
+    {
+      "id": "17G8v0G65mDqhYs",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-15",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-16T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-15-2026/event/310064BBBB75BC31"
+    },
+    {
+      "id": "17G8v0G65mDrhYg",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-16",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-17T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-16-2026/event/310064BBBB79BC35"
+    },
+    {
+      "id": "17G8v0G65mDLlYX",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-17",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-18T03:59:00Z",
+      "status": "cancelled",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-17-2026/event/310064BBBB7EBC3E"
+    },
+    {
+      "id": "17G8v0G65mDOlsA",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-18",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-19T03:59:00Z",
+      "status": "cancelled",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-18-2026/event/310064BBBB82BC45"
+    },
+    {
+      "id": "17G8v0G65mD-Ds5",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-19",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-20T03:59:00Z",
+      "status": "cancelled",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-19-2026/event/310064BBBB87BC4B"
+    },
+    {
+      "id": "17G8v0G65mDN5so",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-21",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-22T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-21-2026/event/310064BBBB8CBC51"
+    },
+    {
+      "id": "17G8v0G65mD05sf",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-22",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-23T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-22-2026/event/310064BBBB90BC54"
+    },
+    {
+      "id": "17G8v0G65mDP5sO",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-23",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-24T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-23-2026/event/310064BBBB94BC60"
+    },
+    {
+      "id": "17G8v0G65mDJhsN",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-24",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-25T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-24-2026/event/310064BBBB99BC63"
+    },
+    {
+      "id": "17G8v0G65mDEhsI",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-25",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-26T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-25-2026/event/310064BBBB9DBC68"
+    },
+    {
+      "id": "17G8v0G65mDIlsm",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-26",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-27T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-26-2026/event/310064BBBBA2BC6E"
+    },
+    {
+      "id": "17G8v0G65mDtlsU",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-27",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-28T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-27-2026/event/310064BBBBA6BC76"
+    },
+    {
+      "id": "17G8v0G65mDnlw7",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-28",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-29T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-28-2026/event/310064BBBBAABC84"
+    },
+    {
+      "id": "17G8v0G65mDlDw2",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-29",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-30T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-29-2026/event/310064BBBBAFBC8F"
+    },
+    {
+      "id": "17G8v0G65mDc5wK",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-30",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-08-31T03:59:00Z",
+      "status": "cancelled",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-30-2026/event/310064BBBBB4BC93"
+    },
+    {
+      "id": "17G8v0G65mDm5w_",
+      "name": "Visites Guidées Centre Bell - Bell Centre Guided Tours",
+      "localDate": "2026-08-31",
+      "localTime": "23:59:00",
+      "dateTimeUTC": "2026-09-01T03:59:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-centre-montreal-quebec-08-31-2026/event/310064BBBBB8BC99"
+    },
+    {
+      "id": "1Ad7ZbgGkmEwz5V",
+      "name": "Salon des Directeurs CIBC - Rush",
+      "localDate": "2026-09-02",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-09-02T22:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-rush-montreal-quebec-09-02-2026/event/3100635BA7CB82F4"
+    },
+    {
+      "id": "1Ad7ZbgGkmiWFIp",
+      "name": "Centre Bell - Repas Restaurant Canti - Rush",
+      "localDate": "2026-09-02",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-09-02T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-rush-montreal-quebec-09-02-2026/event/3100635BACF48A16"
+    },
+    {
+      "id": "1Ad7ZbgGkmibz0u",
+      "name": "Centre Bell - Repas Restaurant Mythik - Rush",
+      "localDate": "2026-09-02",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-09-02T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-rush-montreal-quebec-09-02-2026/event/3100635BAC63890D"
+    },
+    {
+      "id": "1AsZkuoGkeiEzKI",
+      "name": "RUSH: Fifty Something",
+      "localDate": "2026-09-02",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-09-02T23:30:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/rush-fifty-something-montreal-quebec-09-02-2026/event/31006351AC9F84E8"
+    },
+    {
+      "id": "1Ad7ZbgGkmESF5z",
+      "name": "Salon des Directeurs CIBC - Rush",
+      "localDate": "2026-09-04",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-09-04T22:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-rush-montreal-quebec-09-04-2026/event/3100635BA7CC82F8"
+    },
+    {
+      "id": "1Ad7ZbgGkmiWIIj",
+      "name": "Centre Bell - Repas Restaurant Canti - Rush",
+      "localDate": "2026-09-04",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-09-04T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-rush-montreal-quebec-09-04-2026/event/3100635BACF68A1C"
+    },
+    {
+      "id": "1Ad7ZbgGkmi_I0K",
+      "name": "Centre Bell - Repas Restaurant Mythik - Rush",
+      "localDate": "2026-09-04",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-09-04T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-rush-montreal-quebec-09-04-2026/event/3100635BAC668913"
+    },
+    {
+      "id": "1AsZkuoGkeiIFKn",
+      "name": "RUSH: Fifty Something",
+      "localDate": "2026-09-04",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-09-04T23:30:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/rush-fifty-something-montreal-quebec-09-04-2026/event/31006351ACA084EA"
+    },
+    {
+      "id": "1Ad7Z_6GkcJpv3z",
+      "name": "Centre Bell - Repas Restaurant Canti - Lily Allen",
+      "localDate": "2026-09-08",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-09-09T00:00:00Z",
+      "status": "cancelled",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-lily-montreal-quebec-09-08-2026/event/3100647B665814B8"
+    },
+    {
+      "id": "1kG8v0qaGA1PPjq",
+      "name": "Lily Allen Performs West End Girl",
+      "localDate": "2026-09-08",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-09-09T00:00:00Z",
+      "status": "cancelled",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/lily-allen-performs-west-end-girl-montreal-quebec-09-08-2026/event/310064749A96571D"
+    },
+    {
+      "id": "17G8v0G65KK3mgi",
+      "name": "Roxette 40th Anniversary Tour 2026",
+      "localDate": "2026-09-14",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-09-14T22:30:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/roxette-40th-anniversary-tour-2026-montreal-quebec-09-14-2026/event/310064B4D34AED6C"
+    },
+    {
+      "id": "17G8v0G65KfAXBc",
+      "name": "Centre Bell - Repas Restaurant Canti - Roxette",
+      "localDate": "2026-09-14",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-09-14T22:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-roxette-montreal-quebec-09-14-2026/event/310064B4D417EEAD"
+    },
+    {
+      "id": "17G8v0G65KfQXHS",
+      "name": "Centre Bell - Repas Restaurant Mythik - Roxette",
+      "localDate": "2026-09-14",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-09-14T22:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-roxette-montreal-quebec-09-14-2026/event/310064B4D46BEF33"
+    },
+    {
+      "id": "17G8v0G6GKNPFTU",
+      "name": "TICKETLESS: Rencontre avant le spectacle avec Taylor Dayne",
+      "localDate": "2026-09-14",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-09-14T22:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/ticketless-rencontre-avant-le-spectacle-avec-montreal-quebec-09-14-2026/event/310064C4E3948FF6"
+    },
+    {
+      "id": "Z7r9jZ1A7J4j9",
+      "name": "Montreal Canadiens vs. Toronto Maple Leafs",
+      "localDate": "2026-09-19",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-09-19T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4j9"
+    },
+    {
+      "id": "Z7r9jZ1A7PV7-",
+      "name": "Montreal Canadiens vs. Ottawa Senators",
+      "localDate": "2026-09-26",
+      "localTime": null,
+      "dateTimeUTC": null,
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PV7-"
+    },
+    {
+      "id": "1AsZkoxGkd0wWvg",
+      "name": "Salon des Directeurs CIBC - Gorillaz",
+      "localDate": "2026-10-03",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-10-03T22:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-gorillaz-montreal-quebec-10-03-2026/event/31006462E4CBD075"
+    },
+    {
+      "id": "1Ad7Z_AGkRqcjVa",
+      "name": "Centre Bell - Repas Restaurant Canti - Gorillaz",
+      "localDate": "2026-10-03",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-03T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-gorillaz-montreal-quebec-10-03-2026/event/3100645BDDB5CD09"
+    },
+    {
+      "id": "1Ad7Z_AGkn9lp2S",
+      "name": "Gorillaz - The Mountain Tour",
+      "localDate": "2026-10-03",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-03T23:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/gorillaz-the-mountain-tour-montreal-quebec-10-03-2026/event/3100645A97AD63F3"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jb",
+      "name": "Montreal Canadiens vs. Carolina Hurricanes",
+      "localDate": "2026-10-06",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-06T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jb"
+    },
+    {
+      "id": "1AsZk3oGkeROFjL",
+      "name": "Salon des Directeurs CIBC - Teddy Swims",
+      "localDate": "2026-10-07",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-10-07T22:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-teddy-swims-montreal-quebec-10-07-2026/event/31006491AF80871F"
+    },
+    {
+      "id": "1Ad7Z_FGkM9lFwl",
+      "name": "Teddy Swims: The UGLY Tour",
+      "localDate": "2026-10-07",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-07T23:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-quebec-10-07-2026/event/3100648DD7AC8CAB"
+    },
+    {
+      "id": "1AsZk3oGkdod1MV",
+      "name": "Centre Bell - Repas Restaurant Canti - Teddy Swims",
+      "localDate": "2026-10-07",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-07T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-teddy-montreal-quebec-10-07-2026/event/31006491D10CADF4"
+    },
+    {
+      "id": "1AsZk3oGkdodBMz",
+      "name": "Centre Bell - Repas Restaurant Mythik - Teddy Swims",
+      "localDate": "2026-10-07",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-07T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-teddy-montreal-quebec-10-07-2026/event/31006491D10FADF8"
+    },
+    {
+      "id": "Z7r9jZ1A7J4j_",
+      "name": "Montreal Canadiens vs. Nashville Predators",
+      "localDate": "2026-10-08",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-08T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4j_"
+    },
+    {
+      "id": "17G8v0G61BQjJfg",
+      "name": "The Smashing Pumpkins: The Rats In A Cage Tour",
+      "localDate": "2026-10-09",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-10-10T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-montreal-quebec-10-09-2026/event/310064AE9A726535"
+    },
+    {
+      "id": "17G8v0G61Db_ngC",
+      "name": "Centre Bell - Repas Restaurant Canti - The Smashing Pumpkins",
+      "localDate": "2026-10-09",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-10-10T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-the-montreal-quebec-10-09-2026/event/310064AED866AD4E"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jO",
+      "name": "Montreal Canadiens vs. Detroit Red Wings",
+      "localDate": "2026-10-10",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-10T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jO"
+    },
+    {
+      "id": "Z7r9jZ1A7J4j-",
+      "name": "Montreal Canadiens vs. Buffalo Sabres",
+      "localDate": "2026-10-13",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-10-13T22:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4j-"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jx",
+      "name": "Montreal Canadiens vs. Buffalo Sabres",
+      "localDate": "2026-10-17",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-17T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jx"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jN",
+      "name": "Montreal Canadiens vs. San Jose Sharks",
+      "localDate": "2026-10-20",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-20T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jN"
+    },
+    {
+      "id": "17G8v0G616vwIMQ",
+      "name": "Salon des Directeurs CIBC - Olivia Rodrigo",
+      "localDate": "2026-10-21",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-10-21T22:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-olivia-rodrigo-montreal-quebec-10-21-2026/event/310064A1C1CA8DDA"
+    },
+    {
+      "id": "17G8v0G6166ta9H",
+      "name": "Centre Bell - Repas Restaurant Canti - Olivia Rodrigo",
+      "localDate": "2026-10-21",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-21T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-olivia-montreal-quebec-10-21-2026/event/310064A1C7A495FC"
+    },
+    {
+      "id": "1Ad7Z_aGkmbY4v9",
+      "name": "Olivia Rodrigo: The Unraveled Tour",
+      "localDate": "2026-10-21",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-21T23:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057"
+    },
+    {
+      "id": "17G8v0G616vSbMr",
+      "name": "Salon des Directeurs CIBC - Olivia Rodrigo",
+      "localDate": "2026-10-22",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-10-22T22:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-olivia-rodrigo-montreal-quebec-10-22-2026/event/310064A1C1CD8DDE"
+    },
+    {
+      "id": "17G8v0G6166nab7",
+      "name": "Centre Bell - Repas Restaurant Canti - Olivia Rodrigo",
+      "localDate": "2026-10-22",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-22T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-olivia-montreal-quebec-10-22-2026/event/310064A1C7A89604"
+    },
+    {
+      "id": "1Ad7Z_aGkmbsAv_",
+      "name": "Olivia Rodrigo: The Unraveled Tour",
+      "localDate": "2026-10-22",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-22T23:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059"
+    },
+    {
+      "id": "17G8v0G65cTd04t",
+      "name": "Salon des Directeurs CIBC - John Summit",
+      "localDate": "2026-10-23",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2026-10-23T22:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-john-summit-montreal-quebec-10-23-2026/event/310064BB7F0E4569"
+    },
+    {
+      "id": "17G8v0G652QqbLC",
+      "name": "JOHN SUMMIT - CTRL ESCAPE ARENA TOUR",
+      "localDate": "2026-10-23",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-23T23:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/john-summit-ctrl-escape-arena-tour-montreal-quebec-10-23-2026/event/310064B3DA7587CE"
+    },
+    {
+      "id": "17G8v0G652hPFxO",
+      "name": "Centre Bell - Repas Restaurant Canti - John Summit",
+      "localDate": "2026-10-23",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-23T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-john-montreal-quebec-10-23-2026/event/310064B3DB9488A0"
+    },
+    {
+      "id": "17G8v0G6GJba0er",
+      "name": "Salon des Directeurs CIBC - Aya Nakamura",
+      "localDate": "2026-10-24",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-24T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-aya-nakamura-montreal-quebec-10-24-2026/event/310064C99826409E"
+    },
+    {
+      "id": "17G8v0G6G99-tj-",
+      "name": "Aya Nakamura",
+      "localDate": "2026-10-24",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-10-25T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-24-2026/event/310064C5D7869721"
+    },
+    {
+      "id": "17G8v0G6uABn3-8",
+      "name": "Centre Bell - Repas Restaurant Canti - Aya Nakamura",
+      "localDate": "2026-10-24",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-10-25T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-aya-montreal-quebec-10-24-2026/event/310064D17AA92850"
+    },
+    {
+      "id": "17G8v0G6GJb1few",
+      "name": "Salon des Directeurs CIBC - Aya Nakamura",
+      "localDate": "2026-10-25",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-25T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-aya-nakamura-montreal-quebec-10-25-2026/event/310064C9982940B2"
+    },
+    {
+      "id": "17G8v0G6G99xtjE",
+      "name": "Aya Nakamura",
+      "localDate": "2026-10-25",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-10-26T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-25-2026/event/310064C5D78A9727"
+    },
+    {
+      "id": "17G8v0G6uABle-b",
+      "name": "Centre Bell - Repas Restaurant Canti - Aya Nakamura",
+      "localDate": "2026-10-25",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-10-26T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-aya-montreal-quebec-10-25-2026/event/310064D17AAC2858"
+    },
+    {
+      "id": "17G8v0G65CtYg50",
+      "name": "Salon des Directeurs CIBC - Katseye",
+      "localDate": "2026-10-30",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-30T23:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-katseye-montreal-quebec-10-30-2026/event/310064B3A9C352E4"
+    },
+    {
+      "id": "17G8v0G61WWZxgj",
+      "name": "Centre Bell - Repas Restaurant Canti - Katseye",
+      "localDate": "2026-10-30",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-10-31T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-katseye-montreal-quebec-10-30-2026/event/310064AF7D022D5C"
+    },
+    {
+      "id": "17G8v0G61xOe95K",
+      "name": "KATSEYE: THE WILDWORLD TOUR",
+      "localDate": "2026-10-30",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-10-31T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3"
+    },
+    {
+      "id": "Z7r9jZ1A7J4j0",
+      "name": "Montreal Canadiens vs. Pittsburgh Penguins",
+      "localDate": "2026-10-31",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-31T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4j0"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jP",
+      "name": "Montreal Canadiens vs. Winnipeg Jets",
+      "localDate": "2026-11-03",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-11-04T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jP"
+    },
+    {
+      "id": "1Ad7Zb8GkHddkki",
+      "name": "Fally Ipupa: Coming To The Americas Tour",
+      "localDate": "2026-11-04",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-11-05T01:00:00Z",
+      "status": "cancelled",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/fally-ipupa-coming-to-the-americas-montreal-quebec-11-04-2026/event/3100610F030C61AC"
+    },
+    {
+      "id": "1Ad7Zb8GkHfSpx4",
+      "name": "Centre Bell - Repas Restaurant Canti - Fally Ipupa",
+      "localDate": "2026-11-04",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-11-05T01:00:00Z",
+      "status": "cancelled",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-fally-montreal-quebec-11-04-2026/event/3100610F14CD6895"
+    },
+    {
+      "id": "1Ad7Zb8GkHfwpx8",
+      "name": "Centre Bell - Repas Restaurant Mythik - Fally Ipupa",
+      "localDate": "2026-11-04",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-11-05T01:00:00Z",
+      "status": "cancelled",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-fally-montreal-quebec-11-04-2026/event/3100610F14C96890"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jJ",
+      "name": "Montreal Canadiens vs. Utah Mammoth",
+      "localDate": "2026-11-05",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-11-06T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jJ"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jE",
+      "name": "Montreal Canadiens vs. Minnesota Wild",
+      "localDate": "2026-11-10",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-11-11T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jE"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jI",
+      "name": "Montreal Canadiens vs. Colorado Avalanche",
+      "localDate": "2026-11-14",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-11-15T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jI"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jt",
+      "name": "Montreal Canadiens vs. Philadelphia Flyers",
+      "localDate": "2026-11-21",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-11-22T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jt"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jY",
+      "name": "Montreal Canadiens vs. Los Angeles Kings",
+      "localDate": "2026-11-23",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-11-24T00:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jY"
+    },
+    {
+      "id": "1AsZkudGkdisbfT",
+      "name": "Salon des Directeurs CIBC - Doja Cat",
+      "localDate": "2026-11-27",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-11-27T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-doja-cat-montreal-quebec-11-27-2026/event/31006343ECC5853F"
+    },
+    {
+      "id": "1AsZkGyGkeMVJJT",
+      "name": "Doja Cat - Tour Ma Vie World Tour",
+      "localDate": "2026-11-27",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-11-28T00:30:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF"
+    },
+    {
+      "id": "1AsZkudGkeOmJb2",
+      "name": "Centre Bell - Repas Restaurant Canti - Doja Cat",
+      "localDate": "2026-11-27",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-11-28T00:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-doja-montreal-quebec-11-27-2026/event/31006343A0BA660F"
+    },
+    {
+      "id": "Z7r9jZ1A7J4js",
+      "name": "Montreal Canadiens vs. Tampa Bay Lightning",
+      "localDate": "2026-12-02",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-12-03T00:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4js"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jw",
+      "name": "Montreal Canadiens vs. Florida Panthers",
+      "localDate": "2026-12-05",
+      "localTime": "13:00:00",
+      "dateTimeUTC": "2026-12-05T18:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jw"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jS",
+      "name": "Montreal Canadiens vs. Ottawa Senators",
+      "localDate": "2026-12-06",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-12-07T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jS"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jV",
+      "name": "Montreal Canadiens vs. Vegas Golden Knights",
+      "localDate": "2026-12-08",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-12-09T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jV"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jg",
+      "name": "Montreal Canadiens vs. Anaheim Ducks",
+      "localDate": "2026-12-10",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-12-11T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jg"
+    },
+    {
+      "id": "1AsZkoeGkd_lEFT",
+      "name": "Salon des Directeurs CIBC - Andrea Bocelli",
+      "localDate": "2026-12-13",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2026-12-13T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-andrea-bocelli-montreal-quebec-12-13-2026/event/31006442D9AE723F"
+    },
+    {
+      "id": "1Ad7Z_dGkcLQ-FL",
+      "name": "Centre Bell - Repas Restaurant 9-4-10 Steakhouse - Andrea Bocelli",
+      "localDate": "2026-12-13",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-12-14T01:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-9410-steakhouse-montreal-quebec-12-13-2026/event/3100643B5F6A121F"
+    },
+    {
+      "id": "1Ad7Z_dGkcL_vF4",
+      "name": "Centre Bell - Repas Restaurant Mythik - Andrea Bocelli",
+      "localDate": "2026-12-13",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-12-14T01:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik-andrea-montreal-quebec-12-13-2026/event/3100643B5F641215"
+    },
+    {
+      "id": "1Ad7Z_dGkcLbvF3",
+      "name": "ANDREA BOCELLI \"Romanza - 30th Anniversary World Tour\"",
+      "localDate": "2026-12-13",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-12-14T01:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-montreal-quebec-12-13-2026/event/3100643B5F601212"
+    },
+    {
+      "id": "1Ad7Z_dGkcLhoF-",
+      "name": "Centre Bell - Repas Restaurant Canti - Andrea Bocelli",
+      "localDate": "2026-12-13",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2026-12-14T01:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-andrea-montreal-quebec-12-13-2026/event/3100643B5F6D1221"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jU",
+      "name": "Montreal Canadiens vs. Edmonton Oilers",
+      "localDate": "2026-12-14",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2026-12-15T00:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jU"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jM",
+      "name": "Montreal Canadiens vs. Toronto Maple Leafs",
+      "localDate": "2026-12-26",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-12-27T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jM"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jz",
+      "name": "Montreal Canadiens vs. Dallas Stars",
+      "localDate": "2026-12-27",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-12-28T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jz"
+    },
+    {
+      "id": "Z7r9jZ1A7J4jy",
+      "name": "Montreal Canadiens vs. Columbus Blue Jackets",
+      "localDate": "2026-12-29",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-12-30T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jy"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qZ",
+      "name": "Montreal Canadiens vs. Chicago Blackhawks",
+      "localDate": "2027-01-04",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-01-05T00:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qZ"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qv",
+      "name": "Montreal Canadiens vs. Boston Bruins",
+      "localDate": "2027-01-06",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-01-07T00:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qv"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qe",
+      "name": "Montreal Canadiens vs. Pittsburgh Penguins",
+      "localDate": "2027-01-09",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-01-10T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qe"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qd",
+      "name": "Montreal Canadiens vs. New Jersey Devils",
+      "localDate": "2027-01-13",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-01-14T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qd"
+    },
+    {
+      "id": "Z7r9jZ1A7J4q7",
+      "name": "Montreal Canadiens vs. St. Louis Blues",
+      "localDate": "2027-01-21",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-01-22T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q7"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qA",
+      "name": "Montreal Canadiens vs. Calgary Flames",
+      "localDate": "2027-01-23",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-01-24T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qA"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qk",
+      "name": "Montreal Canadiens vs. Carolina Hurricanes",
+      "localDate": "2027-01-26",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-01-27T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qk"
+    },
+    {
+      "id": "16sZkooPtZACkvdG",
+      "name": "Salon des Directeurs CIBC - Hilary Duff",
+      "localDate": "2027-02-05",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2027-02-05T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-hilary-duff-montreal-quebec-02-05-2027/event/31006451969D502B"
+    },
+    {
+      "id": "1AsZkoaGkeUg7UO",
+      "name": "Hilary Duff: the lucky me tour",
+      "localDate": "2027-02-05",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-02-06T00:30:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0"
+    },
+    {
+      "id": "1AsZkoaGkey6VH7",
+      "name": "Centre Bell - Repas Restaurant Canti - Hilary Duff",
+      "localDate": "2027-02-05",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-02-06T00:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-hilary-montreal-quebec-02-05-2027/event/31006449B91F4F04"
+    },
+    {
+      "id": "Z7r9jZ1A7J4q6",
+      "name": "Montreal Canadiens vs. Washington Capitals",
+      "localDate": "2027-02-13",
+      "localTime": "13:00:00",
+      "dateTimeUTC": "2027-02-13T18:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q6"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qF",
+      "name": "Montreal Canadiens vs. New York Rangers",
+      "localDate": "2027-02-14",
+      "localTime": "13:00:00",
+      "dateTimeUTC": "2027-02-14T18:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qF"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qa",
+      "name": "Montreal Canadiens vs. New York Islanders",
+      "localDate": "2027-02-20",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-02-21T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qa"
+    },
+    {
+      "id": "17G8v0G6uCTvFN2",
+      "name": "Centre Bell - Repas Restaurant Canti - Don Omar",
+      "localDate": "2027-02-21",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-02-22T01:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-don-montreal-quebec-02-21-2027/event/310064D3BF0488CF"
+    },
+    {
+      "id": "17G8v0G6uCXTIxy",
+      "name": "Don Omar \"The Last King World Tour\"",
+      "localDate": "2027-02-21",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-02-22T01:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-montreal-quebec-02-21-2027/event/310064D3BEFE88B9"
+    },
+    {
+      "id": "Z7r9jZ1A7J4q8",
+      "name": "Montreal Canadiens vs. Seattle Kraken",
+      "localDate": "2027-03-04",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-05T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q8"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qo",
+      "name": "Montreal Canadiens vs. Vancouver Canucks",
+      "localDate": "2027-03-06",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-07T00:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qo"
+    },
+    {
+      "id": "17G8v0G6G6p7asG",
+      "name": "Salon des Directeurs CIBC - Gracie Abrams",
+      "localDate": "2027-03-08",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-09T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-gracie-abrams-montreal-quebec-03-08-2027/event/310064C1D6109C4C"
+    },
+    {
+      "id": "17G8v0G65MaFGw1",
+      "name": "Centre Bell - Repas Restaurant Canti - Gracie Abrams",
+      "localDate": "2027-03-08",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-03-09T01:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-gracie-montreal-quebec-03-08-2027/event/310064BDC920CC8A"
+    },
+    {
+      "id": "17G8v0G65tH0d1G",
+      "name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+      "localDate": "2027-03-08",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-03-09T01:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C"
+    },
+    {
+      "id": "17G8v0G6G6pAas8",
+      "name": "Salon des Directeurs CIBC - Gracie Abrams",
+      "localDate": "2027-03-09",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-10T00:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/salon-des-directeurs-cibc-gracie-abrams-montreal-quebec-03-09-2027/event/310064C1D6149C50"
+    },
+    {
+      "id": "17G8v0G65MaFHw8",
+      "name": "Centre Bell - Repas Restaurant Canti - Gracie Abrams",
+      "localDate": "2027-03-09",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-03-10T01:00:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-gracie-montreal-quebec-03-09-2027/event/310064BDC923CC90"
+    },
+    {
+      "id": "17G8v0G65tHPd1K",
+      "name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+      "localDate": "2027-03-09",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-03-10T01:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293"
+    },
+    {
+      "id": "Z7r9jZ1A7J4q3",
+      "name": "Montreal Canadiens vs. Boston Bruins",
+      "localDate": "2027-03-10",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-03-11T00:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q3"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qK",
+      "name": "Montreal Canadiens vs. Florida Panthers",
+      "localDate": "2027-03-16",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-16T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qK"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qf",
+      "name": "Montreal Canadiens vs. Tampa Bay Lightning",
+      "localDate": "2027-03-18",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-18T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qf"
+    },
+    {
+      "id": "Z7r9jZ1A7J4q4",
+      "name": "Montreal Canadiens vs. Toronto Maple Leafs",
+      "localDate": "2027-03-22",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-03-22T23:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q4"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qp",
+      "name": "Montreal Canadiens vs. Ottawa Senators",
+      "localDate": "2027-03-24",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-03-24T23:30:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qp"
+    },
+    {
+      "id": "Z7r9jZ1A7J4q9",
+      "name": "Montreal Canadiens vs. New Jersey Devils",
+      "localDate": "2027-03-27",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-27T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q9"
+    },
+    {
+      "id": "Z7r9jZ1A7J4qb",
+      "name": "Montreal Canadiens vs. Detroit Red Wings",
+      "localDate": "2027-03-28",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-28T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qb"
+    },
+    {
+      "id": "Z7r9jZ1A7J4q_",
+      "name": "Montreal Canadiens vs. New York Rangers",
+      "localDate": "2027-04-01",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-04-01T23:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q_"
+    },
+    {
+      "id": "17G8v0G61rno9w6",
+      "name": "Centre Bell - Repas Restaurant Canti - Niall Horan",
+      "localDate": "2027-04-02",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-04-02T23:30:00Z",
+      "status": "onsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-niall-montreal-quebec-04-02-2027/event/310064A7AA457C87"
+    },
+    {
+      "id": "17G8v0G61rtd60V",
+      "name": "Niall Horan: Dinner Party Live On Tour",
+      "localDate": "2027-04-02",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-04-02T23:30:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934"
+    }
+  ]
+}
