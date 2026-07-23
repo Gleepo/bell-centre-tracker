@@ -32,5 +32,14 @@ Ticketmaster Discovery API and GitHub Actions. No server required.
 - Event end times aren't provided by Ticketmaster; entries use a 3-hour estimate.
 - `docs/events.json` is there for a future dashboard page (events + road
   closures in one view).
+- Ticketmaster lists hospitality add-ons (dinner packages, lounge access, venue
+  tours, meet-and-greets) as separate events; these are filtered out by the
+  name patterns in `PACKAGE_PATTERNS`. The filter is a denylist, so a segment
+  that hasn't appeared yet — comedy, Cirque, a new sport — still comes through.
+  Any `Miscellaneous` event that matches no known package pattern is kept and
+  listed in the Actions log; if a real event shows up there, nothing was lost,
+  but if a new package type does, add its pattern.
+- The output files are only rewritten when an event actually changes, so the
+  daily run commits nothing on a quiet day.
 - If the venue lookup ever fails, the Actions log lists the candidate venues it
   found — put the right ID in `venue_id.txt` manually and it'll use that.

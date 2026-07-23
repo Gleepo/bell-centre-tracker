@@ -33,6 +33,18 @@ OUT_DIR = "docs"
 # safe against matching mid-value.
 VOLATILE = re.compile(r'^(DTSTAMP:.*|\s*"generated":.*)$', re.M)
 
+# Ticketmaster sells hospitality add-ons (dinner packages, lounge access,
+# venue tours, meet-and-greets) as separate "events" at the venue. They all
+# classify as Miscellaneous and follow a short list of name patterns. Match on
+# the pattern rather than on the segment alone: a real event classified
+# Miscellaneous is kept and reported, so it can never vanish silently.
+PACKAGE_PATTERNS = [
+    re.compile(r"^Centre Bell\s+-\s", re.I),
+    re.compile(r"^Visites Guid[eé]es Centre Bell", re.I),
+    re.compile(r"^Salon des Directeurs CIBC", re.I),
+    re.compile(r"^TICKETLESS:", re.I),
+]
+
 
 def api_get(path, **params):
     params["apikey"] = API_KEY
@@ -103,6 +115,34 @@ def fetch_events(venue_id):
         if page >= page_info.get("totalPages", 1) or not batch:
             break
     return events
+
+
+def segment_of(ev):
+    """Segment name for an event, tolerating missing/null classification data."""
+    cls = (ev.get("classifications") or [{}])[0] or {}
+    return (cls.get("segment") or {}).get("name")
+
+
+def drop_packages(events):
+    """Remove hospitality add-ons, keeping anything that isn't a known package."""
+    kept, dropped, unmatched = [], 0, []
+    for ev in events:
+        name = ev.get("name") or ""
+        if segment_of(ev) == "Miscellaneous":
+            if any(p.search(name) for p in PACKAGE_PATTERNS):
+                dropped += 1
+                continue
+            unmatched.append(name or "(unnamed)")
+        kept.append(ev)
+
+    print(f"Filtered {dropped} hospitality package(s); {len(kept)} events remain.")
+    if unmatched:
+        # Not a known package, so it stays in the feed - but say so loudly, as
+        # it means the patterns above may need updating.
+        print(f"NOTE: kept {len(unmatched)} Miscellaneous event(s) matching no known package pattern:")
+        for n in sorted(set(unmatched)):
+            print(f"  - {n}")
+    return kept
 
 
 def ics_escape(text):
@@ -186,9 +226,7 @@ def build_json(events):
                 "localTime": dates.get("localTime"),
                 "dateTimeUTC": dates.get("dateTime"),
                 "status": ev.get("dates", {}).get("status", {}).get("code"),
-                "segment": (ev.get("classifications") or [{}])[0]
-                .get("segment", {})
-                .get("name"),
+                "segment": segment_of(ev),
                 "url": ev.get("url"),
             }
         )
@@ -235,7 +273,7 @@ def main():
         )
     os.makedirs(OUT_DIR, exist_ok=True)
     venue_id = resolve_venue_id()
-    events = fetch_events(venue_id)
+    events = drop_packages(fetch_events(venue_id))
 
     ics = build_ics(events)
     payload = json.dumps(build_json(events), indent=2, ensure_ascii=False) + "\n"
