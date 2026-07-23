@@ -21,7 +21,7 @@ Ticketmaster Discovery API and GitHub Actions. No server required.
 
 5. **Subscribe in Google Calendar**:
    Google Calendar → Settings → Add calendar → From URL →
-   `https://<username>.github.io/bell-centre-tracker/bell-centre.ics`
+   `https://gleepo.github.io/bell-centre-tracker/bell-centre.ics`
    (Or add it to phone calendar apps the same way.)
 
 ## Notes
