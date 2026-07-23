@@ -28,6 +28,10 @@ JUNK = r"[\s​‌‍⁠﻿‎‏]"
 API_KEY = re.sub(JUNK, "", RAW_KEY)
 VENUE_CACHE = "venue_id.txt"  # cached after first successful lookup
 OUT_DIR = "docs"
+# Lines that change on every run regardless of whether any event changed.
+# A folded ICS continuation line always starts with a space, so ^DTSTAMP is
+# safe against matching mid-value.
+VOLATILE = re.compile(r'^(DTSTAMP:.*|\s*"generated":.*)$', re.M)
 
 
 def api_get(path, **params):
@@ -195,6 +199,23 @@ def build_json(events):
     }
 
 
+def write_if_changed(path, new_text):
+    """Write only when the content differs ignoring per-run timestamps.
+
+    DTSTAMP (ICS) and "generated" (JSON) are regenerated every run, so a plain
+    write would dirty both files daily and produce a commit a day with no real
+    event changes. Comparing with those lines blanked keeps the history honest.
+    """
+    if os.path.exists(path):
+        with open(path, newline="", encoding="utf-8") as f:
+            old = f.read()
+        if VOLATILE.sub("", old) == VOLATILE.sub("", new_text):
+            return False
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        f.write(new_text)
+    return True
+
+
 def main():
     if not API_KEY:
         print("ERROR: TM_API_KEY env var is not set.", file=sys.stderr)
@@ -215,11 +236,18 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     venue_id = resolve_venue_id()
     events = fetch_events(venue_id)
-    with open(os.path.join(OUT_DIR, "bell-centre.ics"), "w", newline="") as f:
-        f.write(build_ics(events))
-    with open(os.path.join(OUT_DIR, "events.json"), "w") as f:
-        json.dump(build_json(events), f, indent=2, ensure_ascii=False)
-    print(f"Wrote {OUT_DIR}/bell-centre.ics and {OUT_DIR}/events.json")
+
+    ics = build_ics(events)
+    payload = json.dumps(build_json(events), indent=2, ensure_ascii=False) + "\n"
+    written = [
+        name
+        for name, text in (("bell-centre.ics", ics), ("events.json", payload))
+        if write_if_changed(os.path.join(OUT_DIR, name), text)
+    ]
+    if written:
+        print(f"Wrote {', '.join(OUT_DIR + '/' + n for n in written)}")
+    else:
+        print("No event changes; output files left untouched.")
 
 
 if __name__ == "__main__":
