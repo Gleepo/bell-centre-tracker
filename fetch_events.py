@@ -14,12 +14,14 @@ Stdlib only - no pip installs needed.
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
 API_BASE = "https://app.ticketmaster.com/discovery/v2"
-API_KEY = os.environ.get("TM_API_KEY")
+RAW_KEY = os.environ.get("TM_API_KEY") or ""
+API_KEY = RAW_KEY.strip()  # a pasted key can pick up a trailing newline
 VENUE_CACHE = "venue_id.txt"  # cached after first successful lookup
 OUT_DIR = "docs"
 
@@ -28,8 +30,16 @@ def api_get(path, **params):
     params["apikey"] = API_KEY
     url = f"{API_BASE}/{path}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"User-Agent": "bell-centre-tracker/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.load(resp)
+    except urllib.error.HTTPError as e:
+        # The body carries the real reason (e.g. "Invalid ApiKey"). Never print
+        # the URL - it has the key in its query string.
+        body = e.read().decode("utf-8", "replace")[:500]
+        print(f"ERROR: {path} returned HTTP {e.code} {e.reason}", file=sys.stderr)
+        print(f"       {body}", file=sys.stderr)
+        raise SystemExit(1)
 
 
 def resolve_venue_id():
@@ -185,6 +195,8 @@ def main():
     if not API_KEY:
         print("ERROR: TM_API_KEY env var is not set.", file=sys.stderr)
         sys.exit(1)
+    if API_KEY != RAW_KEY:
+        print("NOTE: TM_API_KEY had surrounding whitespace; using the trimmed value.")
     os.makedirs(OUT_DIR, exist_ok=True)
     venue_id = resolve_venue_id()
     events = fetch_events(venue_id)
