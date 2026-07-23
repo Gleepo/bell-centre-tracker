@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0e1116">
+<title>Bell Centre — events & nearby closures</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --panel: #171c24;
+    --panel-2: #1f2632;
+    --line: #2a3342;
+    --text: #e8edf5;
+    --muted: #93a1b5;
+    --accent: #e03a4c;
+    --accent-dim: #7d1d27;
+    --ok: #3ecf8e;
+    --warn: #f0b429;
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f6fa;
+      --panel: #ffffff;
+      --panel-2: #eef1f7;
+      --line: #dde3ec;
+      --text: #131820;
+      --muted: #5b6878;
+      --accent: #c3172a;
+      --accent-dim: #f6d9dd;
+      --ok: #14855c;
+      --warn: #8a6100;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 0 0 3rem;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 1rem max(1rem, env(safe-area-inset-left)) 0 max(1rem, env(safe-area-inset-right));
+  }
+
+  header { padding: 0.5rem 0 1rem; }
+  h1 {
+    font-size: 1.35rem;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  h1 span { color: var(--accent); }
+  .asof {
+    color: var(--muted);
+    font-size: 0.75rem;
+    margin-top: 0.35rem;
+  }
+  .asof span { white-space: nowrap; }
+
+  h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--muted);
+    margin: 2rem 0 0.7rem;
+    font-weight: 600;
+  }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+
+  /* ---- next event hero ---- */
+  .hero {
+    background: linear-gradient(155deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 1.1rem 1rem;
+  }
+  .hero .label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .hero .name {
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0.45rem 0 0.5rem;
+    letter-spacing: -0.02em;
+  }
+  .hero .when { color: var(--muted); font-size: 0.95rem; }
+
+  .countdown {
+    display: flex;
+    gap: 0.45rem;
+    margin-top: 0.9rem;
+  }
+  .unit {
+    flex: 1 1 0;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.5rem 0.2rem;
+    text-align: center;
+    min-width: 0;
+  }
+  .unit b {
+    display: block;
+    font-size: 1.35rem;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+  .unit small {
+    color: var(--muted);
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+  }
+  .live {
+    margin-top: 0.9rem;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.6rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .hero a.tickets {
+    display: inline-block;
+    margin-top: 0.85rem;
+    color: var(--text);
+    font-size: 0.85rem;
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+
+  /* ---- lists ---- */
+  ul.list { list-style: none; margin: 0; padding: 0; }
+  ul.list > li {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.75rem 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .row { display: flex; gap: 0.75rem; align-items: baseline; }
+  .date {
+    flex: 0 0 3.1rem;
+    text-align: center;
+    color: var(--muted);
+    line-height: 1.15;
+  }
+  .date b {
+    display: block;
+    font-size: 1.15rem;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+  }
+  .date small { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.06em; }
+  .body { min-width: 0; flex: 1; }
+  .body .t {
+    font-weight: 600;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+  .body .s { color: var(--muted); font-size: 0.8rem; margin-top: 0.15rem; }
+  .body a { color: inherit; text-decoration: none; }
+  .body a:hover .t { text-decoration: underline; }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.45rem; }
+  .tag {
+    font-size: 0.68rem;
+    padding: 0.15rem 0.45rem;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .tag.hot { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .tag.warn { border-color: var(--warn); color: var(--warn); }
+  .tag.dist {
+    background: var(--panel-2);
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+  }
+  .tag.up { border-color: var(--ok); color: var(--ok); }
+
+  .empty {
+    color: var(--muted);
+    font-size: 0.9rem;
+    background: var(--panel);
+    border: 1px dashed var(--line);
+    border-radius: var(--radius);
+    padding: 1rem;
+    text-align: center;
+  }
+  .count { color: var(--muted); font-weight: 400; text-transform: none; letter-spacing: 0; }
+
+  footer {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+  footer a { color: var(--muted); }
+
+  @media (min-width: 560px) {
+    .wrap { padding-top: 1.75rem; }
+    h1 { font-size: 1.6rem; }
+    .hero .name { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Bell Centre <span>·</span> events &amp; nearby closures</h1>
+    <p class="asof" id="asof">Loading…</p>
+  </header>
+
+  <section id="next-wrap">
+    <div class="hero" id="hero">
+      <div class="label">Next event</div>
+      <div class="name">Loading…</div>
+    </div>
+  </section>
+
+  <h2>Next 14 days <span class="count" id="ev-count"></span></h2>
+  <div id="events"></div>
+
+  <h2>Road closures within 600 m <span class="count" id="cl-count"></span></h2>
+  <div id="closures"></div>
+
+  <footer>
+    <div>Events: Ticketmaster Discovery API. Road closures: <strong>Données&nbsp;: Ville de Montréal</strong>
+      (<a href="https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d" rel="noopener">Entraves et travaux en cours</a>, CC&#8209;BY&nbsp;4.0).</div>
+    <div id="foot-note"></div>
+    <div><a href="./bell-centre.ics">Subscribe to the calendar feed (.ics)</a></div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var HORIZON_DAYS = 14;
+  var $ = function (id) { return document.getElementById(id); };
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  // ---- dates -------------------------------------------------------------
+  // Event times arrive as Montreal-local strings (localDate/localTime) plus a
+  // UTC instant. Display uses the local strings so the page reads the same on a
+  // phone that is roaming; only the countdown uses the real instant.
+  var MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+  function ymd(s) {                       // "2026-07-25" -> {y,m,d} , no TZ shift
+    var p = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || "");
+    return p ? { y: +p[1], m: +p[2], d: +p[3] } : null;
+  }
+  function asLocalNoon(s) {               // midday avoids any DST edge
+    var p = ymd(s);
+    return p ? new Date(p.y, p.m - 1, p.d, 12, 0, 0) : null;
+  }
+  function dayNum(s) { var p = ymd(s); return p ? p.y * 10000 + p.m * 100 + p.d : null; }
+  function todayNum() {
+    var n = new Date();
+    return n.getFullYear() * 10000 + (n.getMonth() + 1) * 100 + n.getDate();
+  }
+  function addDaysNum(days) {
+    var n = new Date();
+    n.setDate(n.getDate() + days);
+    return n.getFullYear() * 10000 + (n.getMonth() + 1) * 100 + n.getDate();
+  }
+  // Multi-year permits are common in the closure data, so the year has to show
+  // whenever it is not the current one - otherwise a Nov 2025 -> Nov 2026
+  // closure reads as ending the day before it started.
+  function fmtDate(s) {
+    var d = asLocalNoon(s);
+    if (!d) return s || "date TBA";
+    var out = DAYS[d.getDay()] + " " + MONTHS[d.getMonth()] + " " + d.getDate();
+    if (d.getFullYear() !== new Date().getFullYear()) out += " " + d.getFullYear();
+    return out;
+  }
+  function fmtTime(t) {                   // "19:00:00" -> "7:00 PM"
+    var p = /^(\d{1,2}):(\d{2})/.exec(t || "");
+    if (!p) return null;
+    var h = +p[1], ap = h >= 12 ? "PM" : "AM";
+    h = h % 12; if (h === 0) h = 12;
+    return h + ":" + p[2] + " " + ap;
+  }
+  function fmtStamp(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return "unknown";
+    return DAYS[d.getDay()] + " " + MONTHS[d.getMonth()] + " " + d.getDate() + ", " +
+      String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+  }
+
+  // ---- data --------------------------------------------------------------
+  // Each feed is fetched independently and failures resolve to null, so a
+  // missing or broken closures.json never blanks the events half of the page.
+  function grab(url) {
+    return fetch(url, { cache: "no-cache" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+  }
+
+  Promise.all([grab("./events.json"), grab("./closures.json")])
+    .then(function (res) { render(res[0], res[1]); })
+    .catch(function (e) {
+      $("hero").innerHTML = "";
+      $("hero").appendChild(el("div", "label", "Error"));
+      $("hero").appendChild(el("div", "name", "Could not load data"));
+      if (window.console) console.error(e);
+    });
+
+  function render(events, closures) {
+    renderAsOf(events, closures);
+    var list = usableEvents(events);
+    renderHero(list);
+    renderEvents(list);
+    renderClosures(closures);
+  }
+
+  function renderAsOf(events, closures) {
+    var bits = [];
+    bits.push("Events as of " + (events && events.generated ? fmtStamp(events.generated) : "—"));
+    bits.push("closures as of " + (closures && closures.generated ? fmtStamp(closures.generated) : "unavailable"));
+    var p = $("asof");
+    p.textContent = "";
+    bits.forEach(function (b, i) {
+      if (i) p.appendChild(document.createTextNode(" · "));
+      p.appendChild(el("span", null, b));
+    });
+  }
+
+  function usableEvents(data) {
+    var evs = (data && data.events) || [];
+    return evs
+      .filter(function (e) { return e.status !== "cancelled" && (e.localDate || e.dateTimeUTC); })
+      .map(function (e) {
+        var start = e.dateTimeUTC ? new Date(e.dateTimeUTC) : asLocalNoon(e.localDate);
+        return {
+          name: e.name || "Bell Centre event",
+          localDate: e.localDate,
+          localTime: e.localTime,
+          start: start && !isNaN(start) ? start : null,
+          url: e.url,
+          segment: e.segment,
+          status: e.status,
+          dayNum: dayNum(e.localDate)
+        };
+      })
+      .filter(function (e) { return e.start && e.dayNum; })
+      .sort(function (a, b) { return a.start - b.start; });
+  }
+
+  // An event counts as "next" until roughly its end: a 7 PM puck drop should
+  // not jump to tomorrow's show the moment it starts.
+  var IN_PROGRESS_MS = 3 * 60 * 60 * 1000;
+
+  var countdownTimer = null;
+
+  function renderHero(list) {
+    var now = Date.now();
+    var next = null;
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].start.getTime() + IN_PROGRESS_MS > now) { next = list[i]; break; }
+    }
+
+    var hero = $("hero");
+    hero.textContent = "";
+    hero.appendChild(el("div", "label", "Next event"));
+
+    if (!next) {
+      hero.appendChild(el("div", "name", "Nothing scheduled"));
+      hero.appendChild(el("div", "when", "No upcoming events in the feed."));
+      return;
+    }
+
+    hero.appendChild(el("div", "name", next.name));
+    var when = fmtDate(next.localDate);
+    var t = fmtTime(next.localTime);
+    when += t ? " · " + t : " · time TBA";
+    hero.appendChild(el("div", "when", when));
+
+    var box = el("div");
+    hero.appendChild(box);
+
+    if (next.url) {
+      var a = el("a", "tickets", "Tickets & details →");
+      a.href = next.url;
+      a.rel = "noopener";
+      hero.appendChild(a);
+    }
+
+    function tick() {
+      var ms = next.start.getTime() - Date.now();
+      if (ms <= 0) {
+        if (ms + IN_PROGRESS_MS > 0) {
+          box.textContent = "";
+          box.appendChild(el("div", "live", "Happening now"));
+          return;
+        }
+        clearInterval(countdownTimer);
+        renderHero(list);            // event ended - advance to the next one
+        return;
+      }
+      var s = Math.floor(ms / 1000);
+      var parts = [
+        [Math.floor(s / 86400), "days"],
+        [Math.floor(s / 3600) % 24, "hours"],
+        [Math.floor(s / 60) % 60, "min"],
+        [s % 60, "sec"]
+      ];
+      if (!box.firstChild || !box.querySelector(".countdown")) {
+        box.textContent = "";
+        var cd = el("div", "countdown");
+        parts.forEach(function () {
+          var u = el("div", "unit");
+          u.appendChild(el("b", null, "0"));
+          u.appendChild(el("small", null, ""));
+          cd.appendChild(u);
+        });
+        box.appendChild(cd);
+      }
+      var units = box.querySelectorAll(".unit");
+      parts.forEach(function (p, i) {
+        units[i].firstChild.textContent = p[0];
+        units[i].lastChild.textContent = p[1];
+      });
+    }
+
+    tick();
+    if (countdownTimer) clearInterval(countdownTimer);
+    countdownTimer = setInterval(tick, 1000);
+  }
+
+  function renderEvents(list) {
+    var from = todayNum(), to = addDaysNum(HORIZON_DAYS);
+    var soon = list.filter(function (e) { return e.dayNum >= from && e.dayNum <= to; });
+
+    $("ev-count").textContent = soon.length ? "(" + soon.length + ")" : "";
+    var host = $("events");
+    host.textContent = "";
+
+    if (!soon.length) {
+      host.appendChild(el("div", "empty", "No events at the Bell Centre in the next " + HORIZON_DAYS + " days."));
+      return;
+    }
+
+    var ul = el("ul", "list");
+    soon.forEach(function (e) {
+      var li = el("li");
+      var row = el("div", "row");
+
+      var d = asLocalNoon(e.localDate);
+      var dt = el("div", "date");
+      dt.appendChild(el("small", null, d ? DAYS[d.getDay()] : ""));
+      dt.appendChild(el("b", null, d ? String(d.getDate()) : "?"));
+      dt.appendChild(el("small", null, d ? MONTHS[d.getMonth()] : ""));
+      row.appendChild(dt);
+
+      var body = el("div", "body");
+      var title = el("div", "t", e.name);
+      if (e.url) {
+        var a = el("a");
+        a.href = e.url;
+        a.rel = "noopener";
+        a.appendChild(title);
+        body.appendChild(a);
+      } else {
+        body.appendChild(title);
+      }
+      var sub = fmtTime(e.localTime) || "Time TBA";
+      if (e.segment) sub += " · " + e.segment;
+      body.appendChild(el("div", "s", sub));
+      row.appendChild(body);
+
+      li.appendChild(row);
+      ul.appendChild(li);
+    });
+    host.appendChild(ul);
+  }
+
+  function fmtDist(m) {
+    if (typeof m !== "number") return null;
+    return m < 950 ? m + " m" : (m / 1000).toFixed(1) + " km";
+  }
+
+  // Street/segment text is French because the source data is; translating the
+  // city's own impact wording would only make it harder to match on site.
+  function segmentLine(seg) {
+    var s = seg.street || "";
+    if (seg.from && seg.to) s += " · " + seg.from + " → " + seg.to;
+    return s;
+  }
+
+  function renderClosures(data) {
+    var host = $("closures");
+    host.textContent = "";
+    $("cl-count").textContent = "";
+
+    if (!data) {
+      host.appendChild(el("div", "empty", "Closure data is unavailable right now. Events above are unaffected."));
+      $("foot-note").textContent = "";
+      return;
+    }
+
+    var items = (data.closures || []).slice();
+    var radius = data.radius_m || 600;
+    $("foot-note").textContent =
+      "Closures are permits within " + radius + " m of the Bell Centre that are active now or start within " +
+      (data.horizon_days || HORIZON_DAYS) + " days. Distance is measured from the permit's own coordinates.";
+
+    if (!items.length) {
+      host.appendChild(el("div", "empty", "No road closures within " + radius + " m right now."));
+      return;
+    }
+
+    $("cl-count").textContent = "(" + items.length + ")";
+
+    var ul = el("ul", "list");
+    items.forEach(function (c) {
+      var li = el("li");
+
+      var title = c.streets && c.streets.length ? c.streets.join(", ") : (c.zone || "Unnamed location");
+      var t = el("div", "t", title);
+      li.appendChild(t);
+
+      var sub = [];
+      if (c.reason) sub.push(c.reason);
+      if (c.zone && (!c.streets || !c.streets.length)) sub.push(c.zone);
+      var dates = fmtDate(c.start_date) + " → " + (c.end_date ? fmtDate(c.end_date) : "ongoing");
+      li.appendChild(el("div", "s", dates + (sub.length ? " · " + sub.join(" · ") : "")));
+
+      var tags = el("div", "tags");
+      var dist = fmtDist(c.distance_m);
+      if (dist) tags.appendChild(el("span", "tag dist", dist));
+      if (c.state === "upcoming") tags.appendChild(el("span", "tag up", "Starts " + fmtDate(c.start_date)));
+      if (c.street_closed) tags.appendChild(el("span", "tag hot", "Rue barrée"));
+
+      var segs = c.segments || [];
+      var sidewalk = segs.some(function (s) { return (s.sidewalk || "").indexOf("Barré") === 0; });
+      var bike = segs.some(function (s) { return (s.bike_path || "").indexOf("Barré") === 0; });
+      if (sidewalk) tags.appendChild(el("span", "tag warn", "Trottoir barré"));
+      if (bike) tags.appendChild(el("span", "tag warn", "Piste cyclable barrée"));
+      if (tags.childNodes.length) li.appendChild(tags);
+
+      if (segs.length) {
+        var detail = segs.map(segmentLine).filter(Boolean).join(" | ");
+        if (detail && detail !== title) li.appendChild(el("div", "s", detail));
+      }
+
+      ul.appendChild(li);
+    });
+    host.appendChild(ul);
+  }
+})();
+</script>
+</body>
+</html>

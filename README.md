@@ -24,8 +24,44 @@ Ticketmaster Discovery API and GitHub Actions. No server required.
    `https://gleepo.github.io/bell-centre-tracker/bell-centre.ics`
    (Or add it to phone calendar apps the same way.)
 
+## Dashboard
+
+`https://gleepo.github.io/bell-centre-tracker/` — a single static page
+(`docs/index.html`, no build step, no frameworks) showing the next event with a
+live countdown, the next 14 days of events, and road closures near the venue.
+It fetches `events.json` and `closures.json` over relative paths, so it works
+from any subpath, and it renders the events half normally when the closures
+feed is missing or empty.
+
+## Road closures
+
+`fetch_closures.py` writes `docs/closures.json` from the City of Montreal's
+"Entraves et travaux en cours" open data (CC-BY 4.0). It keeps permits that are
+active now or start within 14 days **and** lie within 600 m of the Bell Centre
+(45.4960, -73.5693).
+
+- Two CSVs make up the dataset. The main one carries the permit and, usefully, a
+  `longitude`/`latitude` pair — so closures are located by haversine distance,
+  not by street-name matching. The companion "impacts" CSV carries the affected
+  street segments and joins on `id_request` → `id`.
+- **The feed's timestamps apply the UTC offset with the wrong sign.** Every
+  start is stamped `20:00:00Z` in EDT months and `19:00:00Z` in EST months (ends
+  `19:59:59Z` / `18:59:59Z`), so *adding* the offset lands on local midnight and
+  gives whole-day permits; subtracting would report every closure a day early.
+  See `city_local_date()`. Timestamps outside that fingerprint are converted
+  normally and counted separately in the log, so a fix upstream won't break it.
+- Roughly 9% of permits have no rows in the impacts CSV; those show their
+  `occupancy_name` zone instead of street names.
+- `currentstatus` is `Permis émis` for every row today, so it isn't a useful
+  filter — it's carried into the JSON anyway in case that changes.
+- The portal returns `503 no healthy upstream` during its daily reload, so
+  downloads retry with backoff.
+
 ## Notes
 
+- The two fetchers are separate workflow steps: a closures failure can't break
+  the calendar build, the commit step commits whatever succeeded, and a final
+  step still fails the job so a broken fetcher shows up red.
 - Google refreshes subscribed calendars on its own schedule (typically every
   8–24 h; you can't force it). The feed itself updates daily at 6 AM.
 - Events with no announced start time appear as all-day entries marked "(time TBA)".

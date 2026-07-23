@@ -14,16 +14,49 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The two fetchers are independent: each is allowed to fail without
+      # stopping the other or the commit, and the job is failed at the end so a
+      # broken fetcher still shows up red instead of passing silently.
       - name: Fetch events
+        id: events
+        continue-on-error: true
         env:
           TM_API_KEY: ${{ secrets.TM_API_KEY }}
         run: python3 fetch_events.py
 
+      - name: Fetch road closures
+        id: closures
+        continue-on-error: true
+        run: python3 fetch_closures.py
+
       - name: Commit results
+        if: always()
         run: |
           git config user.name "bell-centre-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/ venue_id.txt
           git diff --cached --quiet && echo "No changes." && exit 0
-          git commit -m "Update events $(date -u +%F)"
+          changed=$(git diff --cached --name-only)
+          what="data"
+          case "$changed" in
+            *events.json*|*bell-centre.ics*)
+              case "$changed" in
+                *closures.json*) what="events and closures" ;;
+                *) what="events" ;;
+              esac ;;
+            *closures.json*) what="closures" ;;
+          esac
+          git commit -m "Update $what $(date -u +%F)"
           git push
+
+      - name: Report fetcher failures
+        if: always()
+        run: |
+          failed=""
+          [ "${{ steps.events.outcome }}" = "failure" ] && failed="$failed fetch_events.py"
+          [ "${{ steps.closures.outcome }}" = "failure" ] && failed="$failed fetch_closures.py"
+          if [ -n "$failed" ]; then
+            echo "::error::Failed:$failed (anything that did succeed was still committed)"
+            exit 1
+          fi
+          echo "Both fetchers succeeded."

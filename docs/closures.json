@@ -1,0 +1,1450 @@
+{
+  "generated": "2026-07-23T16:35:57.545079+00:00",
+  "source": "Ville de Montréal — Entraves et travaux en cours",
+  "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
+  "attribution": "Données: Ville de Montréal",
+  "license": "CC-BY 4.0",
+  "reference_point": {
+    "name": "Bell Centre",
+    "lat": 45.496,
+    "lon": -73.5693
+  },
+  "radius_m": 600,
+  "horizon_days": 14,
+  "counts": {
+    "scanned": 1504,
+    "in_radius": 51,
+    "reported": 48,
+    "active": 47,
+    "upcoming": 1
+  },
+  "closures": [
+    {
+      "id": "6a33ffe134772f0012a68fd0",
+      "permit_id": "OCC-2606AF18734782",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Saint-Antoine entre Saint-Antoine et Montagne",
+      "borough": "Ville-Marie",
+      "organization": "Groupe Atwill-Morin inc.",
+      "streets": [
+        "rue Saint-Antoine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Antoine Ouest",
+          "from": "Saint-Antoine",
+          "to": "Montagne",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-29",
+      "end_date": "2026-07-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 75
+    },
+    {
+      "id": "6a5e5bf5034844001263a11b",
+      "permit_id": "OCC-2607NB17078894",
+      "reason": "Autre",
+      "zone": "Montagne entre Saint-Antoine et Montagne",
+      "borough": "Ville-Marie",
+      "organization": "Arena des Canadiens",
+      "streets": [
+        "rue de la Montagne"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Montagne",
+          "from": "Saint-Antoine",
+          "to": "Montagne",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-25",
+      "end_date": "2026-07-26",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 93
+    },
+    {
+      "id": "6968076c70891e001277132a",
+      "permit_id": "OCC-2601HO13472259",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Saint-Antoine entre Saint-Antoine et Montagne",
+      "borough": "Ville-Marie",
+      "organization": "IMPACT ÉCHAFAUDAGE",
+      "streets": [
+        "rue Saint-Antoine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Antoine Ouest",
+          "from": "Saint-Antoine",
+          "to": "Montagne",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-01-26",
+      "end_date": "2026-08-10",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 109
+    },
+    {
+      "id": "6968023a70891e00127712e9",
+      "permit_id": "OCC-2601QJ13467487",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Saint-Antoine entre Peel et Jean-D'Estrées",
+      "borough": "Ville-Marie",
+      "organization": "IMPACT ÉCHAFAUDAGE",
+      "streets": [
+        "rue Saint-Antoine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Antoine Ouest",
+          "from": "Peel",
+          "to": "Jean-D'Estrées",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-01-26",
+      "end_date": "2026-08-10",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 139
+    },
+    {
+      "id": "6a3d3b4c34772f0012a75761",
+      "permit_id": "OCC-2606QU22133245",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "Jean-D'Estrées entre Notre-Dame et Saint-Jacques",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "rue Jean-D'Estrées"
+      ],
+      "segments": [
+        {
+          "street": "rue Jean-D'Estrées",
+          "from": "Notre-Dame",
+          "to": "Saint-Jacques",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-28",
+      "end_date": "2026-08-01",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 267
+    },
+    {
+      "id": "6a58ec6645ae010012f2fb21",
+      "permit_id": "OCC-2607TF13487179",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "136 entre 720 et 720",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "route 136",
+        "rue Saint-Jacques"
+      ],
+      "segments": [
+        {
+          "street": "route 136",
+          "from": "720",
+          "to": "720",
+          "impact": "Voie de circulation obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Peel",
+          "to": "Jean-D'Estrées",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-05-11",
+      "end_date": "2026-10-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 278
+    },
+    {
+      "id": "69d91d60924e8d0012f5e6d2",
+      "permit_id": "OCC-2604XV08456084",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Versailles entre Bonaventure et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "CORPORATION MAISON LUCIEN-L'ALLIER, MONTRÉAL",
+      "streets": [
+        "rue de Versailles"
+      ],
+      "segments": [
+        {
+          "street": "rue de Versailles",
+          "from": "Bonaventure",
+          "to": "Saint-Antoine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-04-13",
+      "end_date": "2026-08-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 288
+    },
+    {
+      "id": "69bd91862f414e0012ea4167",
+      "permit_id": "OCC-2603RQ19527352",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Versailles entre Bonaventure et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "CORPORATION MAISON LUCIEN-L'ALLIER, MONTRÉAL",
+      "streets": [
+        "rue de Versailles"
+      ],
+      "segments": [
+        {
+          "street": "rue de Versailles",
+          "from": "Bonaventure",
+          "to": "Saint-Antoine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-25",
+      "end_date": "2026-12-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 294
+    },
+    {
+      "id": "68cb038a8f7d590012d69e45",
+      "permit_id": "OCC-2509VO15120709",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "Service public et approvisionnement  Canada",
+      "streets": [
+        "rue Saint-Antoine Ouest",
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Saint-Antoine Ouest",
+          "from": "Cathédrale",
+          "to": "Peel",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2025-11-25",
+      "end_date": "2026-11-24",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 298
+    },
+    {
+      "id": "68cb05f5a9e0000012ae1cfe",
+      "permit_id": "OCC-2509VO15121995",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Peel entre Saint-Jacques et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "Service public et approvisionnement  Canada",
+      "streets": [
+        "rue Peel",
+        "rue Saint-Jacques"
+      ],
+      "segments": [
+        {
+          "street": "rue Peel",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Cathédrale",
+          "to": "Peel",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2025-11-25",
+      "end_date": "2026-11-24",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 298
+    },
+    {
+      "id": "69fddfc72dd577001247c4d3",
+      "permit_id": "OCC-2605KM06520193",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Lucien-L'Allier entre Saint-Jacques et Bonaventure",
+      "borough": "Ville-Marie",
+      "organization": "T3P CONSTRUCTION INC.",
+      "streets": [
+        "rue Lucien-L'Allier"
+      ],
+      "segments": [
+        {
+          "street": "rue Lucien-L'Allier",
+          "from": "Saint-Jacques",
+          "to": "Bonaventure",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-05-19",
+      "end_date": "2026-09-15",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 305
+    },
+    {
+      "id": "6973a5c07cd3be00129b8d76",
+      "permit_id": "OCC-2601GD19626574",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Cathédrale entre Saint-Jacques et De La Gauchetière",
+      "borough": "Ville-Marie",
+      "organization": "Pomerleau",
+      "streets": [
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Saint-Jacques",
+          "to": "De La Gauchetière",
+          "impact": "Rue barrée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-01-26",
+      "end_date": "2026-12-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 318
+    },
+    {
+      "id": "6a2c2406816ebc0012d1a4cc",
+      "permit_id": "OCC-2606GD10086362",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Saint-Jacques entre Lucien-L'Allier et Versailles",
+      "borough": "Ville-Marie",
+      "organization": "Demdev",
+      "streets": [
+        "rue Saint-Jacques"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Lucien-L'Allier",
+          "to": "Versailles",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-12",
+      "end_date": "2026-08-12",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 321
+    },
+    {
+      "id": "6a19a8acef86e200124c35b9",
+      "permit_id": "OCC-2605SW24771205",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Crescent entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Crescent"
+      ],
+      "segments": [
+        {
+          "street": "rue Crescent",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-05-30",
+      "end_date": "2026-11-15",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 331
+    },
+    {
+      "id": "69cd5def1b9d4a00123ba8cc",
+      "permit_id": "OCC-2604MS00679450",
+      "reason": "Puits d'accès - Construction/réparation",
+      "zone": "Peel entre René-Lévesque et Cypress",
+      "borough": "Ville-Marie",
+      "organization": "Pomerleau",
+      "streets": [
+        "rue Peel"
+      ],
+      "segments": [
+        {
+          "street": "rue Peel",
+          "from": "René-Lévesque",
+          "to": "Cypress",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-04-01",
+      "end_date": "2026-12-25",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 344
+    },
+    {
+      "id": "699888ec1464910012e65959",
+      "permit_id": "OCC-2602BU23186170",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "136 entre 720 et 720",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "route 136",
+        "rue Saint-Jacques",
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Cathédrale",
+          "to": "Peel",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Notre-Dame",
+          "to": "Saint-Jacques",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "route 136",
+          "from": "720",
+          "to": "720",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-02",
+      "end_date": "2026-10-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 369
+    },
+    {
+      "id": "685e913c6851db0019cc4171",
+      "permit_id": "OCC-2507OP01284102",
+      "reason": "Égouts et aqueducs - Excavation",
+      "zone": "Jean-D'Estrées entre Notre-Dame et Saint-Jacques",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "rue Jean-D'Estrées"
+      ],
+      "segments": [
+        {
+          "street": "rue Jean-D'Estrées",
+          "from": "Notre-Dame",
+          "to": "Saint-Jacques",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2025-07-02",
+      "end_date": "2027-12-23",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 370
+    },
+    {
+      "id": "69d902b810232b001282e445",
+      "permit_id": "OCC-2604BL10958736",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Cypress entre Peel et Stanley",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Cypress"
+      ],
+      "segments": [
+        {
+          "street": "rue Cypress",
+          "from": "Peel",
+          "to": "Stanley",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-04-13",
+      "end_date": "2026-10-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 391
+    },
+    {
+      "id": "6a551835034844001262dc23",
+      "permit_id": "OCC-2607TV10977256",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Montagne entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "OGESCO CONSTRUCTION INC.",
+      "streets": [
+        "rue de la Montagne"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Montagne",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-03",
+      "end_date": "2026-09-30",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 400
+    },
+    {
+      "id": "6854450f42647900121571b9",
+      "permit_id": "OCC-2506WK16848605",
+      "reason": "Autre",
+      "zone": "Ruelle",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [],
+      "segments": [],
+      "start_date": "2025-07-02",
+      "end_date": "2027-12-21",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 405
+    },
+    {
+      "id": "6a4d235334772f0012a8a783",
+      "permit_id": "OCC-2607GJ14361550",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Bishop entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "BASTIUM CONSTRUCTION INC.",
+      "streets": [
+        "rue Bishop"
+      ],
+      "segments": [
+        {
+          "street": "rue Bishop",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-18",
+      "end_date": "2026-08-02",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 419
+    },
+    {
+      "id": "69a07241f521230012f287dd",
+      "permit_id": "OCC-2602EV23178981",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "136 entre 720 et 720",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "route 136",
+        "rue Montfort",
+        "rue Saint-Jacques"
+      ],
+      "segments": [
+        {
+          "street": "rue Montfort",
+          "from": "Inspecteur",
+          "to": "Saint-Jacques",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Sainte-Cécile",
+          "to": "Cathédrale",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "route 136",
+          "from": "720",
+          "to": "720",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-02",
+      "end_date": "2026-10-30",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 424
+    },
+    {
+      "id": "6a35830b816ebc0012d2a189",
+      "permit_id": "OCC-2606QO18795387",
+      "reason": "Égouts et aqueducs - Excavation",
+      "zone": "Mansfield entre Saint-Jacques et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "rue Mansfield"
+      ],
+      "segments": [
+        {
+          "street": "rue Mansfield",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-22",
+      "end_date": "2026-10-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 426
+    },
+    {
+      "id": "69fdce724737cd0012223c84",
+      "permit_id": "OCC-2605FJ06603174",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "Cathédrale entre Notre-Dame et Saint-Jacques",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Notre-Dame",
+          "to": "Saint-Jacques",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-05-11",
+      "end_date": "2026-12-18",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 427
+    },
+    {
+      "id": "6a5a256645ae010012f3167a",
+      "permit_id": "OCC-2607GT14367720",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Ruelle",
+      "borough": "Ville-Marie",
+      "organization": "BASTIUM CONSTRUCTION INC.",
+      "streets": [],
+      "segments": [],
+      "start_date": "2026-07-18",
+      "end_date": "2026-08-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 432
+    },
+    {
+      "id": "69a06fde1464910012e6c97f",
+      "permit_id": "OCC-2602TS23177692",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "136 entre 720 et 720",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "route 136",
+        "rue Saint-Jacques"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Mansfield",
+          "to": "Montfort",
+          "impact": "Rue barrée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "route 136",
+          "from": "720",
+          "to": "720",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-02",
+      "end_date": "2026-10-30",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 436
+    },
+    {
+      "id": "6929b126df5da80012878385",
+      "permit_id": "OCC-2511MS23912281",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Metcalfe entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "Pomerleau Inc.",
+      "streets": [
+        "rue Metcalfe",
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue Metcalfe",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue de la Cathédrale",
+          "from": "De La Gauchetière",
+          "to": "René-Lévesque",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2025-12-01",
+      "end_date": "2026-12-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 440
+    },
+    {
+      "id": "6a3ebd1934772f0012a7a15f",
+      "permit_id": "OCC-2606ZO22276605",
+      "reason": "Autre",
+      "zone": "Guy entre Argyle et René-Lévesque",
+      "borough": "Ville-Marie",
+      "organization": "Hôtel Espresso",
+      "streets": [
+        "rue Guy"
+      ],
+      "segments": [
+        {
+          "street": "rue Guy",
+          "from": "Argyle",
+          "to": "René-Lévesque",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-29",
+      "end_date": "2026-08-16",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 452
+    },
+    {
+      "id": "6a3a9a8d34772f0012a719a6",
+      "permit_id": "OCC-2606PD19537107",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "136 entre 720 et 720",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "route 136",
+        "rue Mansfield",
+        "rue Saint-Jacques"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Saint-Jacques",
+          "to": "Mansfield",
+          "impact": "Rue barrée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "route 136",
+          "from": "720",
+          "to": "720",
+          "impact": "Rue barrée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Mansfield",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Rue barrée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-05-04",
+      "end_date": "2026-07-27",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 459
+    },
+    {
+      "id": "6a1efff7ef86e200124ca406",
+      "permit_id": "OCC-2606UO01510270",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Montagne entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue de la Montagne"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Montagne",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-03",
+      "end_date": "2026-11-15",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 461
+    },
+    {
+      "id": "6a2083dbef86e200124cf255",
+      "permit_id": "OCC-2606KN02456504",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "136 entre 720 et 720",
+      "borough": "Le Sud-Ouest",
+      "organization": "Pronex Excavation",
+      "streets": [
+        "route 136"
+      ],
+      "segments": [
+        {
+          "street": "route 136",
+          "from": "720",
+          "to": "720",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-03",
+      "end_date": "2026-12-18",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 462
+    },
+    {
+      "id": "6a564ea6034844001262fe62",
+      "permit_id": "OCC-2607GT12630879",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "Cathédrale entre Notre-Dame et Saint-Jacques",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Notre-Dame",
+          "to": "Saint-Jacques",
+          "impact": "Rue barrée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-17",
+      "end_date": "2026-12-18",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 462
+    },
+    {
+      "id": "69c32f9e5f40ae0012c1109e",
+      "permit_id": "OCC-2604MO07369553",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Stanley entre René-Lévesque et De Maisonneuve",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Cypress",
+        "rue Sainte-Catherine Ouest",
+        "rue Stanley"
+      ],
+      "segments": [
+        {
+          "street": "rue Stanley",
+          "from": "René-Lévesque",
+          "to": "De Maisonneuve",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Sainte-Catherine Ouest",
+          "from": "Peel",
+          "to": "Drummond",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Barrée"
+        },
+        {
+          "street": "rue Cypress",
+          "from": "Peel",
+          "to": "Stanley",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-04-12",
+      "end_date": "2026-10-30",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 466
+    },
+    {
+      "id": "6a58d9b545ae010012f2f575",
+      "permit_id": "OCC-2607JK13446906",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Drummond entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "Construction Dinamo",
+      "streets": [
+        "rue Drummond"
+      ],
+      "segments": [
+        {
+          "street": "rue Drummond",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-18",
+      "end_date": "2026-08-02",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 468
+    },
+    {
+      "id": "6a5644be034844001262fd0d",
+      "permit_id": "OCC-2607CE11874544",
+      "reason": "Autre",
+      "zone": "Notre-Dame entre Peel et Jean-D'Estrées",
+      "borough": "Ville-Marie",
+      "organization": "Telecon",
+      "streets": [
+        "rue Notre-Dame Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Notre-Dame Ouest",
+          "from": "Peel",
+          "to": "Jean-D'Estrées",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-07",
+      "end_date": "2026-07-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 471
+    },
+    {
+      "id": "69cab52dca06ac00124a29b0",
+      "permit_id": "OCC-2603PI25700967",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Montagne entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue de la Montagne"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Montagne",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-30",
+      "end_date": "2026-10-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 473
+    },
+    {
+      "id": "6a1f0afcef86e200124ca78c",
+      "permit_id": "OCC-2606MG01476119",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Crescent entre René-Lévesque et De Maisonneuve",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Crescent",
+        "rue Sainte-Catherine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Sainte-Catherine Ouest",
+          "from": "Montagne",
+          "to": "Crescent",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Crescent",
+          "from": "René-Lévesque",
+          "to": "De Maisonneuve",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-05-30",
+      "end_date": "2026-11-15",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 475
+    },
+    {
+      "id": "69c334632f414e0012ea8018",
+      "permit_id": "OCC-2604JS07506928",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Sainte-Catherine entre Drummond et Crescent",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Sainte-Catherine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Sainte-Catherine Ouest",
+          "from": "Drummond",
+          "to": "Crescent",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Barrée"
+        }
+      ],
+      "start_date": "2026-04-12",
+      "end_date": "2026-10-30",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 494
+    },
+    {
+      "id": "69c2b04b2f414e0012ea70f7",
+      "permit_id": "OCC-2603QZ20486049",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Sainte-Catherine entre Montagne et Crescent",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Sainte-Catherine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Sainte-Catherine Ouest",
+          "from": "Montagne",
+          "to": "Crescent",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-29",
+      "end_date": "2026-10-01",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 512
+    },
+    {
+      "id": "6a3a655e34772f0012a70c0c",
+      "permit_id": "OCC-2606FO19498651",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "Saint-Jacques entre Guy et Richmond",
+      "borough": "Le Sud-Ouest",
+      "organization": "Pronex Excavation",
+      "streets": [
+        "rue Saint-Jacques"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Guy",
+          "to": "Richmond",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-23",
+      "end_date": "2026-11-30",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 514
+    },
+    {
+      "id": "6a4e582134772f0012a8c462",
+      "permit_id": "OCC-2607XZ06554068",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Mackay entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "Magil Construction est du Canada inc.",
+      "streets": [
+        "rue Mackay"
+      ],
+      "segments": [
+        {
+          "street": "rue Mackay",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-01",
+      "end_date": "2026-12-18",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 542
+    },
+    {
+      "id": "6a21b146ef86e200124d16f7",
+      "permit_id": "OCC-2606UC03244168",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Sainte-Catherine entre Crescent et Mackay",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Sainte-Catherine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Sainte-Catherine Ouest",
+          "from": "Crescent",
+          "to": "Mackay",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-07",
+      "end_date": "2026-09-06",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 553
+    },
+    {
+      "id": "6a29a8b5ef86e200124dd6c7",
+      "permit_id": "OCC-2606KH10016992",
+      "reason": "Égouts et aqueducs - Excavation",
+      "zone": "Non-nommée entre  et",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "rue Saint-Jacques",
+        "voie Non-nommée"
+      ],
+      "segments": [
+        {
+          "street": "voie Non-nommée",
+          "from": null,
+          "to": null,
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Saint-Jacques",
+          "from": "Robert-Bourassa",
+          "to": "Saint-Jacques",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-06-15",
+      "end_date": "2026-07-31",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 559
+    },
+    {
+      "id": "6a578317034844001263210c",
+      "permit_id": "OCC-2607WC12666927",
+      "reason": "Égouts et aqueducs - Excavation",
+      "zone": "Barré entre Montagne et Versailles",
+      "borough": "Le Sud-Ouest",
+      "organization": "Excavations Darche inc.",
+      "streets": [
+        "rue Barré",
+        "rue de l'Aqueduc",
+        "rue de la Montagne"
+      ],
+      "segments": [
+        {
+          "street": "rue Barré",
+          "from": "Montagne",
+          "to": "Versailles",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue de la Montagne",
+          "from": "Barré",
+          "to": "Notre-Dame",
+          "impact": "Voie de circulation obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue de l'Aqueduc",
+          "from": "Barré",
+          "to": "Notre-Dame",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-17",
+      "end_date": "2026-09-30",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": true,
+      "distance_m": 562
+    },
+    {
+      "id": "6a42d94134772f0012a7e026",
+      "permit_id": "OCC-2607FJ10822106",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Mansfield entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "Magil Construction est du Canada inc.",
+      "streets": [
+        "rue Mansfield"
+      ],
+      "segments": [
+        {
+          "street": "rue Mansfield",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-18",
+      "end_date": "2026-09-19",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 562
+    },
+    {
+      "id": "6a60dbe9034844001263c559",
+      "permit_id": "OCC-2607FL18710330",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Crescent entre Sainte-Catherine et De Maisonneuve",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Crescent"
+      ],
+      "segments": [
+        {
+          "street": "rue Crescent",
+          "from": "Sainte-Catherine",
+          "to": "De Maisonneuve",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-22",
+      "end_date": "2026-11-23",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 569
+    },
+    {
+      "id": "69cbf58f1b9d4a00123b787b",
+      "permit_id": "OCC-2603LZ26556695",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Mackay entre René-Lévesque et De Maisonneuve",
+      "borough": "Ville-Marie",
+      "organization": "Roxboro Excavation Inc.",
+      "streets": [
+        "rue Mackay"
+      ],
+      "segments": [
+        {
+          "street": "rue Mackay",
+          "from": "René-Lévesque",
+          "to": "De Maisonneuve",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-31",
+      "end_date": "2026-11-01",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 571
+    },
+    {
+      "id": "6a4e5965816ebc0012d49a5f",
+      "permit_id": "OCC-2607BH06556661",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Mackay entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "Magil Construction est du Canada inc.",
+      "streets": [
+        "rue Mackay"
+      ],
+      "segments": [
+        {
+          "street": "rue Mackay",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-03-01",
+      "end_date": "2026-12-18",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 584
+    }
+  ]
+}
