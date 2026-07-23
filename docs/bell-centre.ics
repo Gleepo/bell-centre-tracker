@@ -6,7 +6,7 @@ X-WR-CALNAME:Bell Centre Events
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
 UID:1AsZkC7GkegKbiX@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260502T230000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Dethklok & Amon Amarth
@@ -16,7 +16,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkotGkd2CIm0@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260724T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - IVE
@@ -26,7 +26,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkotGkdC3znY@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260724T000000Z
 DURATION:PT3H
 SUMMARY:IVE WORLD TOUR <SHOW WHAT I AM> IN MONTREAL
@@ -36,7 +36,7 @@ DESCRIPTION:https://www.ticketmaster.ca/ive-world-tour-show-what-i-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mD2hRG@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260725T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre
@@ -46,7 +46,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:1kG8v0fEGA2hN9R@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260725T230000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - J.Cole
@@ -56,7 +56,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-jcole-mon
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_7GknWBEGR@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260726T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - J. Cole
@@ -66,7 +66,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_7GknWFMab@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260726T000000Z
 DURATION:PT3H
 SUMMARY:J. Cole: The Fall-Off Tour
@@ -76,7 +76,7 @@ DESCRIPTION:https://www.ticketmaster.ca/j-cole-the-falloff-tour-montreal-qu
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61Mi5ryZ@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260726T220000Z
 DURATION:PT3H
 SUMMARY:AEW PRESENTS REDEMPTION PPV
@@ -86,7 +86,7 @@ DESCRIPTION:https://www.ticketmaster.ca/aew-presents-redemption-ppv-montrea
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_FGkXDUq7M@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260726T220000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - AEW
@@ -96,7 +96,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkGPGkexK3tv@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260728T230000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Ariana Grande
@@ -106,7 +106,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-ariana-gr
 END:VEVENT
 BEGIN:VEVENT
 UID:16d7Zbw16G7y-vb@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260729T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Mythik - Ariana Grande
@@ -116,7 +116,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik
 END:VEVENT
 BEGIN:VEVENT
 UID:16d7Zbw1dG7DOTU@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260729T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Ariana Grande
@@ -126,7 +126,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkG_GkdqixiL@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260729T000000Z
 DURATION:PT3H
 SUMMARY:Ariana Grande - The Eternal Sunshine Tour
@@ -136,7 +136,7 @@ DESCRIPTION:https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkGPGkexKxtd@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260730T230000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Ariana Grande
@@ -146,7 +146,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-ariana-gr
 END:VEVENT
 BEGIN:VEVENT
 UID:16d7Zbw16G7ysvq@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260731T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Mythik - Ariana Grande
@@ -156,7 +156,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik
 END:VEVENT
 BEGIN:VEVENT
 UID:16d7Zbw1dG7HZTy@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260731T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Ariana Grande
@@ -166,7 +166,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkG_GkdrCxiM@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260731T000000Z
 DURATION:PT3H
 SUMMARY:Ariana Grande - The Eternal Sunshine Tour
@@ -176,7 +176,7 @@ DESCRIPTION:https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkGPGkexKwtk@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260731T230000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Ariana Grande
@@ -186,7 +186,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-ariana-gr
 END:VEVENT
 BEGIN:VEVENT
 UID:16d7Zbw16G7BovL@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260801T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Mythik - Ariana Grande
@@ -196,7 +196,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik
 END:VEVENT
 BEGIN:VEVENT
 UID:16d7Zbw1dG7H8TD@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260801T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Ariana Grande
@@ -206,7 +206,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkG_GkdrMecG@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260801T000000Z
 DURATION:PT3H
 SUMMARY:Ariana Grande - The Eternal Sunshine Tour
@@ -216,7 +216,7 @@ DESCRIPTION:https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZk8JGkdKTJW3@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260801T224500Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Five Finger Death Punch
@@ -226,7 +226,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZk8JGkdKhpHb@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260801T224500Z
 DURATION:PT3H
 SUMMARY:Five Finger Death Punch
@@ -236,7 +236,7 @@ DESCRIPTION:https://www.ticketmaster.ca/five-finger-death-punch-montreal-qu
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDolRf@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260803T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -246,7 +246,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mD3lR_@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260804T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -256,7 +256,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDKDRL@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260805T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -266,7 +266,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDfDR0@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260806T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -276,7 +276,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_6GkRLVBch@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260806T233000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Daniel Caesar
@@ -286,7 +286,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_6Gkmt-EQi@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260806T233000Z
 DURATION:PT3H
 SUMMARY:Daniel Caesar - Son Of Spergy Tour
@@ -296,7 +296,7 @@ DESCRIPTION:https://www.ticketmaster.ca/daniel-caesar-son-of-spergy-tour-mo
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_eGkT7zMXZ@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260807T230000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Olivia Dean
@@ -306,7 +306,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-olivia-de
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbUGkUIQt08@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260808T000000Z
 DURATION:PT3H
 SUMMARY:Olivia Dean: The Art Of Loving Live
@@ -316,7 +316,7 @@ DESCRIPTION:https://www.ticketmaster.ca/olivia-dean-the-art-of-loving-montr
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbUGkUtu_Ex@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260808T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Olivia Dean
@@ -326,7 +326,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbMGkmdWgDn@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260808T220000Z
 DURATION:PT3H
 SUMMARY:Avenged Sevenfold and Good Charlotte: North American Tour 2026
@@ -336,7 +336,7 @@ DESCRIPTION:https://www.ticketmaster.ca/avenged-sevenfold-and-good-charlott
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkCvGkeOoJg-@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260808T220000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Avenged Sevenfold
@@ -346,7 +346,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDp5RR@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260810T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -356,7 +356,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mD95RH@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260811T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -366,7 +366,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDbhYZ@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260812T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -376,7 +376,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mD_DY5@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260813T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -386,7 +386,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDh5Yr@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260814T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -396,7 +396,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDj5YI@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260815T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -406,7 +406,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDqhYs@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260816T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -416,7 +416,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDrhYg@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260817T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -426,7 +426,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDN5so@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260822T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -436,7 +436,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mD05sf@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260823T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -446,7 +446,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDP5sO@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260824T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -456,7 +456,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDJhsN@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260825T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -466,7 +466,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDEhsI@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260826T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -476,7 +476,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDIlsm@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260827T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -486,7 +486,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDtlsU@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260828T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -496,7 +496,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDnlw7@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260829T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -506,7 +506,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDlDw2@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260830T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -516,7 +516,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65mDm5w_@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260901T035900Z
 DURATION:PT3H
 SUMMARY:Visites Guidées Centre Bell - Bell Centre Guided Tours
@@ -526,7 +526,7 @@ DESCRIPTION:https://www.ticketmaster.ca/visites-guidees-centre-bell-bell-ce
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbgGkmEwz5V@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260902T223000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Rush
@@ -536,7 +536,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-rush-mont
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbgGkmiWFIp@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260902T233000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Rush
@@ -546,7 +546,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbgGkmibz0u@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260902T233000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Mythik - Rush
@@ -556,7 +556,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkuoGkeiEzKI@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260902T233000Z
 DURATION:PT3H
 SUMMARY:RUSH: Fifty Something
@@ -566,7 +566,7 @@ DESCRIPTION:https://www.ticketmaster.ca/rush-fifty-something-montreal-quebe
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbgGkmESF5z@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260904T223000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Rush
@@ -576,7 +576,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-rush-mont
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbgGkmiWIIj@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260904T233000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Rush
@@ -586,7 +586,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbgGkmi_I0K@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260904T233000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Mythik - Rush
@@ -596,7 +596,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkuoGkeiIFKn@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260904T233000Z
 DURATION:PT3H
 SUMMARY:RUSH: Fifty Something
@@ -606,7 +606,7 @@ DESCRIPTION:https://www.ticketmaster.ca/rush-fifty-something-montreal-quebe
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65KK3mgi@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260914T223000Z
 DURATION:PT3H
 SUMMARY:Roxette 40th Anniversary Tour 2026
@@ -616,7 +616,7 @@ DESCRIPTION:https://www.ticketmaster.ca/roxette-40th-anniversary-tour-2026-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65KfAXBc@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260914T223000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Roxette
@@ -626,7 +626,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65KfQXHS@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260914T223000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Mythik - Roxette
@@ -636,7 +636,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6GKNPFTU@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260914T223000Z
 DURATION:PT3H
 SUMMARY:TICKETLESS: Rencontre avant le spectacle avec Taylor Dayne
@@ -646,7 +646,7 @@ DESCRIPTION:https://www.ticketmaster.ca/ticketless-rencontre-avant-le-spect
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4j9@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20260919T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Toronto Maple Leafs
@@ -655,7 +655,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4j9
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7PV7-@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART;VALUE=DATE:20260926
 SUMMARY:Montreal Canadiens vs. Ottawa Senators (time TBA)
 LOCATION:Bell Centre\, Montreal
@@ -663,7 +663,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7PV7-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkoxGkd0wWvg@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261003T220000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Gorillaz
@@ -673,7 +673,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-gorillaz-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_AGkRqcjVa@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261003T230000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Gorillaz
@@ -683,7 +683,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_AGkn9lp2S@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261003T230000Z
 DURATION:PT3H
 SUMMARY:Gorillaz - The Mountain Tour
@@ -693,7 +693,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gorillaz-the-mountain-tour-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jb@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261006T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Carolina Hurricanes
@@ -702,7 +702,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jb
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZk3oGkeROFjL@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261007T220000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Teddy Swims
@@ -712,7 +712,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-teddy-swi
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_FGkM9lFwl@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261007T230000Z
 DURATION:PT3H
 SUMMARY:Teddy Swims: The UGLY Tour
@@ -722,7 +722,7 @@ DESCRIPTION:https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZk3oGkdod1MV@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261007T230000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Teddy Swims
@@ -732,7 +732,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZk3oGkdodBMz@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261007T230000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Mythik - Teddy Swims
@@ -742,7 +742,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4j_@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261008T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Nashville Predators
@@ -751,7 +751,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4j_
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61BQjJfg@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261010T000000Z
 DURATION:PT3H
 SUMMARY:The Smashing Pumpkins: The Rats In A Cage Tour
@@ -761,7 +761,7 @@ DESCRIPTION:https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-m
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61Db_ngC@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261010T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - The Smashing Pumpkins
@@ -771,7 +771,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jO@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261010T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Detroit Red Wings
@@ -780,7 +780,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jO
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4j-@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261013T223000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Buffalo Sabres
@@ -789,7 +789,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4j-
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jx@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261017T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Buffalo Sabres
@@ -798,7 +798,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jx
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jN@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261020T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. San Jose Sharks
@@ -807,7 +807,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jN
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G616vwIMQ@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261021T220000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Olivia Rodrigo
@@ -817,7 +817,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-olivia-ro
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6166ta9H@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261021T230000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Olivia Rodrigo
@@ -827,7 +827,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_aGkmbY4v9@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261021T230000Z
 DURATION:PT3H
 SUMMARY:Olivia Rodrigo: The Unraveled Tour
@@ -837,7 +837,7 @@ DESCRIPTION:https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-m
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G616vSbMr@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261022T220000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Olivia Rodrigo
@@ -847,7 +847,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-olivia-ro
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6166nab7@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261022T230000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Olivia Rodrigo
@@ -857,7 +857,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_aGkmbsAv_@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261022T230000Z
 DURATION:PT3H
 SUMMARY:Olivia Rodrigo: The Unraveled Tour
@@ -867,7 +867,7 @@ DESCRIPTION:https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-m
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65cTd04t@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261023T220000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - John Summit
@@ -877,7 +877,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-john-summ
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G652QqbLC@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261023T230000Z
 DURATION:PT3H
 SUMMARY:JOHN SUMMIT - CTRL ESCAPE ARENA TOUR
@@ -887,7 +887,7 @@ DESCRIPTION:https://www.ticketmaster.ca/john-summit-ctrl-escape-arena-tour-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G652hPFxO@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261023T230000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - John Summit
@@ -897,7 +897,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6GJba0er@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261024T230000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Aya Nakamura
@@ -907,7 +907,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-aya-nakam
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6G99-tj-@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261025T000000Z
 DURATION:PT3H
 SUMMARY:Aya Nakamura
@@ -917,7 +917,7 @@ DESCRIPTION:https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-24-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6uABn3-8@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261025T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Aya Nakamura
@@ -927,7 +927,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6GJb1few@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261025T230000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Aya Nakamura
@@ -937,7 +937,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-aya-nakam
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6G99xtjE@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261026T000000Z
 DURATION:PT3H
 SUMMARY:Aya Nakamura
@@ -947,7 +947,7 @@ DESCRIPTION:https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-25-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6uABle-b@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261026T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Aya Nakamura
@@ -957,7 +957,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65CtYg50@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261030T230000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Katseye
@@ -967,7 +967,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-katseye-m
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61WWZxgj@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261031T000000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Katseye
@@ -977,7 +977,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61xOe95K@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261031T000000Z
 DURATION:PT3H
 SUMMARY:KATSEYE: THE WILDWORLD TOUR
@@ -987,7 +987,7 @@ DESCRIPTION:https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4j0@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261031T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Pittsburgh Penguins
@@ -996,7 +996,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4j0
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jP@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261104T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Winnipeg Jets
@@ -1005,7 +1005,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jP
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jJ@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261106T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Utah Mammoth
@@ -1014,7 +1014,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jJ
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jE@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261111T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Minnesota Wild
@@ -1023,7 +1023,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jE
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jI@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261115T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Colorado Avalanche
@@ -1032,7 +1032,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jI
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jt@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261122T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Philadelphia Flyers
@@ -1041,7 +1041,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jt
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jY@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261124T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Los Angeles Kings
@@ -1050,7 +1050,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jY
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkudGkdisbfT@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261127T233000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Doja Cat
@@ -1060,7 +1060,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-doja-cat-
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkGyGkeMVJJT@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261128T003000Z
 DURATION:PT3H
 SUMMARY:Doja Cat - Tour Ma Vie World Tour
@@ -1070,7 +1070,7 @@ DESCRIPTION:https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkudGkeOmJb2@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261128T003000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Doja Cat
@@ -1080,7 +1080,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4js@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261203T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Tampa Bay Lightning
@@ -1089,7 +1089,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4js
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jw@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261205T180000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Florida Panthers
@@ -1098,7 +1098,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jw
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jS@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261207T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Ottawa Senators
@@ -1107,7 +1107,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jS
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jV@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261209T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Vegas Golden Knights
@@ -1116,7 +1116,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jV
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jg@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261211T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Anaheim Ducks
@@ -1125,7 +1125,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jg
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkoeGkd_lEFT@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261213T233000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Andrea Bocelli
@@ -1135,7 +1135,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-andrea-bo
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_dGkcLQ-FL@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261214T010000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant 9-4-10 Steakhouse - Andrea Bocelli
@@ -1145,7 +1145,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-9410-s
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_dGkcL_vF4@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261214T010000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Mythik - Andrea Bocelli
@@ -1155,7 +1155,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-mythik
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_dGkcLbvF3@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261214T010000Z
 DURATION:PT3H
 SUMMARY:ANDREA BOCELLI "Romanza - 30th Anniversary World Tour"
@@ -1165,7 +1165,7 @@ DESCRIPTION:https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniver
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_dGkcLhoF-@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261214T010000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Andrea Bocelli
@@ -1175,7 +1175,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jU@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261215T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Edmonton Oilers
@@ -1184,7 +1184,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jU
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jM@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261227T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Toronto Maple Leafs
@@ -1193,7 +1193,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jM
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jz@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261228T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Dallas Stars
@@ -1202,7 +1202,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jz
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4jy@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20261230T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Columbus Blue Jackets
@@ -1211,7 +1211,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4jy
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qZ@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270105T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Chicago Blackhawks
@@ -1220,7 +1220,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qZ
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qv@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270107T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Boston Bruins
@@ -1229,7 +1229,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qv
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qe@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270110T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Pittsburgh Penguins
@@ -1238,7 +1238,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qe
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qd@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270114T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New Jersey Devils
@@ -1247,7 +1247,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qd
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4q7@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270122T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. St. Louis Blues
@@ -1256,7 +1256,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4q7
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qA@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270124T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Calgary Flames
@@ -1265,7 +1265,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qA
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qk@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270127T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Carolina Hurricanes
@@ -1274,7 +1274,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qk
 END:VEVENT
 BEGIN:VEVENT
 UID:16sZkooPtZACkvdG@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270205T233000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Hilary Duff
@@ -1284,7 +1284,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-hilary-du
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkoaGkeUg7UO@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270206T003000Z
 DURATION:PT3H
 SUMMARY:Hilary Duff: the lucky me tour
@@ -1294,7 +1294,7 @@ DESCRIPTION:https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montr
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkoaGkey6VH7@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270206T003000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Hilary Duff
@@ -1304,7 +1304,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4q6@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270213T180000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Washington Capitals
@@ -1313,7 +1313,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4q6
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qF@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270214T180000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New York Rangers
@@ -1322,7 +1322,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qF
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qa@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270221T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New York Islanders
@@ -1331,7 +1331,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qa
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6uCTvFN2@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270222T010000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Don Omar
@@ -1341,7 +1341,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6uCXTIxy@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270222T010000Z
 DURATION:PT3H
 SUMMARY:Don Omar "The Last King World Tour"
@@ -1351,7 +1351,7 @@ DESCRIPTION:https://www.ticketmaster.ca/don-omar-the-last-king-world-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4q8@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270305T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Seattle Kraken
@@ -1360,7 +1360,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4q8
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qo@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270307T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Vancouver Canucks
@@ -1369,7 +1369,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qo
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6G6p7asG@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270309T000000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Gracie Abrams
@@ -1379,7 +1379,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-gracie-ab
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65MaFGw1@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270309T010000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Gracie Abrams
@@ -1389,7 +1389,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65tH0d1G@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270309T010000Z
 DURATION:PT3H
 SUMMARY:Gracie Abrams: The Look at My Life Tour presented by Capital One
@@ -1399,7 +1399,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6G6pAas8@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270310T000000Z
 DURATION:PT3H
 SUMMARY:Salon des Directeurs CIBC - Gracie Abrams
@@ -1409,7 +1409,7 @@ DESCRIPTION:https://www.ticketmaster.ca/salon-des-directeurs-cibc-gracie-ab
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65MaFHw8@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270310T010000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Gracie Abrams
@@ -1419,7 +1419,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65tHPd1K@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270310T010000Z
 DURATION:PT3H
 SUMMARY:Gracie Abrams: The Look at My Life Tour presented by Capital One
@@ -1429,7 +1429,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4q3@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270311T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Boston Bruins
@@ -1438,7 +1438,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4q3
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qK@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270316T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Florida Panthers
@@ -1447,7 +1447,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qK
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qf@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270318T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Tampa Bay Lightning
@@ -1456,7 +1456,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qf
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4q4@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270322T233000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Toronto Maple Leafs
@@ -1465,7 +1465,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4q4
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qp@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270324T233000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Ottawa Senators
@@ -1474,7 +1474,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qp
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4q9@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270327T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New Jersey Devils
@@ -1483,7 +1483,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4q9
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4qb@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270328T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Detroit Red Wings
@@ -1492,7 +1492,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4qb
 END:VEVENT
 BEGIN:VEVENT
 UID:Z7r9jZ1A7J4q_@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270401T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New York Rangers
@@ -1501,7 +1501,7 @@ DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7J4q_
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61rno9w6@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270402T233000Z
 DURATION:PT3H
 SUMMARY:Centre Bell - Repas Restaurant Canti - Niall Horan
@@ -1511,7 +1511,7 @@ DESCRIPTION:https://www.ticketmaster.ca/centre-bell-repas-restaurant-canti-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61rtd60V@bell-centre-tracker
-DTSTAMP:20260723T073814Z
+DTSTAMP:20260723T073903Z
 DTSTART:20270402T233000Z
 DURATION:PT3H
 SUMMARY:Niall Horan: Dinner Party Live On Tour
