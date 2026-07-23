@@ -13,6 +13,7 @@ Stdlib only - no pip installs needed.
 
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.parse
@@ -21,7 +22,10 @@ from datetime import datetime, timezone
 
 API_BASE = "https://app.ticketmaster.com/discovery/v2"
 RAW_KEY = os.environ.get("TM_API_KEY") or ""
-API_KEY = RAW_KEY.strip()  # a pasted key can pick up a trailing newline
+# A key pasted from a web page can carry a trailing newline, and zero-width
+# characters that survive .strip(). Both make a good key look "Invalid".
+JUNK = r"[\s​‌‍⁠﻿‎‏]"
+API_KEY = re.sub(JUNK, "", RAW_KEY)
 VENUE_CACHE = "venue_id.txt"  # cached after first successful lookup
 OUT_DIR = "docs"
 
@@ -196,7 +200,18 @@ def main():
         print("ERROR: TM_API_KEY env var is not set.", file=sys.stderr)
         sys.exit(1)
     if API_KEY != RAW_KEY:
-        print("NOTE: TM_API_KEY had surrounding whitespace; using the trimmed value.")
+        removed = len(RAW_KEY) - len(API_KEY)
+        print(f"NOTE: stripped {removed} whitespace/zero-width char(s) from TM_API_KEY.")
+    # Shape check only - never prints the key itself. A Ticketmaster consumer
+    # key is 32 alphanumeric characters.
+    if not re.fullmatch(r"[A-Za-z0-9]{32}", API_KEY):
+        n_alnum = sum(c.isalnum() and c.isascii() for c in API_KEY)
+        print(
+            f"WARNING: TM_API_KEY is not shaped like a Ticketmaster consumer key "
+            f"(expected 32 alphanumeric chars; got {len(API_KEY)} chars, "
+            f"{n_alnum} of them ASCII alphanumeric).",
+            file=sys.stderr,
+        )
     os.makedirs(OUT_DIR, exist_ok=True)
     venue_id = resolve_venue_id()
     events = fetch_events(venue_id)
