@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T16:35:57.545079+00:00",
+  "generated": "2026-07-24T11:39:49.241358+00:00",
   "source": "Ville de Montréal — Entraves et travaux en cours",
   "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
   "attribution": "Données: Ville de Montréal",
@@ -12,8 +12,8 @@
   "radius_m": 600,
   "horizon_days": 14,
   "counts": {
-    "scanned": 1504,
-    "in_radius": 51,
+    "scanned": 1419,
+    "in_radius": 48,
     "reported": 48,
     "active": 47,
     "upcoming": 1
@@ -1307,6 +1307,14 @@
       ],
       "segments": [
         {
+          "street": "rue de l'Aqueduc",
+          "from": "Barré",
+          "to": "Notre-Dame",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
           "street": "rue Barré",
           "from": "Montagne",
           "to": "Versailles",
@@ -1319,14 +1327,6 @@
           "from": "Barré",
           "to": "Notre-Dame",
           "impact": "Voie de circulation obstruée",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable"
-        },
-        {
-          "street": "rue de l'Aqueduc",
-          "from": "Barré",
-          "to": "Notre-Dame",
-          "impact": "Rue barrée",
           "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
           "bike_path": "Aucun impact / non applicable"
         }

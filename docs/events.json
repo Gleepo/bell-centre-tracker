@@ -1,17 +1,7 @@
 {
-  "generated": "2026-07-23T16:41:20.259057+00:00",
+  "generated": "2026-07-24T11:39:46.245219+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1AsZkotGkdC3znY",
-      "name": "IVE WORLD TOUR <SHOW WHAT I AM> IN MONTREAL",
-      "localDate": "2026-07-23",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-07-24T00:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/ive-world-tour-show-what-i-montreal-quebec-07-23-2026/event/31006469CE4B8AB0"
-    },
     {
       "id": "1Ad7Z_7GknWFMab",
       "name": "J. Cole: The Fall-Off Tour",
