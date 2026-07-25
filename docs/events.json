@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T11:39:46.245219+00:00",
+  "generated": "2026-07-25T11:07:01.018537+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -128,7 +128,7 @@
       "localDate": "2026-09-14",
       "localTime": "18:30:00",
       "dateTimeUTC": "2026-09-14T22:30:00Z",
-      "status": "onsale",
+      "status": "cancelled",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/roxette-40th-anniversary-tour-2026-montreal-quebec-09-14-2026/event/310064B4D34AED6C"
     },

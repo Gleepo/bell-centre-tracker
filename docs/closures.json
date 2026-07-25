@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T11:39:49.241358+00:00",
+  "generated": "2026-07-25T11:07:04.231311+00:00",
   "source": "Ville de Montréal — Entraves et travaux en cours",
   "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
   "attribution": "Données: Ville de Montréal",
@@ -12,11 +12,11 @@
   "radius_m": 600,
   "horizon_days": 14,
   "counts": {
-    "scanned": 1419,
-    "in_radius": 48,
-    "reported": 48,
-    "active": 47,
-    "upcoming": 1
+    "scanned": 1467,
+    "in_radius": 52,
+    "reported": 52,
+    "active": 48,
+    "upcoming": 4
   },
   "closures": [
     {
@@ -47,6 +47,33 @@
       "distance_m": 75
     },
     {
+      "id": "6a5553cc45ae010012f29ee7",
+      "permit_id": "OCC-2607FI11665464",
+      "reason": "Autre",
+      "zone": "Montagne entre Saint-Antoine et Montagne",
+      "borough": "Ville-Marie",
+      "organization": "Arena des Canadiens",
+      "streets": [
+        "rue de la Montagne"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Montagne",
+          "from": "Saint-Antoine",
+          "to": "Montagne",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-27",
+      "end_date": "2026-08-01",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 92
+    },
+    {
       "id": "6a5e5bf5034844001263a11b",
       "permit_id": "OCC-2607NB17078894",
       "reason": "Autre",
@@ -69,7 +96,7 @@
       "start_date": "2026-07-25",
       "end_date": "2026-07-26",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 93
     },
@@ -126,6 +153,33 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 139
+    },
+    {
+      "id": "6a5e54860348440012639f2d",
+      "permit_id": "OCC-2607PE17172902",
+      "reason": "Entretien",
+      "zone": "Stanley entre Canadiens-de-Montréal et René-Lévesque",
+      "borough": "Ville-Marie",
+      "organization": "Hydro-Québec-Entrave courte durée",
+      "streets": [
+        "rue Stanley"
+      ],
+      "segments": [
+        {
+          "street": "rue Stanley",
+          "from": "Canadiens-de-Montréal",
+          "to": "René-Lévesque",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-27",
+      "end_date": "2026-07-27",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 232
     },
     {
       "id": "6a3d3b4c34772f0012a75761",
@@ -245,42 +299,6 @@
       "distance_m": 294
     },
     {
-      "id": "68cb038a8f7d590012d69e45",
-      "permit_id": "OCC-2509VO15120709",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
-      "borough": "Ville-Marie",
-      "organization": "Service public et approvisionnement  Canada",
-      "streets": [
-        "rue Saint-Antoine Ouest",
-        "rue de la Cathédrale"
-      ],
-      "segments": [
-        {
-          "street": "rue de la Cathédrale",
-          "from": "Saint-Jacques",
-          "to": "Saint-Antoine",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable"
-        },
-        {
-          "street": "rue Saint-Antoine Ouest",
-          "from": "Cathédrale",
-          "to": "Peel",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable"
-        }
-      ],
-      "start_date": "2025-11-25",
-      "end_date": "2026-11-24",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 298
-    },
-    {
       "id": "68cb05f5a9e0000012ae1cfe",
       "permit_id": "OCC-2509VO15121995",
       "reason": "Construction/rénovation sans excavation",
@@ -302,6 +320,42 @@
         },
         {
           "street": "rue Saint-Jacques",
+          "from": "Cathédrale",
+          "to": "Peel",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2025-11-25",
+      "end_date": "2026-11-24",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 298
+    },
+    {
+      "id": "68cb038a8f7d590012d69e45",
+      "permit_id": "OCC-2509VO15120709",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "Service public et approvisionnement  Canada",
+      "streets": [
+        "rue Saint-Antoine Ouest",
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Saint-Antoine Ouest",
           "from": "Cathédrale",
           "to": "Peel",
           "impact": "Aucun impact / non applicable",
@@ -450,6 +504,33 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 344
+    },
+    {
+      "id": "6a57dc410348440012633c1c",
+      "permit_id": "OCC-2607AH13476548",
+      "reason": "Réseaux routier - Réfection et travaux corrélatifs",
+      "zone": "Overdale entre Lucien-L'Allier et Mackay",
+      "borough": "Ville-Marie",
+      "organization": "La Cie de Pavage Broadway Ltée",
+      "streets": [
+        "avenue Overdale"
+      ],
+      "segments": [
+        {
+          "street": "avenue Overdale",
+          "from": "Lucien-L'Allier",
+          "to": "Mackay",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-27",
+      "end_date": "2026-07-31",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 359
     },
     {
       "id": "699888ec1464910012e65959",
@@ -1085,6 +1166,33 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 473
+    },
+    {
+      "id": "6a638525034844001263f2c3",
+      "permit_id": "OCC-2607IS20528605",
+      "reason": "Égouts et aqueducs - Réhabilitation",
+      "zone": "Montfort entre Inspecteur et Saint-Jacques",
+      "borough": "Ville-Marie",
+      "organization": "Loiselle inc.",
+      "streets": [
+        "rue Montfort"
+      ],
+      "segments": [
+        {
+          "street": "rue Montfort",
+          "from": "Inspecteur",
+          "to": "Saint-Jacques",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-27",
+      "end_date": "2026-08-09",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 474
     },
     {
       "id": "6a1f0afcef86e200124ca78c",
