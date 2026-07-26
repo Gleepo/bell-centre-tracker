@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T11:07:04.231311+00:00",
+  "generated": "2026-07-26T11:16:43.184502+00:00",
   "source": "Ville de Montréal — Entraves et travaux en cours",
   "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
   "attribution": "Données: Ville de Montréal",
@@ -12,11 +12,11 @@
   "radius_m": 600,
   "horizon_days": 14,
   "counts": {
-    "scanned": 1467,
-    "in_radius": 52,
-    "reported": 52,
+    "scanned": 1298,
+    "in_radius": 55,
+    "reported": 55,
     "active": 48,
-    "upcoming": 4
+    "upcoming": 7
   },
   "closures": [
     {
@@ -209,6 +209,33 @@
       "distance_m": 267
     },
     {
+      "id": "6a6250cbcec63100126375f1",
+      "permit_id": "OCC-2607RI20367631",
+      "reason": "Entretien",
+      "zone": "René-Lévesque entre Montagne et Crescent",
+      "borough": "Ville-Marie",
+      "organization": "BSF Lavage De Vitres Inc",
+      "streets": [
+        "boulevard René-Lévesque Ouest"
+      ],
+      "segments": [
+        {
+          "street": "boulevard René-Lévesque Ouest",
+          "from": "Montagne",
+          "to": "Crescent",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-28",
+      "end_date": "2026-07-28",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 269
+    },
+    {
       "id": "6a58ec6645ae010012f2fb21",
       "permit_id": "OCC-2607TF13487179",
       "reason": "Égouts et aqueducs - Réhabilitation",
@@ -243,6 +270,33 @@
       "state": "active",
       "street_closed": true,
       "distance_m": 278
+    },
+    {
+      "id": "6a625060cec63100126375c0",
+      "permit_id": "OCC-2607BH20400178",
+      "reason": "Entretien",
+      "zone": "Montagne entre René-Lévesque et Sainte-Catherine",
+      "borough": "Ville-Marie",
+      "organization": "BSF Lavage De Vitres Inc",
+      "streets": [
+        "rue de la Montagne"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Montagne",
+          "from": "René-Lévesque",
+          "to": "Sainte-Catherine",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2026-07-28",
+      "end_date": "2026-07-28",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 284
     },
     {
       "id": "69d91d60924e8d0012f5e6d2",
@@ -299,42 +353,6 @@
       "distance_m": 294
     },
     {
-      "id": "68cb05f5a9e0000012ae1cfe",
-      "permit_id": "OCC-2509VO15121995",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Peel entre Saint-Jacques et Saint-Antoine",
-      "borough": "Ville-Marie",
-      "organization": "Service public et approvisionnement  Canada",
-      "streets": [
-        "rue Peel",
-        "rue Saint-Jacques"
-      ],
-      "segments": [
-        {
-          "street": "rue Peel",
-          "from": "Saint-Jacques",
-          "to": "Saint-Antoine",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable"
-        },
-        {
-          "street": "rue Saint-Jacques",
-          "from": "Cathédrale",
-          "to": "Peel",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable"
-        }
-      ],
-      "start_date": "2025-11-25",
-      "end_date": "2026-11-24",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 298
-    },
-    {
       "id": "68cb038a8f7d590012d69e45",
       "permit_id": "OCC-2509VO15120709",
       "reason": "Construction/rénovation sans excavation",
@@ -356,6 +374,42 @@
         },
         {
           "street": "rue Saint-Antoine Ouest",
+          "from": "Cathédrale",
+          "to": "Peel",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        }
+      ],
+      "start_date": "2025-11-25",
+      "end_date": "2026-11-24",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 298
+    },
+    {
+      "id": "68cb05f5a9e0000012ae1cfe",
+      "permit_id": "OCC-2509VO15121995",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Peel entre Saint-Jacques et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "Service public et approvisionnement  Canada",
+      "streets": [
+        "rue Peel",
+        "rue Saint-Jacques"
+      ],
+      "segments": [
+        {
+          "street": "rue Peel",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable"
+        },
+        {
+          "street": "rue Saint-Jacques",
           "from": "Cathédrale",
           "to": "Peel",
           "impact": "Aucun impact / non applicable",
@@ -1229,6 +1283,33 @@
       "state": "active",
       "street_closed": true,
       "distance_m": 475
+    },
+    {
+      "id": "6a4fb0330348440012628970",
+      "permit_id": "OCC-2607RS14389129",
+      "reason": "Entretien",
+      "zone": "Guy entre Argyle et René-Lévesque",
+      "borough": "Ville-Marie",
+      "organization": "Hydro-Québec-Entrave courte durée",
+      "streets": [
+        "rue Guy"
+      ],
+      "segments": [
+        {
+          "street": "rue Guy",
+          "from": "Argyle",
+          "to": "René-Lévesque",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Barrée"
+        }
+      ],
+      "start_date": "2026-07-28",
+      "end_date": "2026-07-28",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 489
     },
     {
       "id": "69c334632f414e0012ea8018",
