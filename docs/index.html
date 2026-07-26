@@ -19,6 +19,10 @@
     --ok: #3ecf8e;
     --warn: #f0b429;
     --radius: 14px;
+    /* Map ink, kept separate from --line so panel borders and road casing can
+       be tuned independently. */
+    --road: #38445a;
+    --ring: #4a5a75;
   }
   @media (prefers-color-scheme: light) {
     :root {
@@ -32,6 +36,8 @@
       --accent-dim: #f6d9dd;
       --ok: #14855c;
       --warn: #8a6100;
+      --road: #b9c4d4;
+      --ring: #98a6bb;
     }
   }
 
@@ -202,6 +208,96 @@
   }
   .tag.up { border-color: var(--ok); color: var(--ok); }
 
+  /* ---- map ---- */
+  .map {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.6rem;
+    margin-bottom: 0.75rem;
+  }
+  .map svg { display: block; width: 100%; height: auto; touch-action: manipulation; }
+  .map .street { stroke: var(--road); stroke-width: 7; fill: none; stroke-linecap: round; }
+  .map .ring { fill: none; stroke: var(--ring); stroke-dasharray: 22 18; stroke-width: 4; }
+  .map .cl {
+    fill: none;
+    stroke-linecap: round;
+    stroke-width: 14;
+    cursor: pointer;
+    stroke: var(--warn);
+  }
+  .map .cl.full { stroke: var(--accent); stroke-width: 17; }
+  .map .cl.sel { stroke-width: 24; }
+  .map .hit { fill: none; stroke: transparent; stroke-width: 42; cursor: pointer; }
+  .map .venue { fill: var(--accent); stroke: var(--bg); stroke-width: 10; }
+  /* Sized in SVG user units (metres): the map is ~2.1 km across in a ~340 px
+     box on a phone, so anything under ~60 units is unreadable there. */
+  .map .venue-label {
+    fill: var(--text);
+    font: 700 72px -apple-system, "Segoe UI", Roboto, sans-serif;
+    paint-order: stroke;
+    stroke: var(--bg);
+    stroke-width: 16;
+    stroke-linejoin: round;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.9rem;
+    margin-top: 0.55rem;
+    font-size: 0.7rem;
+    color: var(--muted);
+    align-items: center;
+  }
+  .legend i {
+    display: inline-block;
+    width: 15px;
+    height: 3px;
+    border-radius: 2px;
+    margin-right: 0.3rem;
+    vertical-align: middle;
+  }
+  .legend .k { white-space: nowrap; }
+  .maptip {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.6rem;
+    background: var(--panel-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    min-height: 1.2rem;
+  }
+  .maptip .muted { color: var(--muted); }
+
+  li.sel {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent) inset;
+  }
+
+  .more {
+    display: block;
+    width: 100%;
+    margin: 0.25rem 0 0.5rem;
+    padding: 0.65rem;
+    background: var(--panel-2);
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .more:hover { border-color: var(--accent); }
+  .subhead {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--muted);
+    margin: 0.9rem 0 0.5rem;
+    font-weight: 600;
+  }
+
   .empty {
     color: var(--muted);
     font-size: 0.9rem;
@@ -248,12 +344,15 @@
   <h2>Next 14 days <span class="count" id="ev-count"></span></h2>
   <div id="events"></div>
 
-  <h2>Road closures within 600 m <span class="count" id="cl-count"></span></h2>
+  <h2 id="cl-heading">Road closures <span class="count" id="cl-count"></span></h2>
+  <div id="map-wrap"></div>
   <div id="closures"></div>
 
   <footer>
-    <div>Events: Ticketmaster Discovery API. Road closures: <strong>Données&nbsp;: Ville de Montréal</strong>
-      (<a href="https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d" rel="noopener">Entraves et travaux en cours</a>, CC&#8209;BY&nbsp;4.0).</div>
+    <div>Events: Ticketmaster Discovery API. Road closures and street geometry:
+      <strong>Données&nbsp;: Ville de Montréal</strong>
+      (<a href="https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d" rel="noopener">Entraves et travaux en cours</a>
+      and <a href="https://donnees.montreal.ca/dataset/geobase" rel="noopener">Géobase</a>, CC&#8209;BY&nbsp;4.0).</div>
     <div id="foot-note"></div>
     <div><a href="./bell-centre.ics">Subscribe to the calendar feed (.ics)</a></div>
   </footer>
@@ -332,8 +431,8 @@
       .catch(function () { return null; });
   }
 
-  Promise.all([grab("./events.json"), grab("./closures.json")])
-    .then(function (res) { render(res[0], res[1]); })
+  Promise.all([grab("./events.json"), grab("./closures.json"), grab("./streets.json")])
+    .then(function (res) { render(res[0], res[1], res[2]); })
     .catch(function (e) {
       $("hero").innerHTML = "";
       $("hero").appendChild(el("div", "label", "Error"));
@@ -341,12 +440,12 @@
       if (window.console) console.error(e);
     });
 
-  function render(events, closures) {
+  function render(events, closures, streets) {
     renderAsOf(events, closures);
     var list = usableEvents(events);
     renderHero(list);
     renderEvents(list);
-    renderClosures(closures);
+    renderClosures(closures, streets);
   }
 
   function renderAsOf(events, closures) {
@@ -523,10 +622,173 @@
     return s;
   }
 
-  function renderClosures(data) {
+  function closureTitle(c) {
+    return c.streets && c.streets.length ? c.streets.join(", ") : (c.zone || "Unnamed location");
+  }
+
+  // ---- map ---------------------------------------------------------------
+  // Geometry arrives as lon/lat. Over a 1 km radius a flat local projection is
+  // accurate to centimetres, so the SVG user space is simply metres from the
+  // Bell Centre, y flipped so north is up.
+  var SVG_NS = "http://www.w3.org/2000/svg";
+  var MPD_LAT = 111132.0;
+
+  function svg(tag, attrs) {
+    var n = document.createElementNS(SVG_NS, tag);
+    for (var k in attrs) if (attrs.hasOwnProperty(k)) n.setAttribute(k, attrs[k]);
+    return n;
+  }
+
+  function renderMap(data, streets) {
+    var host = $("map-wrap");
+    host.textContent = "";
+
+    var centre = (data && data.reference_point) || (streets && streets.center);
+    if (!centre) return null;
+
+    // Does anything actually have geometry? Without it a map would be blank.
+    var drawable = [];
+    (data.closures || []).forEach(function (c, i) {
+      (c.segments || []).forEach(function (s) {
+        (s.lines || []).forEach(function (line) {
+          if (line && line.length > 1) drawable.push({ line: line, c: c, i: i, seg: s });
+        });
+      });
+    });
+    // No closure geometry means the map would be a bare street grid, which
+    // reads as "nothing is closed" - worse than no map. Fall back to the list.
+    if (!drawable.length) return null;
+
+    var lat0 = centre.lat, lon0 = centre.lon;
+    var mpdLon = 111320.0 * Math.cos(lat0 * Math.PI / 180);
+    function px(pt) { return (pt[0] - lon0) * mpdLon; }
+    function py(pt) { return -(pt[1] - lat0) * MPD_LAT; }
+    function path(line) {
+      var d = "";
+      for (var i = 0; i < line.length; i++) {
+        d += (i ? "L" : "M") + px(line[i]).toFixed(1) + " " + py(line[i]).toFixed(1);
+      }
+      return d;
+    }
+
+    var R = (data && data.radius_m) || 1000;
+    var pad = 60;
+    var box = R + pad;
+    var card = el("div", "map");
+    var s = svg("svg", {
+      viewBox: [-box, -box, box * 2, box * 2].join(" "),
+      role: "img",
+      "aria-label": "Map of road closures around the Bell Centre"
+    });
+
+    // basemap first, so closures always draw on top
+    if (streets && streets.streets) {
+      var g = svg("g", null);
+      streets.streets.forEach(function (st) {
+        if (!st.line || st.line.length < 2) return;
+        g.appendChild(svg("path", { d: path(st.line), "class": "street" }));
+      });
+      s.appendChild(g);
+    }
+
+    s.appendChild(svg("circle", { cx: 0, cy: 0, r: R, "class": "ring" }));
+
+    var paths = [];   // closure index -> its <path> elements, for highlighting
+    var gc = svg("g", null);
+    drawable.forEach(function (d) {
+      var cls = "cl" + (d.c.street_closed ? " full" : "");
+      var p = svg("path", { d: path(d.line), "class": cls });
+      // A 14 px line is a small tap target on a phone; a transparent fat
+      // sibling gives it a finger-sized one without thickening the visuals.
+      var hit = svg("path", { d: path(d.line), "class": "hit" });
+      gc.appendChild(p);
+      gc.appendChild(hit);
+      (paths[d.i] = paths[d.i] || []).push(p);
+      function pick(ev) { ev.preventDefault(); select(d.i, true); }
+      hit.addEventListener("click", pick);
+      p.addEventListener("click", pick);
+    });
+    s.appendChild(gc);
+
+    s.appendChild(svg("circle", { cx: 0, cy: 0, r: 34, "class": "venue" }));
+    var lbl = svg("text", { x: 56, y: 26, "class": "venue-label" });
+    lbl.textContent = "Bell Centre";
+    s.appendChild(lbl);
+
+    card.appendChild(s);
+
+    var legend = el("div", "legend");
+    function key(cls, text) {
+      var k = el("span", "k");
+      var i = el("i");
+      i.style.background = cls;
+      k.appendChild(i);
+      k.appendChild(document.createTextNode(text));
+      legend.appendChild(k);
+    }
+    key("var(--accent)", "Street closed");
+    key("var(--warn)", "Lane / parking");
+    key("var(--road)", "Other streets");
+    legend.appendChild(el("span", "k", "Ring = " + (R >= 1000 ? (R / 1000) + " km" : R + " m")));
+    card.appendChild(legend);
+
+    var tip = el("div", "maptip");
+    tip.appendChild(el("span", "muted", "Tap a coloured street for details."));
+    card.appendChild(tip);
+
+    host.appendChild(card);
+
+    var selected = null;
+    function select(i, scroll) {
+      if (selected !== null && paths[selected]) {
+        paths[selected].forEach(function (p) { p.classList.remove("sel"); });
+        var prev = document.getElementById("cl-" + selected);
+        if (prev) prev.classList.remove("sel");
+      }
+      if (selected === i) { selected = null; showTip(null); return; }
+      selected = i;
+      if (paths[i]) paths[i].forEach(function (p) { p.classList.add("sel"); });
+      var li = document.getElementById("cl-" + i);
+      // The collapsed group isn't built until it is first opened, so a tap on
+      // one of its streets finds no list row at all - expand, then look again.
+      if (!li && expandAll) {
+        expandAll();
+        li = document.getElementById("cl-" + i);
+      }
+      if (li) {
+        li.classList.add("sel");
+        if (li.offsetParent === null && expandAll) expandAll();
+        if (scroll) li.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+      showTip((data.closures || [])[i]);
+    }
+    function showTip(c) {
+      tip.textContent = "";
+      if (!c) {
+        tip.appendChild(el("span", "muted", "Tap a coloured street for details."));
+        return;
+      }
+      var strong = el("strong", null, closureTitle(c));
+      tip.appendChild(strong);
+      tip.appendChild(document.createElement("br"));
+      var bits = fmtDate(c.start_date) + " → " + (c.end_date ? fmtDate(c.end_date) : "ongoing");
+      if (c.reason) bits += " · " + c.reason;
+      var dist = fmtDist(c.distance_m);
+      if (dist) bits += " · " + dist;
+      tip.appendChild(el("span", "muted", bits));
+    }
+
+    return select;
+  }
+
+  var expandAll = null;
+
+  function renderClosures(data, streets) {
     var host = $("closures");
     host.textContent = "";
     $("cl-count").textContent = "";
+    $("map-wrap").textContent = "";
+    expandAll = null;
 
     if (!data) {
       host.appendChild(el("div", "empty", "Closure data is unavailable right now. Events above are unaffected."));
@@ -535,25 +797,74 @@
     }
 
     var items = (data.closures || []).slice();
-    var radius = data.radius_m || 600;
+    var radius = data.radius_m || 1000;
+    var radiusLabel = radius >= 1000 ? (radius / 1000) + " km" : radius + " m";
+    $("cl-heading").firstChild.nodeValue = "Road closures within " + radiusLabel + " ";
     $("foot-note").textContent =
-      "Closures are permits within " + radius + " m of the Bell Centre that are active now or start within " +
-      (data.horizon_days || HORIZON_DAYS) + " days. Distance is measured from the permit's own coordinates.";
+      "Closures are permits within " + radiusLabel + " of the Bell Centre that are active now or start within " +
+      (data.horizon_days || HORIZON_DAYS) + " days. Distance is measured from the permit's own coordinates; " +
+      "the map draws the affected blocks from the city's road centrelines.";
 
     if (!items.length) {
-      host.appendChild(el("div", "empty", "No road closures within " + radius + " m right now."));
+      host.appendChild(el("div", "empty", "No road closures within " + radiusLabel + " right now."));
       return;
     }
 
     $("cl-count").textContent = "(" + items.length + ")";
 
-    var ul = el("ul", "list");
-    items.forEach(function (c) {
-      var li = el("li");
+    var select = renderMap(data, streets);
 
-      var title = c.streets && c.streets.length ? c.streets.join(", ") : (c.zone || "Unnamed location");
-      var t = el("div", "t", title);
-      li.appendChild(t);
+    // Streets actually barred come first and stay open; lane- and parking-only
+    // permits are the bulk of the list and sit behind a toggle so the page
+    // stays thumb-scrollable on a phone.
+    var full = [], minor = [];
+    items.forEach(function (c, i) {
+      (c.street_closed ? full : minor).push({ c: c, i: i });
+    });
+
+    if (full.length) {
+      host.appendChild(el("div", "subhead", "Streets closed (" + full.length + ")"));
+      host.appendChild(buildList(full, select));
+    }
+
+    if (minor.length) {
+      var wrap = el("div");
+      wrap.style.display = "none";
+      var btn = el("button", "more",
+        "Show " + minor.length + " lane, sidewalk & parking closure" + (minor.length === 1 ? "" : "s"));
+      btn.setAttribute("aria-expanded", "false");
+      var built = false;
+      expandAll = function () {
+        if (wrap.style.display === "") return;
+        if (!built) { wrap.appendChild(buildList(minor, select)); built = true; }
+        wrap.style.display = "";
+        btn.setAttribute("aria-expanded", "true");
+        btn.textContent = "Hide lane, sidewalk & parking closures";
+      };
+      btn.addEventListener("click", function () {
+        if (wrap.style.display === "none") {
+          expandAll();
+        } else {
+          wrap.style.display = "none";
+          btn.setAttribute("aria-expanded", "false");
+          btn.textContent = "Show " + minor.length + " lane, sidewalk & parking closure" +
+            (minor.length === 1 ? "" : "s");
+        }
+      });
+      if (!full.length) expandAll();
+      host.appendChild(btn);
+      host.appendChild(wrap);
+    }
+  }
+
+  function buildList(entries, select) {
+    var ul = el("ul", "list");
+    entries.forEach(function (entry) {
+      var c = entry.c;
+      var li = el("li");
+      li.id = "cl-" + entry.i;
+
+      li.appendChild(el("div", "t", closureTitle(c)));
 
       var sub = [];
       if (c.reason) sub.push(c.reason);
@@ -576,12 +887,17 @@
 
       if (segs.length) {
         var detail = segs.map(segmentLine).filter(Boolean).join(" | ");
-        if (detail && detail !== title) li.appendChild(el("div", "s", detail));
+        if (detail && detail !== closureTitle(c)) li.appendChild(el("div", "s", detail));
+      }
+
+      if (select && segs.some(function (s) { return s.lines && s.lines.length; })) {
+        li.style.cursor = "pointer";
+        li.addEventListener("click", function () { select(entry.i, false); });
       }
 
       ul.appendChild(li);
     });
-    host.appendChild(ul);
+    return ul;
   }
 })();
 </script>

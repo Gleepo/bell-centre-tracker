@@ -28,22 +28,53 @@ Ticketmaster Discovery API and GitHub Actions. No server required.
 
 `https://gleepo.github.io/bell-centre-tracker/` — a single static page
 (`docs/index.html`, no build step, no frameworks) showing the next event with a
-live countdown, the next 14 days of events, and road closures near the venue.
-It fetches `events.json` and `closures.json` over relative paths, so it works
-from any subpath, and it renders the events half normally when the closures
-feed is missing or empty.
+live countdown, the next 14 days of events, a map of nearby road closures, and
+the closure list. It fetches `events.json`, `closures.json` and `streets.json`
+over relative paths, so it works from any subpath.
+
+- The map is inline SVG drawn from baked-in geometry — no tiles, no Leaflet, no
+  runtime requests to anything. SVG user space is metres from the Bell Centre
+  (a flat local projection, accurate to centimetres over 1 km), so the geometry
+  maths is plain arithmetic.
+- Red = street barred, amber = lane/parking only, grey = other streets. Tapping
+  a coloured street selects it, shows its dates, and scrolls to its list entry;
+  tapping a list entry highlights it on the map.
+- Streets actually barred are listed first; lane-, sidewalk- and parking-only
+  permits sit behind a toggle, since at a 1 km radius they are the bulk of the
+  list. Tapping one of them on the map expands the group automatically.
+- It degrades in stages: no `streets.json` → closures still drawn without the
+  street backdrop; no geometry at all → the map is dropped and the list stands
+  alone (a bare street grid would read as "nothing is closed"); no
+  `closures.json` → events-only view.
 
 ## Road closures
 
-`fetch_closures.py` writes `docs/closures.json` from the City of Montreal's
-"Entraves et travaux en cours" open data (CC-BY 4.0). It keeps permits that are
-active now or start within 14 days **and** lie within 600 m of the Bell Centre
+`fetch_closures.py` writes `docs/closures.json` and `docs/streets.json` from the
+City of Montreal's open data (CC-BY 4.0). It keeps permits that are active now
+or start within 14 days **and** lie within 1 km of the Bell Centre
 (45.4960, -73.5693).
 
-- Two CSVs make up the dataset. The main one carries the permit and, usefully, a
-  `longitude`/`latitude` pair — so closures are located by haversine distance,
-  not by street-name matching. The companion "impacts" CSV carries the affected
-  street segments and joins on `id_request` → `id`.
+- Two CSVs make up the closure dataset. The main one carries the permit and,
+  usefully, a `longitude`/`latitude` pair — so closures are located by haversine
+  distance, not by street-name matching. The companion "impacts" CSV carries the
+  affected street segments and joins on `id_request` → `id`.
+- **Geometry comes from a third dataset, [Géobase](https://donnees.montreal.ca/dataset/geobase)**
+  (the city's road centreline network, ~43 MB). A closure names a street and two
+  cross streets ("Sainte-Catherine entre Drummond et Crescent"), so the affected
+  block is recovered by locating both intersections in Géobase and keeping the
+  centreline between them. Géobase splits streets at intersections, so a corner
+  is a shared vertex and no true line-line intersection is needed. Where the
+  cross streets can't be resolved — the feed sometimes repeats the street as its
+  own bound, or names a limit that isn't a street ("136 entre 720 et 720") — it
+  falls back to the segments nearest the permit's own coordinates. The Actions
+  log prints the split.
+- Street names join by folding away accents, type words (`rue`, `boulevard`, …),
+  direction (`Ouest`) and articles: the impacts CSV says "rue Sainte-Catherine
+  Ouest" where Géobase's `NOM_VOIE` is "Sainte-Catherine". All street references
+  in the radius currently match.
+- Géobase is only fetched for the map. If it is unreachable or malformed the
+  step still succeeds and writes `closures.json` without geometry — the map is
+  an enhancement, not a requirement.
 - **The feed's timestamps apply the UTC offset with the wrong sign.** Every
   start is stamped `20:00:00Z` in EDT months and `19:00:00Z` in EST months (ends
   `19:59:59Z` / `18:59:59Z`), so *adding* the offset lands on local midnight and
@@ -51,11 +82,14 @@ active now or start within 14 days **and** lie within 600 m of the Bell Centre
   See `city_local_date()`. Timestamps outside that fingerprint are converted
   normally and counted separately in the log, so a fix upstream won't break it.
 - Roughly 9% of permits have no rows in the impacts CSV; those show their
-  `occupancy_name` zone instead of street names.
+  `occupancy_name` zone instead of street names, and can't be drawn on the map.
 - `currentstatus` is `Permis émis` for every row today, so it isn't a useful
   filter — it's carried into the JSON anyway in case that changes.
 - The portal returns `503 no healthy upstream` during its daily reload, so
-  downloads retry with backoff.
+  downloads retry with backoff. This fires regularly in practice.
+- Output files are only rewritten when the data actually changes; the per-run
+  `generated` timestamp is ignored in that comparison, which matters most for
+  the ~90 KB basemap that changes only when the city edits the road network.
 
 ## Notes
 
