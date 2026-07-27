@@ -1,17 +1,7 @@
 {
-  "generated": "2026-07-26T11:16:39.233435+00:00",
+  "generated": "2026-07-27T12:53:53.860421+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G61Mi5ryZ",
-      "name": "AEW PRESENTS REDEMPTION PPV",
-      "localDate": "2026-07-26",
-      "localTime": "18:00:00",
-      "dateTimeUTC": "2026-07-26T22:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/aew-presents-redemption-ppv-montreal-quebec-07-26-2026/event/310064ADEC2DEE40"
-    },
     {
       "id": "1AsZkG_GkdqixiL",
       "name": "Ariana Grande - The Eternal Sunshine Tour",
