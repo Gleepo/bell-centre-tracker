@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T12:53:59.467540+00:00",
+  "generated": "2026-07-28T11:55:42.981241+00:00",
   "source": "Ville de Montréal — Entraves et travaux en cours",
   "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
   "attribution": "Données: Ville de Montréal",
@@ -12,11 +12,11 @@
   "radius_m": 1000,
   "horizon_days": 14,
   "counts": {
-    "scanned": 1345,
-    "in_radius": 127,
+    "scanned": 1426,
+    "in_radius": 128,
     "reported": 125,
-    "active": 117,
-    "upcoming": 8
+    "active": 118,
+    "upcoming": 7
   },
   "closures": [
     {
@@ -434,66 +434,6 @@
       "distance_m": 139
     },
     {
-      "id": "6a5e54860348440012639f2d",
-      "permit_id": "OCC-2607PE17172902",
-      "reason": "Entretien",
-      "zone": "Stanley entre Canadiens-de-Montréal et René-Lévesque",
-      "borough": "Ville-Marie",
-      "organization": "Hydro-Québec-Entrave courte durée",
-      "streets": [
-        "rue Stanley"
-      ],
-      "segments": [
-        {
-          "street": "rue Stanley",
-          "from": "Canadiens-de-Montréal",
-          "to": "René-Lévesque",
-          "impact": "Voie de stationnement et voie de circulation obstruées",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.5709,
-                45.49801
-              ],
-              [
-                -73.57103,
-                45.49808
-              ]
-            ],
-            [
-              [
-                -73.56987,
-                45.49751
-              ],
-              [
-                -73.5709,
-                45.49801
-              ]
-            ],
-            [
-              [
-                -73.56929,
-                45.49724
-              ],
-              [
-                -73.56987,
-                45.49751
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-07-27",
-      "end_date": "2026-07-27",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 232
-    },
-    {
       "id": "6a3d3b4c34772f0012a75761",
       "permit_id": "OCC-2606QU22133245",
       "reason": "Égouts et aqueducs - Réhabilitation",
@@ -609,7 +549,7 @@
       "start_date": "2026-07-28",
       "end_date": "2026-07-28",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 269
     },
@@ -833,7 +773,7 @@
       "start_date": "2026-07-28",
       "end_date": "2026-07-28",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 284
     },
@@ -938,6 +878,88 @@
       "distance_m": 294
     },
     {
+      "id": "68cb038a8f7d590012d69e45",
+      "permit_id": "OCC-2509VO15120709",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "Service public et approvisionnement  Canada",
+      "streets": [
+        "rue Saint-Antoine Ouest",
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56401,
+                45.49657
+              ],
+              [
+                -73.56469,
+                45.49689
+              ]
+            ],
+            [
+              [
+                -73.56469,
+                45.49689
+              ],
+              [
+                -73.56603,
+                45.49752
+              ]
+            ]
+          ],
+          "located": "between"
+        },
+        {
+          "street": "rue Saint-Antoine Ouest",
+          "from": "Cathédrale",
+          "to": "Peel",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56555,
+                45.4979
+              ],
+              [
+                -73.56603,
+                45.49752
+              ]
+            ],
+            [
+              [
+                -73.56603,
+                45.49752
+              ],
+              [
+                -73.56681,
+                45.49689
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2025-11-25",
+      "end_date": "2026-11-24",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 298
+    },
+    {
       "id": "68cb05f5a9e0000012ae1cfe",
       "permit_id": "OCC-2509VO15121995",
       "reason": "Construction/rénovation sans excavation",
@@ -1040,88 +1062,6 @@
               [
                 -73.56575,
                 45.49579
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2025-11-25",
-      "end_date": "2026-11-24",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 298
-    },
-    {
-      "id": "68cb038a8f7d590012d69e45",
-      "permit_id": "OCC-2509VO15120709",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
-      "borough": "Ville-Marie",
-      "organization": "Service public et approvisionnement  Canada",
-      "streets": [
-        "rue Saint-Antoine Ouest",
-        "rue de la Cathédrale"
-      ],
-      "segments": [
-        {
-          "street": "rue de la Cathédrale",
-          "from": "Saint-Jacques",
-          "to": "Saint-Antoine",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56401,
-                45.49657
-              ],
-              [
-                -73.56469,
-                45.49689
-              ]
-            ],
-            [
-              [
-                -73.56469,
-                45.49689
-              ],
-              [
-                -73.56603,
-                45.49752
-              ]
-            ]
-          ],
-          "located": "between"
-        },
-        {
-          "street": "rue Saint-Antoine Ouest",
-          "from": "Cathédrale",
-          "to": "Peel",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56555,
-                45.4979
-              ],
-              [
-                -73.56603,
-                45.49752
-              ]
-            ],
-            [
-              [
-                -73.56603,
-                45.49752
-              ],
-              [
-                -73.56681,
-                45.49689
               ]
             ]
           ],
@@ -1706,6 +1646,76 @@
       "distance_m": 391
     },
     {
+      "id": "6a32bf2c34772f0012a66540",
+      "permit_id": "OCC-2606YN25478794",
+      "reason": "Autre",
+      "zone": "Mansfield entre De La Gauchetière et René-Lévesque",
+      "borough": "Ville-Marie",
+      "organization": "Tennis Canada",
+      "streets": [
+        "rue Mansfield"
+      ],
+      "segments": [
+        {
+          "street": "rue Mansfield",
+          "from": "De La Gauchetière",
+          "to": "René-Lévesque",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56516,
+                45.49823
+              ],
+              [
+                -73.56668,
+                45.49897
+              ]
+            ],
+            [
+              [
+                -73.56668,
+                45.49897
+              ],
+              [
+                -73.56784,
+                45.49953
+              ]
+            ],
+            [
+              [
+                -73.56784,
+                45.49953
+              ],
+              [
+                -73.56897,
+                45.50007
+              ]
+            ],
+            [
+              [
+                -73.56897,
+                45.50007
+              ],
+              [
+                -73.5691,
+                45.50014
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-15",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 397
+    },
+    {
       "id": "6a551835034844001262dc23",
       "permit_id": "OCC-2607TV10977256",
       "reason": "Construction/rénovation sans excavation",
@@ -1764,6 +1774,66 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 400
+    },
+    {
+      "id": "6a32c09034772f0012a665bd",
+      "permit_id": "OCC-2606SV25483766",
+      "reason": "Autre",
+      "zone": "Mansfield entre De La Gauchetière et Belmont",
+      "borough": "Ville-Marie",
+      "organization": "Tennis Canada",
+      "streets": [
+        "rue Mansfield"
+      ],
+      "segments": [
+        {
+          "street": "rue Mansfield",
+          "from": "De La Gauchetière",
+          "to": "Belmont",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56516,
+                45.49823
+              ],
+              [
+                -73.56668,
+                45.49897
+              ]
+            ],
+            [
+              [
+                -73.56668,
+                45.49897
+              ],
+              [
+                -73.56784,
+                45.49953
+              ]
+            ],
+            [
+              [
+                -73.56784,
+                45.49953
+              ],
+              [
+                -73.56897,
+                45.50007
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-14",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 401
     },
     {
       "id": "6854450f42647900121571b9",
@@ -2460,242 +2530,6 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 452
-    },
-    {
-      "id": "6a3a9a8d34772f0012a719a6",
-      "permit_id": "OCC-2606PD19537107",
-      "reason": "Égouts et aqueducs - Réhabilitation",
-      "zone": "136 entre 720 et 720",
-      "borough": "Ville-Marie",
-      "organization": "Loiselle inc.",
-      "streets": [
-        "route 136",
-        "rue Mansfield",
-        "rue Saint-Jacques"
-      ],
-      "segments": [
-        {
-          "street": "rue Saint-Jacques",
-          "from": "Saint-Jacques",
-          "to": "Mansfield",
-          "impact": "Rue barrée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56396,
-                45.49764
-              ],
-              [
-                -73.56423,
-                45.49736
-              ]
-            ],
-            [
-              [
-                -73.56423,
-                45.49736
-              ],
-              [
-                -73.56431,
-                45.49728
-              ]
-            ],
-            [
-              [
-                -73.56431,
-                45.49728
-              ],
-              [
-                -73.56469,
-                45.49689
-              ]
-            ],
-            [
-              [
-                -73.56469,
-                45.49689
-              ],
-              [
-                -73.56535,
-                45.4962
-              ]
-            ],
-            [
-              [
-                -73.56253,
-                45.49913
-              ],
-              [
-                -73.56266,
-                45.49899
-              ]
-            ],
-            [
-              [
-                -73.56266,
-                45.49899
-              ],
-              [
-                -73.56299,
-                45.49865
-              ]
-            ],
-            [
-              [
-                -73.56346,
-                45.49815
-              ],
-              [
-                -73.56396,
-                45.49764
-              ]
-            ],
-            [
-              [
-                -73.56299,
-                45.49865
-              ],
-              [
-                -73.56346,
-                45.49815
-              ]
-            ]
-          ],
-          "located": "near-point"
-        },
-        {
-          "street": "route 136",
-          "from": "720",
-          "to": "720",
-          "impact": "Rue barrée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.57275,
-                45.49253
-              ],
-              [
-                -73.57192,
-                45.49306
-              ],
-              [
-                -73.57106,
-                45.4935
-              ],
-              [
-                -73.56687,
-                45.49512
-              ],
-              [
-                -73.56584,
-                45.4957
-              ],
-              [
-                -73.56494,
-                45.49638
-              ],
-              [
-                -73.56426,
-                45.49714
-              ],
-              [
-                -73.56387,
-                45.49789
-              ],
-              [
-                -73.56364,
-                45.49891
-              ],
-              [
-                -73.56355,
-                45.50028
-              ],
-              [
-                -73.56331,
-                45.50088
-              ]
-            ],
-            [
-              [
-                -73.57077,
-                45.49379
-              ],
-              [
-                -73.56638,
-                45.49543
-              ],
-              [
-                -73.56538,
-                45.49604
-              ],
-              [
-                -73.56465,
-                45.49668
-              ],
-              [
-                -73.56416,
-                45.49731
-              ],
-              [
-                -73.56388,
-                45.49789
-              ],
-              [
-                -73.5637,
-                45.49855
-              ],
-              [
-                -73.56349,
-                45.50002
-              ],
-              [
-                -73.56309,
-                45.50106
-              ],
-              [
-                -73.56238,
-                45.50229
-              ],
-              [
-                -73.56095,
-                45.50429
-              ]
-            ]
-          ],
-          "located": "near-point"
-        },
-        {
-          "street": "rue Mansfield",
-          "from": "Saint-Jacques",
-          "to": "Saint-Antoine",
-          "impact": "Rue barrée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56396,
-                45.49764
-              ],
-              [
-                -73.56516,
-                45.49823
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-05-04",
-      "end_date": "2026-07-27",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": true,
-      "distance_m": 459
     },
     {
       "id": "6a1efff7ef86e200124ca406",
@@ -3467,7 +3301,7 @@
       "start_date": "2026-07-28",
       "end_date": "2026-07-28",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 489
     },
@@ -5415,7 +5249,7 @@
       "start_date": "2026-07-28",
       "end_date": "2026-07-28",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 687
     },
@@ -6468,48 +6302,64 @@
       "distance_m": 791
     },
     {
-      "id": "6a58cbcb0348440012634a76",
-      "permit_id": "OCC-2607GZ13485942",
-      "reason": "Entretien",
-      "zone": "Beaver Hall entre Square-Victoria et De La Gauchetière",
+      "id": "6a5a641e45ae010012f329a4",
+      "permit_id": "OCC-2607AV16884589",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Union entre René-Lévesque et Cathcart",
       "borough": "Ville-Marie",
-      "organization": "Entretien McGill Inc",
+      "organization": "Constructions ConCreate ltée.",
       "streets": [
-        "côte du Beaver Hall"
+        "avenue Union"
       ],
       "segments": [
         {
-          "street": "côte du Beaver Hall",
-          "from": "Square-Victoria",
-          "to": "De La Gauchetière",
-          "impact": "Aucun impact / non applicable",
+          "street": "avenue Union",
+          "from": "René-Lévesque",
+          "to": "Cathcart",
+          "impact": "Voie de stationnement obstruée",
           "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
           "bike_path": "Aucun impact / non applicable",
           "lines": [
             [
               [
-                -73.56315,
-                45.50194
+                -73.5655,
+                45.50186
               ],
               [
-                -73.56369,
-                45.50214
+                -73.56672,
+                45.50247
+              ]
+            ],
+            [
+              [
+                -73.56684,
+                45.50257
               ],
               [
-                -73.5642,
-                45.50223
+                -73.56842,
+                45.50338
+              ]
+            ],
+            [
+              [
+                -73.56672,
+                45.50247
+              ],
+              [
+                -73.56684,
+                45.50257
               ]
             ]
           ],
           "located": "between"
         }
       ],
-      "start_date": "2026-07-27",
-      "end_date": "2026-07-27",
+      "start_date": "2026-07-30",
+      "end_date": "2026-07-30",
       "status": "Permis émis",
-      "state": "active",
+      "state": "upcoming",
       "street_closed": false,
-      "distance_m": 801
+      "distance_m": 798
     },
     {
       "id": "6a1d7d8df588d70012153581",
