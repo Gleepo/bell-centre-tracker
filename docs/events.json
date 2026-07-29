@@ -1,17 +1,7 @@
 {
-  "generated": "2026-07-27T12:53:53.860421+00:00",
+  "generated": "2026-07-29T11:59:01.616875+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1AsZkG_GkdqixiL",
-      "name": "Ariana Grande - The Eternal Sunshine Tour",
-      "localDate": "2026-07-28",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-07-29T00:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F"
-    },
     {
       "id": "1AsZkG_GkdrCxiM",
       "name": "Ariana Grande - The Eternal Sunshine Tour",
@@ -91,16 +81,6 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/rush-fifty-something-montreal-quebec-09-04-2026/event/31006351ACA084EA"
-    },
-    {
-      "id": "1kG8v0qaGA1PPjq",
-      "name": "Lily Allen Performs West End Girl",
-      "localDate": "2026-09-08",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-09-09T00:00:00Z",
-      "status": "cancelled",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/lily-allen-performs-west-end-girl-montreal-quebec-09-08-2026/event/310064749A96571D"
     },
     {
       "id": "17G8v0G65KK3mgi",
