@@ -1,17 +1,7 @@
 {
-  "generated": "2026-07-29T11:59:01.616875+00:00",
+  "generated": "2026-07-31T11:56:59.093123+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1AsZkG_GkdrCxiM",
-      "name": "Ariana Grande - The Eternal Sunshine Tour",
-      "localDate": "2026-07-30",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-07-31T00:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37"
-    },
     {
       "id": "1AsZkG_GkdrMecG",
       "name": "Ariana Grande - The Eternal Sunshine Tour",
@@ -93,26 +83,6 @@
       "url": "https://www.ticketmaster.ca/roxette-40th-anniversary-tour-2026-montreal-quebec-09-14-2026/event/310064B4D34AED6C"
     },
     {
-      "id": "Z7r9jZ1A7J4j9",
-      "name": "Montreal Canadiens vs. Toronto Maple Leafs",
-      "localDate": "2026-09-19",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-09-19T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4j9"
-    },
-    {
-      "id": "Z7r9jZ1A7PV7-",
-      "name": "Montreal Canadiens vs. Ottawa Senators",
-      "localDate": "2026-09-26",
-      "localTime": null,
-      "dateTimeUTC": null,
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PV7-"
-    },
-    {
       "id": "1Ad7Z_AGkn9lp2S",
       "name": "Gorillaz - The Mountain Tour",
       "localDate": "2026-10-03",
@@ -121,16 +91,6 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/gorillaz-the-mountain-tour-montreal-quebec-10-03-2026/event/3100645A97AD63F3"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jb",
-      "name": "Montreal Canadiens vs. Carolina Hurricanes",
-      "localDate": "2026-10-06",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-06T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jb"
     },
     {
       "id": "1Ad7Z_FGkM9lFwl",
@@ -143,16 +103,6 @@
       "url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-quebec-10-07-2026/event/3100648DD7AC8CAB"
     },
     {
-      "id": "Z7r9jZ1A7J4j_",
-      "name": "Montreal Canadiens vs. Nashville Predators",
-      "localDate": "2026-10-08",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-08T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4j_"
-    },
-    {
       "id": "17G8v0G61BQjJfg",
       "name": "The Smashing Pumpkins: The Rats In A Cage Tour",
       "localDate": "2026-10-09",
@@ -161,46 +111,6 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-montreal-quebec-10-09-2026/event/310064AE9A726535"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jO",
-      "name": "Montreal Canadiens vs. Detroit Red Wings",
-      "localDate": "2026-10-10",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-10T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jO"
-    },
-    {
-      "id": "Z7r9jZ1A7J4j-",
-      "name": "Montreal Canadiens vs. Buffalo Sabres",
-      "localDate": "2026-10-13",
-      "localTime": "18:30:00",
-      "dateTimeUTC": "2026-10-13T22:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4j-"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jx",
-      "name": "Montreal Canadiens vs. Buffalo Sabres",
-      "localDate": "2026-10-17",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-17T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jx"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jN",
-      "name": "Montreal Canadiens vs. San Jose Sharks",
-      "localDate": "2026-10-20",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-20T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jN"
     },
     {
       "id": "1Ad7Z_aGkmbY4v9",
@@ -263,26 +173,6 @@
       "url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3"
     },
     {
-      "id": "Z7r9jZ1A7J4j0",
-      "name": "Montreal Canadiens vs. Pittsburgh Penguins",
-      "localDate": "2026-10-31",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-31T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4j0"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jP",
-      "name": "Montreal Canadiens vs. Winnipeg Jets",
-      "localDate": "2026-11-03",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-04T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jP"
-    },
-    {
       "id": "1Ad7Zb8GkHddkki",
       "name": "Fally Ipupa: Coming To The Americas Tour",
       "localDate": "2026-11-04",
@@ -291,46 +181,6 @@
       "status": "cancelled",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/fally-ipupa-coming-to-the-americas-montreal-quebec-11-04-2026/event/3100610F030C61AC"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jJ",
-      "name": "Montreal Canadiens vs. Utah Mammoth",
-      "localDate": "2026-11-05",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-06T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jJ"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jE",
-      "name": "Montreal Canadiens vs. Minnesota Wild",
-      "localDate": "2026-11-10",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-11T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jE"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jI",
-      "name": "Montreal Canadiens vs. Colorado Avalanche",
-      "localDate": "2026-11-14",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-15T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jI"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jt",
-      "name": "Montreal Canadiens vs. Philadelphia Flyers",
-      "localDate": "2026-11-21",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-22T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jt"
     },
     {
       "id": "17G8v0G6ClFL9p2",
@@ -343,16 +193,6 @@
       "url": "https://www.ticketmaster.ca/rocket-de-laval-c-calgary-wranglers-montreal-quebec-11-22-2026/event/310064EAC87D758F"
     },
     {
-      "id": "Z7r9jZ1A7J4jY",
-      "name": "Montreal Canadiens vs. Los Angeles Kings",
-      "localDate": "2026-11-23",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2026-11-24T00:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jY"
-    },
-    {
       "id": "1AsZkGyGkeMVJJT",
       "name": "Doja Cat - Tour Ma Vie World Tour",
       "localDate": "2026-11-27",
@@ -361,56 +201,6 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF"
-    },
-    {
-      "id": "Z7r9jZ1A7J4js",
-      "name": "Montreal Canadiens vs. Tampa Bay Lightning",
-      "localDate": "2026-12-02",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2026-12-03T00:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4js"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jw",
-      "name": "Montreal Canadiens vs. Florida Panthers",
-      "localDate": "2026-12-05",
-      "localTime": "13:00:00",
-      "dateTimeUTC": "2026-12-05T18:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jw"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jS",
-      "name": "Montreal Canadiens vs. Ottawa Senators",
-      "localDate": "2026-12-06",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-12-07T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jS"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jV",
-      "name": "Montreal Canadiens vs. Vegas Golden Knights",
-      "localDate": "2026-12-08",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-12-09T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jV"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jg",
-      "name": "Montreal Canadiens vs. Anaheim Ducks",
-      "localDate": "2026-12-10",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-12-11T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jg"
     },
     {
       "id": "1Ad7Z_dGkcLbvF3",
@@ -423,116 +213,6 @@
       "url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-montreal-quebec-12-13-2026/event/3100643B5F601212"
     },
     {
-      "id": "Z7r9jZ1A7J4jU",
-      "name": "Montreal Canadiens vs. Edmonton Oilers",
-      "localDate": "2026-12-14",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2026-12-15T00:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jU"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jM",
-      "name": "Montreal Canadiens vs. Toronto Maple Leafs",
-      "localDate": "2026-12-26",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-12-27T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jM"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jz",
-      "name": "Montreal Canadiens vs. Dallas Stars",
-      "localDate": "2026-12-27",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-12-28T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jz"
-    },
-    {
-      "id": "Z7r9jZ1A7J4jy",
-      "name": "Montreal Canadiens vs. Columbus Blue Jackets",
-      "localDate": "2026-12-29",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-12-30T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4jy"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qZ",
-      "name": "Montreal Canadiens vs. Chicago Blackhawks",
-      "localDate": "2027-01-04",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2027-01-05T00:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qZ"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qv",
-      "name": "Montreal Canadiens vs. Boston Bruins",
-      "localDate": "2027-01-06",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2027-01-07T00:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qv"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qe",
-      "name": "Montreal Canadiens vs. Pittsburgh Penguins",
-      "localDate": "2027-01-09",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-01-10T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qe"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qd",
-      "name": "Montreal Canadiens vs. New Jersey Devils",
-      "localDate": "2027-01-13",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-01-14T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qd"
-    },
-    {
-      "id": "Z7r9jZ1A7J4q7",
-      "name": "Montreal Canadiens vs. St. Louis Blues",
-      "localDate": "2027-01-21",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-01-22T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q7"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qA",
-      "name": "Montreal Canadiens vs. Calgary Flames",
-      "localDate": "2027-01-23",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-01-24T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qA"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qk",
-      "name": "Montreal Canadiens vs. Carolina Hurricanes",
-      "localDate": "2027-01-26",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-01-27T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qk"
-    },
-    {
       "id": "1AsZkoaGkeUg7UO",
       "name": "Hilary Duff: the lucky me tour",
       "localDate": "2027-02-05",
@@ -543,36 +223,6 @@
       "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0"
     },
     {
-      "id": "Z7r9jZ1A7J4q6",
-      "name": "Montreal Canadiens vs. Washington Capitals",
-      "localDate": "2027-02-13",
-      "localTime": "13:00:00",
-      "dateTimeUTC": "2027-02-13T18:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q6"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qF",
-      "name": "Montreal Canadiens vs. New York Rangers",
-      "localDate": "2027-02-14",
-      "localTime": "13:00:00",
-      "dateTimeUTC": "2027-02-14T18:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qF"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qa",
-      "name": "Montreal Canadiens vs. New York Islanders",
-      "localDate": "2027-02-20",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-02-21T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qa"
-    },
-    {
       "id": "17G8v0G6uCXTIxy",
       "name": "Don Omar \"The Last King World Tour\"",
       "localDate": "2027-02-21",
@@ -581,26 +231,6 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-montreal-quebec-02-21-2027/event/310064D3BEFE88B9"
-    },
-    {
-      "id": "Z7r9jZ1A7J4q8",
-      "name": "Montreal Canadiens vs. Seattle Kraken",
-      "localDate": "2027-03-04",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-03-05T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q8"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qo",
-      "name": "Montreal Canadiens vs. Vancouver Canucks",
-      "localDate": "2027-03-06",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-03-07T00:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qo"
     },
     {
       "id": "17G8v0G65tH0d1G",
@@ -621,86 +251,6 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293"
-    },
-    {
-      "id": "Z7r9jZ1A7J4q3",
-      "name": "Montreal Canadiens vs. Boston Bruins",
-      "localDate": "2027-03-10",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2027-03-11T00:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q3"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qK",
-      "name": "Montreal Canadiens vs. Florida Panthers",
-      "localDate": "2027-03-16",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-03-16T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qK"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qf",
-      "name": "Montreal Canadiens vs. Tampa Bay Lightning",
-      "localDate": "2027-03-18",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-03-18T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qf"
-    },
-    {
-      "id": "Z7r9jZ1A7J4q4",
-      "name": "Montreal Canadiens vs. Toronto Maple Leafs",
-      "localDate": "2027-03-22",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2027-03-22T23:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q4"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qp",
-      "name": "Montreal Canadiens vs. Ottawa Senators",
-      "localDate": "2027-03-24",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2027-03-24T23:30:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qp"
-    },
-    {
-      "id": "Z7r9jZ1A7J4q9",
-      "name": "Montreal Canadiens vs. New Jersey Devils",
-      "localDate": "2027-03-27",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-03-27T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q9"
-    },
-    {
-      "id": "Z7r9jZ1A7J4qb",
-      "name": "Montreal Canadiens vs. Detroit Red Wings",
-      "localDate": "2027-03-28",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-03-28T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4qb"
-    },
-    {
-      "id": "Z7r9jZ1A7J4q_",
-      "name": "Montreal Canadiens vs. New York Rangers",
-      "localDate": "2027-04-01",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-04-01T23:00:00Z",
-      "status": "offsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4q_"
     },
     {
       "id": "17G8v0G61rtd60V",
