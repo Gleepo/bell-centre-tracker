@@ -1,17 +1,7 @@
 {
-  "generated": "2026-07-31T11:56:59.093123+00:00",
+  "generated": "2026-08-01T11:14:18.047575+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1AsZkG_GkdrMecG",
-      "name": "Ariana Grande - The Eternal Sunshine Tour",
-      "localDate": "2026-07-31",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-08-01T00:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C"
-    },
     {
       "id": "1AsZk8JGkdKhpHb",
       "name": "Five Finger Death Punch",
