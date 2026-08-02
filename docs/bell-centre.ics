@@ -5,18 +5,8 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Bell Centre Events
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
-UID:1AsZk8JGkdKhpHb@bell-centre-tracker
-DTSTAMP:20260801T111418Z
-DTSTART:20260801T224500Z
-DURATION:PT3H
-SUMMARY:Five Finger Death Punch
-LOCATION:Bell Centre\, Montreal
-DESCRIPTION:https://www.ticketmaster.ca/five-finger-death-punch-montreal-qu
- ebec-08-01-2026/event/31006426D36D6F18
-END:VEVENT
-BEGIN:VEVENT
 UID:1Ad7Z_6Gkmt-EQi@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20260806T233000Z
 DURATION:PT3H
 SUMMARY:Daniel Caesar - Son Of Spergy Tour
@@ -26,7 +16,7 @@ DESCRIPTION:https://www.ticketmaster.ca/daniel-caesar-son-of-spergy-tour-mo
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbUGkUIQt08@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20260808T000000Z
 DURATION:PT3H
 SUMMARY:Olivia Dean: The Art Of Loving Live
@@ -36,7 +26,7 @@ DESCRIPTION:https://www.ticketmaster.ca/olivia-dean-the-art-of-loving-montr
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7ZbMGkmdWgDn@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20260808T220000Z
 DURATION:PT3H
 SUMMARY:Avenged Sevenfold and Good Charlotte: North American Tour 2026
@@ -46,7 +36,7 @@ DESCRIPTION:https://www.ticketmaster.ca/avenged-sevenfold-and-good-charlott
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkuoGkeiEzKI@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20260902T233000Z
 DURATION:PT3H
 SUMMARY:RUSH: Fifty Something
@@ -56,7 +46,7 @@ DESCRIPTION:https://www.ticketmaster.ca/rush-fifty-something-montreal-quebe
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkuoGkeiIFKn@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20260904T233000Z
 DURATION:PT3H
 SUMMARY:RUSH: Fifty Something
@@ -66,7 +56,7 @@ DESCRIPTION:https://www.ticketmaster.ca/rush-fifty-something-montreal-quebe
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_AGkn9lp2S@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261003T230000Z
 DURATION:PT3H
 SUMMARY:Gorillaz - The Mountain Tour
@@ -76,7 +66,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gorillaz-the-mountain-tour-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_FGkM9lFwl@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261007T230000Z
 DURATION:PT3H
 SUMMARY:Teddy Swims: The UGLY Tour
@@ -86,7 +76,7 @@ DESCRIPTION:https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61BQjJfg@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261010T000000Z
 DURATION:PT3H
 SUMMARY:The Smashing Pumpkins: The Rats In A Cage Tour
@@ -96,7 +86,7 @@ DESCRIPTION:https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-m
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_aGkmbY4v9@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261021T230000Z
 DURATION:PT3H
 SUMMARY:Olivia Rodrigo: The Unraveled Tour
@@ -106,7 +96,7 @@ DESCRIPTION:https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-m
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_aGkmbsAv_@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261022T230000Z
 DURATION:PT3H
 SUMMARY:Olivia Rodrigo: The Unraveled Tour
@@ -116,7 +106,7 @@ DESCRIPTION:https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-m
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G652QqbLC@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261023T230000Z
 DURATION:PT3H
 SUMMARY:JOHN SUMMIT - CTRL ESCAPE ARENA TOUR
@@ -126,7 +116,7 @@ DESCRIPTION:https://www.ticketmaster.ca/john-summit-ctrl-escape-arena-tour-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6G99-tj-@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261025T000000Z
 DURATION:PT3H
 SUMMARY:Aya Nakamura
@@ -136,7 +126,7 @@ DESCRIPTION:https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-24-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6G99xtjE@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261026T000000Z
 DURATION:PT3H
 SUMMARY:Aya Nakamura
@@ -146,7 +136,7 @@ DESCRIPTION:https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-25-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61xOe95K@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261031T000000Z
 DURATION:PT3H
 SUMMARY:KATSEYE: THE WILDWORLD TOUR
@@ -156,7 +146,7 @@ DESCRIPTION:https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6ClFL9p2@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261122T200000Z
 DURATION:PT3H
 SUMMARY:Rocket de Laval c. Calgary Wranglers au Centre Bell
@@ -166,7 +156,7 @@ DESCRIPTION:https://www.ticketmaster.ca/rocket-de-laval-c-calgary-wranglers
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkGyGkeMVJJT@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261128T003000Z
 DURATION:PT3H
 SUMMARY:Doja Cat - Tour Ma Vie World Tour
@@ -176,7 +166,7 @@ DESCRIPTION:https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_dGkcLbvF3@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20261214T010000Z
 DURATION:PT3H
 SUMMARY:ANDREA BOCELLI "Romanza - 30th Anniversary World Tour"
@@ -186,7 +176,7 @@ DESCRIPTION:https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniver
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkoaGkeUg7UO@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20270206T003000Z
 DURATION:PT3H
 SUMMARY:Hilary Duff: the lucky me tour
@@ -196,7 +186,7 @@ DESCRIPTION:https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montr
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6uCXTIxy@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20270222T010000Z
 DURATION:PT3H
 SUMMARY:Don Omar "The Last King World Tour"
@@ -206,7 +196,7 @@ DESCRIPTION:https://www.ticketmaster.ca/don-omar-the-last-king-world-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65tH0d1G@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20270309T010000Z
 DURATION:PT3H
 SUMMARY:Gracie Abrams: The Look at My Life Tour presented by Capital One
@@ -216,7 +206,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65tHPd1K@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20270310T010000Z
 DURATION:PT3H
 SUMMARY:Gracie Abrams: The Look at My Life Tour presented by Capital One
@@ -226,7 +216,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61rtd60V@bell-centre-tracker
-DTSTAMP:20260801T111418Z
+DTSTAMP:20260802T111426Z
 DTSTART:20270402T233000Z
 DURATION:PT3H
 SUMMARY:Niall Horan: Dinner Party Live On Tour

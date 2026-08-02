@@ -1,17 +1,7 @@
 {
-  "generated": "2026-08-01T11:14:18.047575+00:00",
+  "generated": "2026-08-02T11:14:26.017396+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1AsZk8JGkdKhpHb",
-      "name": "Five Finger Death Punch",
-      "localDate": "2026-08-01",
-      "localTime": "18:45:00",
-      "dateTimeUTC": "2026-08-01T22:45:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/five-finger-death-punch-montreal-quebec-08-01-2026/event/31006426D36D6F18"
-    },
     {
       "id": "1Ad7Z_6Gkmt-EQi",
       "name": "Daniel Caesar - Son Of Spergy Tour",
