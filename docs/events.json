@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T12:00:46.817200+00:00",
+  "generated": "2026-08-06T12:00:40.055613+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -68,7 +68,7 @@
       "localDate": "2026-09-19",
       "localTime": "19:00:00",
       "dateTimeUTC": "2026-09-19T23:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-toronto-maple-leafs-montreal-quebec-09-19-2026/event/310064FACA9986E8"
     },
@@ -78,7 +78,7 @@
       "localDate": "2026-09-26",
       "localTime": "19:00:00",
       "dateTimeUTC": "2026-09-26T23:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-ottawa-senators-montreal-quebec-09-26-2026/event/310064FACA9D86FB"
     },
