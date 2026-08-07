@@ -1,17 +1,7 @@
 {
-  "generated": "2026-08-06T12:00:40.055613+00:00",
+  "generated": "2026-08-07T10:49:51.389004+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1Ad7Z_6Gkmt-EQi",
-      "name": "Daniel Caesar - Son Of Spergy Tour",
-      "localDate": "2026-08-06",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2026-08-06T23:30:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/daniel-caesar-son-of-spergy-tour-montreal-quebec-08-06-2026/event/3100647BA98676AC"
-    },
     {
       "id": "1Ad7ZbUGkUIQt08",
       "name": "Olivia Dean: The Art Of Loving Live",
