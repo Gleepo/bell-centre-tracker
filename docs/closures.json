@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T10:47:52.261718+00:00",
+  "generated": "2026-08-12T10:58:27.968182+00:00",
   "source": "Ville de Montréal — Entraves et travaux en cours",
   "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
   "attribution": "Données: Ville de Montréal",
@@ -12,11 +12,11 @@
   "radius_m": 1000,
   "horizon_days": 14,
   "counts": {
-    "scanned": 2055,
-    "in_radius": 187,
-    "reported": 173,
-    "active": 155,
-    "upcoming": 18
+    "scanned": 2101,
+    "in_radius": 179,
+    "reported": 170,
+    "active": 160,
+    "upcoming": 10
   },
   "closures": [
     {
@@ -308,66 +308,6 @@
       "distance_m": 242
     },
     {
-      "id": "6a73822d8d981b0012f44800",
-      "permit_id": "OCC-2608BW04818725",
-      "reason": "Entretien",
-      "zone": "Stanley entre Canadiens-de-Montréal et René-Lévesque",
-      "borough": "Ville-Marie",
-      "organization": "Entretien Rex",
-      "streets": [
-        "rue Stanley"
-      ],
-      "segments": [
-        {
-          "street": "rue Stanley",
-          "from": "Canadiens-de-Montréal",
-          "to": "René-Lévesque",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.5709,
-                45.49801
-              ],
-              [
-                -73.57103,
-                45.49808
-              ]
-            ],
-            [
-              [
-                -73.56987,
-                45.49751
-              ],
-              [
-                -73.5709,
-                45.49801
-              ]
-            ],
-            [
-              [
-                -73.56929,
-                45.49724
-              ],
-              [
-                -73.56987,
-                45.49751
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-08-10",
-      "end_date": "2026-08-11",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 244
-    },
-    {
       "id": "6a74a36b8d981b0012f46686",
       "permit_id": "OCC-2608YP04897662",
       "reason": "Autre",
@@ -433,7 +373,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 274
     },
@@ -722,106 +662,6 @@
       "distance_m": 288
     },
     {
-      "id": "6a591bd845ae010012f30ac7",
-      "permit_id": "OCC-2607KA17939845",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Versailles entre Bonaventure et Saint-Antoine",
-      "borough": "Ville-Marie",
-      "organization": "CORPORATION MAISON LUCIEN-L'ALLIER, MONTRÉAL",
-      "streets": [
-        "rue de Versailles"
-      ],
-      "segments": [
-        {
-          "street": "rue de Versailles",
-          "from": "Bonaventure",
-          "to": "Saint-Antoine",
-          "impact": "Rue barrée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56868,
-                45.49275
-              ],
-              [
-                -73.56907,
-                45.49294
-              ]
-            ],
-            [
-              [
-                -73.56907,
-                45.49294
-              ],
-              [
-                -73.57077,
-                45.49376
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-08-11",
-      "end_date": "2026-08-11",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": true,
-      "distance_m": 290
-    },
-    {
-      "id": "6a746a588d981b0012f45771",
-      "permit_id": "OCC-2608KM04719833",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Versailles entre Bonaventure et Saint-Antoine",
-      "borough": "Ville-Marie",
-      "organization": "CORPORATION MAISON LUCIEN-L'ALLIER, MONTRÉAL",
-      "streets": [
-        "rue de Versailles"
-      ],
-      "segments": [
-        {
-          "street": "rue de Versailles",
-          "from": "Bonaventure",
-          "to": "Saint-Antoine",
-          "impact": "Rue barrée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56868,
-                45.49275
-              ],
-              [
-                -73.56907,
-                45.49294
-              ]
-            ],
-            [
-              [
-                -73.56907,
-                45.49294
-              ],
-              [
-                -73.57077,
-                45.49376
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-08-11",
-      "end_date": "2026-08-11",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": true,
-      "distance_m": 290
-    },
-    {
       "id": "6a591e170348440012635fe3",
       "permit_id": "OCC-2607RJ17947164",
       "reason": "Construction/rénovation sans excavation",
@@ -920,88 +760,6 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 294
-    },
-    {
-      "id": "68cb038a8f7d590012d69e45",
-      "permit_id": "OCC-2509VO15120709",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
-      "borough": "Ville-Marie",
-      "organization": "Service public et approvisionnement  Canada",
-      "streets": [
-        "rue Saint-Antoine Ouest",
-        "rue de la Cathédrale"
-      ],
-      "segments": [
-        {
-          "street": "rue de la Cathédrale",
-          "from": "Saint-Jacques",
-          "to": "Saint-Antoine",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56401,
-                45.49657
-              ],
-              [
-                -73.56469,
-                45.49689
-              ]
-            ],
-            [
-              [
-                -73.56469,
-                45.49689
-              ],
-              [
-                -73.56603,
-                45.49752
-              ]
-            ]
-          ],
-          "located": "between"
-        },
-        {
-          "street": "rue Saint-Antoine Ouest",
-          "from": "Cathédrale",
-          "to": "Peel",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56555,
-                45.4979
-              ],
-              [
-                -73.56603,
-                45.49752
-              ]
-            ],
-            [
-              [
-                -73.56603,
-                45.49752
-              ],
-              [
-                -73.56681,
-                45.49689
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2025-11-25",
-      "end_date": "2026-11-24",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 298
     },
     {
       "id": "68cb05f5a9e0000012ae1cfe",
@@ -1106,6 +864,88 @@
               [
                 -73.56575,
                 45.49579
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2025-11-25",
+      "end_date": "2026-11-24",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 298
+    },
+    {
+      "id": "68cb038a8f7d590012d69e45",
+      "permit_id": "OCC-2509VO15120709",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "Service public et approvisionnement  Canada",
+      "streets": [
+        "rue Saint-Antoine Ouest",
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56401,
+                45.49657
+              ],
+              [
+                -73.56469,
+                45.49689
+              ]
+            ],
+            [
+              [
+                -73.56469,
+                45.49689
+              ],
+              [
+                -73.56603,
+                45.49752
+              ]
+            ]
+          ],
+          "located": "between"
+        },
+        {
+          "street": "rue Saint-Antoine Ouest",
+          "from": "Cathédrale",
+          "to": "Peel",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56555,
+                45.4979
+              ],
+              [
+                -73.56603,
+                45.49752
+              ]
+            ],
+            [
+              [
+                -73.56603,
+                45.49752
+              ],
+              [
+                -73.56681,
+                45.49689
               ]
             ]
           ],
@@ -1624,94 +1464,6 @@
       "distance_m": 344
     },
     {
-      "id": "6a74cfde8d981b0012f4733b",
-      "permit_id": "OCC-2608WD05635884",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "De La Gauchetière entre Mansfield et Canada",
-      "borough": "Ville-Marie",
-      "organization": "Vitreco inc.",
-      "streets": [
-        "rue De La Gauchetière Ouest"
-      ],
-      "segments": [
-        {
-          "street": "rue De La Gauchetière Ouest",
-          "from": "Mansfield",
-          "to": "Canada",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56532,
-                45.50071
-              ],
-              [
-                -73.56668,
-                45.49897
-              ]
-            ],
-            [
-              [
-                -73.56668,
-                45.49897
-              ],
-              [
-                -73.56728,
-                45.49828
-              ],
-              [
-                -73.56726,
-                45.49811
-              ]
-            ],
-            [
-              [
-                -73.56668,
-                45.49897
-              ],
-              [
-                -73.56665,
-                45.49886
-              ],
-              [
-                -73.56726,
-                45.49811
-              ]
-            ],
-            [
-              [
-                -73.56726,
-                45.49811
-              ],
-              [
-                -73.56734,
-                45.49802
-              ]
-            ],
-            [
-              [
-                -73.56734,
-                45.49802
-              ],
-              [
-                -73.56754,
-                45.49796
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-08-12",
-      "end_date": "2026-08-12",
-      "status": "Permis émis",
-      "state": "upcoming",
-      "street_closed": false,
-      "distance_m": 348
-    },
-    {
       "id": "699888ec1464910012e65959",
       "permit_id": "OCC-2602BU23186170",
       "reason": "Égouts et aqueducs - Réhabilitation",
@@ -2056,6 +1808,56 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 391
+    },
+    {
+      "id": "6a7a29498d88dc00127b5824",
+      "permit_id": "OCC-2608GE09072242",
+      "reason": "Entretien",
+      "zone": "Peel entre René-Lévesque et Cypress",
+      "borough": "Ville-Marie",
+      "organization": "Les Grues N'Rik",
+      "streets": [
+        "rue Peel"
+      ],
+      "segments": [
+        {
+          "street": "rue Peel",
+          "from": "René-Lévesque",
+          "to": "Cypress",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.57038,
+                45.49878
+              ],
+              [
+                -73.57162,
+                45.49941
+              ]
+            ],
+            [
+              [
+                -73.57029,
+                45.49866
+              ],
+              [
+                -73.57038,
+                45.49878
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-08-13",
+      "end_date": "2026-08-13",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 394
     },
     {
       "id": "6a32bf2c34772f0012a66540",
@@ -2930,76 +2732,6 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 440
-    },
-    {
-      "id": "6a75e8b18d88dc00127b1e4c",
-      "permit_id": "OCC-2608MU05846915",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Drummond entre René-Lévesque et Sainte-Catherine",
-      "borough": "Ville-Marie",
-      "organization": "Construction Dinamo",
-      "streets": [
-        "rue Drummond"
-      ],
-      "segments": [
-        {
-          "street": "rue Drummond",
-          "from": "René-Lévesque",
-          "to": "Sainte-Catherine",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.57155,
-                45.49732
-              ],
-              [
-                -73.57169,
-                45.49738
-              ]
-            ],
-            [
-              [
-                -73.57211,
-                45.4976
-              ],
-              [
-                -73.57428,
-                45.49864
-              ]
-            ],
-            [
-              [
-                -73.57169,
-                45.49738
-              ],
-              [
-                -73.57211,
-                45.4976
-              ]
-            ],
-            [
-              [
-                -73.57169,
-                45.49738
-              ],
-              [
-                -73.57211,
-                45.4976
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-08-11",
-      "end_date": "2026-08-11",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 441
     },
     {
       "id": "6a79dea68d88dc00127b45d7",
@@ -5529,7 +5261,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": true,
       "distance_m": 587
     },
@@ -5548,6 +5280,56 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 589
+    },
+    {
+      "id": "6a7a3a568d981b0012f4c20d",
+      "permit_id": "OCC-2608YL09089719",
+      "reason": "Entretien",
+      "zone": "Sainte-Catherine entre Mansfield et Metcalfe",
+      "borough": "Ville-Marie",
+      "organization": "Construction PDN & Fils Inc.",
+      "streets": [
+        "rue Sainte-Catherine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Sainte-Catherine Ouest",
+          "from": "Mansfield",
+          "to": "Metcalfe",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.57108,
+                45.50187
+              ],
+              [
+                -73.5716,
+                45.50134
+              ]
+            ],
+            [
+              [
+                -73.5716,
+                45.50134
+              ],
+              [
+                -73.57221,
+                45.50072
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-08-13",
+      "end_date": "2026-08-14",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 596
     },
     {
       "id": "6a638451cec63100126385c8",
@@ -5880,6 +5662,66 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 610
+    },
+    {
+      "id": "6a7471b68d88dc00127aefc2",
+      "permit_id": "OCC-2608MT09103245",
+      "reason": "AS-2 Réseau aérosouterrain existant",
+      "zone": "Saint-Maurice entre Robert-Bourassa et Inspecteur",
+      "borough": "Le Sud-Ouest",
+      "organization": "Lignex Télécom Inc.",
+      "streets": [
+        "rue Saint-Maurice"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Maurice",
+          "from": "Robert-Bourassa",
+          "to": "Inspecteur",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56028,
+                45.49854
+              ],
+              [
+                -73.56058,
+                45.49825
+              ]
+            ],
+            [
+              [
+                -73.56147,
+                45.49732
+              ],
+              [
+                -73.56181,
+                45.49698
+              ]
+            ],
+            [
+              [
+                -73.56106,
+                45.49777
+              ],
+              [
+                -73.56147,
+                45.49732
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-12",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 611
     },
     {
       "id": "6a51135f034844001262b62c",
@@ -6217,7 +6059,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-13",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 644
     },
@@ -6481,7 +6323,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-13",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 645
     },
@@ -7121,7 +6963,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-13",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 702
     },
@@ -7194,6 +7036,86 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 707
+    },
+    {
+      "id": "6a7b27cc8d88dc00127b67a1",
+      "permit_id": "OCC-2608BD09187337",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Montagne entre De Maisonneuve et Sherbrooke",
+      "borough": "Ville-Marie",
+      "organization": "Groupe Module Construction",
+      "streets": [
+        "rue de la Montagne"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Montagne",
+          "from": "De Maisonneuve",
+          "to": "Sherbrooke",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.57503,
+                45.49788
+              ],
+              [
+                -73.5769,
+                45.49878
+              ]
+            ],
+            [
+              [
+                -73.57871,
+                45.49966
+              ],
+              [
+                -73.58014,
+                45.50035
+              ]
+            ],
+            [
+              [
+                -73.57807,
+                45.49934
+              ],
+              [
+                -73.57871,
+                45.49966
+              ]
+            ],
+            [
+              [
+                -73.5769,
+                45.49878
+              ],
+              [
+                -73.57807,
+                45.49934
+              ]
+            ],
+            [
+              [
+                -73.57807,
+                45.49934
+              ],
+              [
+                -73.57871,
+                45.49966
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-21",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 714
     },
     {
       "id": "6a629c41034844001263e5b9",
@@ -7330,86 +7252,6 @@
       ],
       "start_date": "2026-04-28",
       "end_date": "2026-12-18",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 719
-    },
-    {
-      "id": "6a54f4da034844001262d44d",
-      "permit_id": "OCC-2607QP10893032",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Montagne entre De Maisonneuve et Sherbrooke",
-      "borough": "Ville-Marie",
-      "organization": "Groupe Module Construction",
-      "streets": [
-        "rue de la Montagne"
-      ],
-      "segments": [
-        {
-          "street": "rue de la Montagne",
-          "from": "De Maisonneuve",
-          "to": "Sherbrooke",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.57503,
-                45.49788
-              ],
-              [
-                -73.5769,
-                45.49878
-              ]
-            ],
-            [
-              [
-                -73.57871,
-                45.49966
-              ],
-              [
-                -73.58014,
-                45.50035
-              ]
-            ],
-            [
-              [
-                -73.57807,
-                45.49934
-              ],
-              [
-                -73.57871,
-                45.49966
-              ]
-            ],
-            [
-              [
-                -73.5769,
-                45.49878
-              ],
-              [
-                -73.57807,
-                45.49934
-              ]
-            ],
-            [
-              [
-                -73.57807,
-                45.49934
-              ],
-              [
-                -73.57871,
-                45.49966
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-08-03",
-      "end_date": "2026-08-12",
       "status": "Permis émis",
       "state": "active",
       "street_closed": false,
@@ -7566,66 +7408,6 @@
       "distance_m": 739
     },
     {
-      "id": "6a734e3e8d88dc00127ad479",
-      "permit_id": "OCC-2608GW04798541",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Saint-Antoine entre Gauvin et Robert-Bourassa",
-      "borough": "Ville-Marie",
-      "organization": "Maçonnerie Rainville et Frères",
-      "streets": [
-        "rue Saint-Antoine Ouest"
-      ],
-      "segments": [
-        {
-          "street": "rue Saint-Antoine Ouest",
-          "from": "Gauvin",
-          "to": "Robert-Bourassa",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Obstruée",
-          "lines": [
-            [
-              [
-                -73.5621,
-                45.50122
-              ],
-              [
-                -73.56338,
-                45.49969
-              ]
-            ],
-            [
-              [
-                -73.56338,
-                45.49969
-              ],
-              [
-                -73.56352,
-                45.49958
-              ]
-            ],
-            [
-              [
-                -73.56196,
-                45.50139
-              ],
-              [
-                -73.5621,
-                45.50122
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-08-10",
-      "end_date": "2026-08-11",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 744
-    },
-    {
       "id": "6a734ef58d88dc00127ad4d0",
       "permit_id": "OCC-2608KX04799530",
       "reason": "Construction/rénovation sans excavation",
@@ -7681,7 +7463,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-16",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 745
     },
@@ -8330,8 +8112,8 @@
       "distance_m": 791
     },
     {
-      "id": "6a74cdf18d88dc00127b0b45",
-      "permit_id": "OCC-2608BK04974516",
+      "id": "6a7b6f8f8d88dc00127b7d7e",
+      "permit_id": "OCC-2608SC09320502",
       "reason": "S-1 Infrastructure souterraine existante",
       "zone": "Sainte-Catherine entre Union et Robert-Bourassa",
       "borough": "Ville-Marie",
@@ -8405,7 +8187,7 @@
         }
       ],
       "start_date": "2026-08-06",
-      "end_date": "2026-08-11",
+      "end_date": "2026-08-12",
       "status": "Permis émis",
       "state": "active",
       "street_closed": false,
@@ -8751,7 +8533,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 820
     },
@@ -9376,88 +9158,6 @@
       "distance_m": 871
     },
     {
-      "id": "6a4fbec30348440012628f00",
-      "permit_id": "OCC-2607IX07556782",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Phillips entre Frère-André et Square-Phillips",
-      "borough": "Ville-Marie",
-      "organization": "Magil Construction est du Canada inc.",
-      "streets": [
-        "place Phillips",
-        "rue du Square-Phillips"
-      ],
-      "segments": [
-        {
-          "street": "rue du Square-Phillips",
-          "from": "Cathcart",
-          "to": "Sainte-Catherine",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56801,
-                45.50379
-              ],
-              [
-                -73.56882,
-                45.50417
-              ]
-            ]
-          ],
-          "located": "between"
-        },
-        {
-          "street": "place Phillips",
-          "from": "Frère-André",
-          "to": "Square-Phillips",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56689,
-                45.50322
-              ],
-              [
-                -73.56801,
-                45.50379
-              ]
-            ],
-            [
-              [
-                -73.56801,
-                45.50379
-              ],
-              [
-                -73.56882,
-                45.50417
-              ]
-            ],
-            [
-              [
-                -73.56842,
-                45.50338
-              ],
-              [
-                -73.56921,
-                45.50377
-              ]
-            ]
-          ],
-          "located": "near-point"
-        }
-      ],
-      "start_date": "2026-08-10",
-      "end_date": "2026-08-11",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 877
-    },
-    {
       "id": "69bafe5a2f414e0012ea009d",
       "permit_id": "OCC-2603ZY19567941",
       "reason": "Entretien",
@@ -9713,7 +9413,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 886
     },
@@ -10098,8 +9798,8 @@
       "distance_m": 901
     },
     {
-      "id": "6a74cf8b8d981b0012f4730c",
-      "permit_id": "OCC-2608WI04982871",
+      "id": "6a7b70148d88dc00127b7dda",
+      "permit_id": "OCC-2608RT09321634",
       "reason": "S-1 Infrastructure souterraine existante",
       "zone": "Robert-Bourassa entre Sainte-Catherine et De Maisonneuve",
       "borough": "Ville-Marie",
@@ -10173,7 +9873,7 @@
         }
       ],
       "start_date": "2026-08-06",
-      "end_date": "2026-08-11",
+      "end_date": "2026-08-12",
       "status": "Permis émis",
       "state": "active",
       "street_closed": false,
@@ -10387,7 +10087,7 @@
       "start_date": "2026-08-12",
       "end_date": "2026-08-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 920
     },
@@ -10432,6 +10132,46 @@
       "distance_m": 922
     },
     {
+      "id": "6a58daf445ae010012f2f5ed",
+      "permit_id": "OCC-2608KT09098132",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Bassins entre Séminaire et Charbonniers",
+      "borough": "Le Sud-Ouest",
+      "organization": "Le Groupe Lefebvre M.R.P. inc.",
+      "streets": [
+        "rue des Bassins"
+      ],
+      "segments": [
+        {
+          "street": "rue des Bassins",
+          "from": "Séminaire",
+          "to": "Charbonniers",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56034,
+                45.49042
+              ],
+              [
+                -73.5622,
+                45.48932
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-08-12",
+      "end_date": "2026-09-04",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 929
+    },
+    {
       "id": "6a29b0a5f588d7001216a557",
       "permit_id": "OCC-2606UA09327064",
       "reason": "Construction/rénovation sans excavation",
@@ -10469,78 +10209,6 @@
       "status": "Permis émis",
       "state": "active",
       "street_closed": false,
-      "distance_m": 930
-    },
-    {
-      "id": "6a6c914c8d88dc00127a57ae",
-      "permit_id": "OCC-2608PF05647344",
-      "reason": "Entretien",
-      "zone": "Notre-Dame entre Seigneurs et Chatham",
-      "borough": "Le Sud-Ouest",
-      "organization": "Hydro-Québec-Entrave courte durée",
-      "streets": [
-        "rue Notre-Dame Ouest",
-        "rue des Seigneurs"
-      ],
-      "segments": [
-        {
-          "street": "rue Notre-Dame Ouest",
-          "from": "Seigneurs",
-          "to": "Chatham",
-          "impact": "Voie de stationnement et voie de circulation obstruées",
-          "sidewalk": "Barré",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56852,
-                45.48839
-              ],
-              [
-                -73.56896,
-                45.48769
-              ]
-            ],
-            [
-              [
-                -73.56896,
-                45.48769
-              ],
-              [
-                -73.56945,
-                45.4869
-              ]
-            ]
-          ],
-          "located": "between"
-        },
-        {
-          "street": "rue des Seigneurs",
-          "from": "Notre-Dame",
-          "to": "Workman",
-          "impact": "Rue barrée",
-          "sidewalk": "Barré",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56896,
-                45.48769
-              ],
-              [
-                -73.56953,
-                45.48794
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-08-11",
-      "end_date": "2026-08-11",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": true,
       "distance_m": 930
     },
     {
@@ -11258,6 +10926,96 @@
       "distance_m": 990
     },
     {
+      "id": "6a7b73948d981b0012f4df5f",
+      "permit_id": "OCC-2608PS09380341",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Bassins entre Bassins et Richmond",
+      "borough": "Le Sud-Ouest",
+      "organization": "9523-6964 Québec inc.",
+      "streets": [
+        "rue des Bassins"
+      ],
+      "segments": [
+        {
+          "street": "rue des Bassins",
+          "from": "Bassins",
+          "to": "Richmond",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56515,
+                45.48756
+              ],
+              [
+                -73.56608,
+                45.487
+              ]
+            ],
+            [
+              [
+                -73.56608,
+                45.487
+              ],
+              [
+                -73.56673,
+                45.48664
+              ]
+            ],
+            [
+              [
+                -73.563,
+                45.48884
+              ],
+              [
+                -73.56347,
+                45.48856
+              ]
+            ],
+            [
+              [
+                -73.56347,
+                45.48856
+              ],
+              [
+                -73.56421,
+                45.48811
+              ]
+            ],
+            [
+              [
+                -73.56421,
+                45.48811
+              ],
+              [
+                -73.56467,
+                45.48785
+              ]
+            ],
+            [
+              [
+                -73.56467,
+                45.48785
+              ],
+              [
+                -73.56515,
+                45.48756
+              ]
+            ]
+          ],
+          "located": "near-point"
+        }
+      ],
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-12",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 990
+    },
+    {
       "id": "6a43d00834772f0012a7ec7f",
       "permit_id": "OCC-2607BV02210245",
       "reason": "Construction/rénovation sans excavation",
@@ -11380,54 +11138,166 @@
       "distance_m": 996
     },
     {
-      "id": "6a72463f8d88dc00127ac4a1",
-      "permit_id": "OCC-2608HT04096809",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Président-Kennedy entre Union et Robert-Bourassa",
-      "borough": "Ville-Marie",
-      "organization": "Construction Wolfe Inc.",
+      "id": "6a7b73418d981b0012f4df12",
+      "permit_id": "OCC-2608CU09378844",
+      "reason": "Construction/rénovation avec excavation",
+      "zone": "Richmond entre Richmond et Basin",
+      "borough": "Le Sud-Ouest",
+      "organization": "9523-6964 Québec inc.",
       "streets": [
-        "avenue du Président-Kennedy"
+        "rue Richmond",
+        "rue des Bassins"
       ],
       "segments": [
         {
-          "street": "avenue du Président-Kennedy",
-          "from": "Union",
-          "to": "Robert-Bourassa",
-          "impact": "Rue barrée",
+          "street": "rue Richmond",
+          "from": "Richmond",
+          "to": "Basin",
+          "impact": "Aucun impact / non applicable",
           "sidewalk": "Barré",
           "bike_path": "Aucun impact / non applicable",
           "lines": [
             [
               [
-                -73.5714,
-                45.50556
+                -73.56515,
+                45.48756
               ],
               [
-                -73.5719,
-                45.50505
+                -73.56605,
+                45.4883
               ]
             ],
             [
               [
-                -73.5719,
-                45.50505
+                -73.56605,
+                45.4883
               ],
               [
-                -73.57245,
-                45.50449
+                -73.56794,
+                45.48922
+              ]
+            ],
+            [
+              [
+                -73.5645,
+                45.48703
+              ],
+              [
+                -73.56515,
+                45.48756
+              ]
+            ],
+            [
+              [
+                -73.56441,
+                45.48706
+              ],
+              [
+                -73.5645,
+                45.48703
+              ]
+            ],
+            [
+              [
+                -73.5645,
+                45.48703
+              ],
+              [
+                -73.56515,
+                45.48756
               ]
             ]
           ],
-          "located": "between"
+          "located": "near-point"
+        },
+        {
+          "street": "rue des Bassins",
+          "from": "Bassins",
+          "to": "Richmond",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56515,
+                45.48756
+              ],
+              [
+                -73.56608,
+                45.487
+              ]
+            ],
+            [
+              [
+                -73.56608,
+                45.487
+              ],
+              [
+                -73.56673,
+                45.48664
+              ]
+            ],
+            [
+              [
+                -73.56673,
+                45.48664
+              ],
+              [
+                -73.56789,
+                45.48596
+              ]
+            ],
+            [
+              [
+                -73.563,
+                45.48884
+              ],
+              [
+                -73.56347,
+                45.48856
+              ]
+            ],
+            [
+              [
+                -73.56347,
+                45.48856
+              ],
+              [
+                -73.56421,
+                45.48811
+              ]
+            ],
+            [
+              [
+                -73.56421,
+                45.48811
+              ],
+              [
+                -73.56467,
+                45.48785
+              ]
+            ],
+            [
+              [
+                -73.56467,
+                45.48785
+              ],
+              [
+                -73.56515,
+                45.48756
+              ]
+            ]
+          ],
+          "located": "near-point"
         }
       ],
-      "start_date": "2026-08-11",
-      "end_date": "2026-08-11",
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-12",
       "status": "Permis émis",
       "state": "active",
-      "street_closed": true,
-      "distance_m": 998
+      "street_closed": false,
+      "distance_m": 997
     }
   ]
 }
