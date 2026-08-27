@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T10:31:07.441964+00:00",
+  "generated": "2026-08-27T20:07:54.081609+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -21,16 +21,6 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/rush-fifty-something-montreal-quebec-09-04-2026/event/31006351ACA084EA"
-    },
-    {
-      "id": "17G8v0G65KK3mgi",
-      "name": "Roxette 40th Anniversary Tour 2026",
-      "localDate": "2026-09-14",
-      "localTime": "18:30:00",
-      "dateTimeUTC": "2026-09-14T22:30:00Z",
-      "status": "cancelled",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/roxette-40th-anniversary-tour-2026-montreal-quebec-09-14-2026/event/310064B4D34AED6C"
     },
     {
       "id": "17G8v0G62l1JbhI",
