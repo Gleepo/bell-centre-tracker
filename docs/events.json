@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T20:07:54.081609+00:00",
+  "generated": "2026-08-31T17:22:43.207181+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -641,6 +641,16 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934"
+    },
+    {
+      "id": "1AsZkfoGkdI4IjM",
+      "name": "Angèle",
+      "localDate": "2027-04-17",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-04-18T00:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/angele-montreal-quebec-04-17-2027/event/31006511E8568737"
     }
   ]
 }
