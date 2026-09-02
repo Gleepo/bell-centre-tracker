@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31T17:22:43.207181+00:00",
+  "generated": "2026-09-02T14:03:29.910757+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -268,7 +268,7 @@
       "localDate": "2026-11-22",
       "localTime": "15:00:00",
       "dateTimeUTC": "2026-11-22T20:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.ca/rocket-de-laval-c-calgary-wranglers-montreal-quebec-11-22-2026/event/310064EAC87D758F"
     },
@@ -644,13 +644,13 @@
     },
     {
       "id": "1AsZkfoGkdI4IjM",
-      "name": "Angèle",
+      "name": "ANGÈLE - INSTINCT TOUR",
       "localDate": "2027-04-17",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-04-18T00:00:00Z",
       "status": "offsale",
       "segment": "Music",
-      "url": "https://www.ticketmaster.ca/angele-montreal-quebec-04-17-2027/event/31006511E8568737"
+      "url": "https://www.ticketmaster.ca/angele-instinct-tour-montreal-quebec-04-17-2027/event/31006511E8568737"
     }
   ]
 }
