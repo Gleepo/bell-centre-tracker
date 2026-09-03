@@ -1,17 +1,7 @@
 {
-  "generated": "2026-09-02T14:03:29.910757+00:00",
+  "generated": "2026-09-03T14:06:40.227579+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1AsZkuoGkeiEzKI",
-      "name": "RUSH: Fifty Something",
-      "localDate": "2026-09-02",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2026-09-02T23:30:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/rush-fifty-something-montreal-quebec-09-02-2026/event/31006351AC9F84E8"
-    },
     {
       "id": "1AsZkuoGkeiIFKn",
       "name": "RUSH: Fifty Something",
@@ -616,8 +606,8 @@
       "id": "17G8v0G62l10FhC",
       "name": "Montreal Canadiens vs. Detroit Red Wings",
       "localDate": "2027-03-28",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2027-03-28T23:00:00Z",
+      "localTime": "18:00:00",
+      "dateTimeUTC": "2027-03-28T22:00:00Z",
       "status": "offsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-detroit-red-wings-montreal-quebec-03-28-2027/event/310064FACA9086CE"
