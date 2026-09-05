@@ -1,17 +1,7 @@
 {
-  "generated": "2026-09-03T14:06:40.227579+00:00",
+  "generated": "2026-09-05T13:13:50.466056+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1AsZkuoGkeiIFKn",
-      "name": "RUSH: Fifty Something",
-      "localDate": "2026-09-04",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2026-09-04T23:30:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/rush-fifty-something-montreal-quebec-09-04-2026/event/31006351ACA084EA"
-    },
     {
       "id": "17G8v0G62l1JbhI",
       "name": "Montreal Canadiens vs. Toronto Maple Leafs",
@@ -638,7 +628,7 @@
       "localDate": "2027-04-17",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-04-18T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/angele-instinct-tour-montreal-quebec-04-17-2027/event/31006511E8568737"
     }

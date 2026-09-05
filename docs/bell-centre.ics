@@ -5,18 +5,8 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Bell Centre Events
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
-UID:1AsZkuoGkeiIFKn@bell-centre-tracker
-DTSTAMP:20260903T140640Z
-DTSTART:20260904T233000Z
-DURATION:PT3H
-SUMMARY:RUSH: Fifty Something
-LOCATION:Bell Centre\, Montreal
-DESCRIPTION:https://www.ticketmaster.ca/rush-fifty-something-montreal-quebe
- c-09-04-2026/event/31006351ACA084EA
-END:VEVENT
-BEGIN:VEVENT
 UID:17G8v0G62l1JbhI@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20260919T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Toronto Maple Leafs
@@ -26,7 +16,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-toronto-maple
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1EbhD@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20260926T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Ottawa Senators
@@ -36,7 +26,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-ottawa-senato
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_AGkn9lp2S@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261003T230000Z
 DURATION:PT3H
 SUMMARY:Gorillaz - The Mountain Tour
@@ -46,7 +36,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gorillaz-the-mountain-tour-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1IIjd@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261006T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Carolina Hurricanes
@@ -56,7 +46,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-carolina-hurr
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_FGkM9lFwl@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261007T230000Z
 DURATION:PT3H
 SUMMARY:Teddy Swims: The UGLY Tour
@@ -66,7 +56,7 @@ DESCRIPTION:https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1tIj1@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261008T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Nashville Predators
@@ -76,7 +66,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-nashville-pre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61BQjJfg@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261010T000000Z
 DURATION:PT3H
 SUMMARY:The Smashing Pumpkins: The Rats In A Cage Tour
@@ -86,7 +76,7 @@ DESCRIPTION:https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-m
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1nzj8@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261010T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Detroit Red Wings
@@ -96,7 +86,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-detroit-red-w
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1iFjN@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261013T223000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Buffalo Sabres
@@ -106,7 +96,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-buffalo-sabre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1cFji@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261017T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Buffalo Sabres
@@ -116,7 +106,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-buffalo-sabre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1mbjs@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261020T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. San Jose Sharks
@@ -126,7 +116,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-san-jose-shar
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_aGkmbY4v9@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261021T230000Z
 DURATION:PT3H
 SUMMARY:Olivia Rodrigo: The Unraveled Tour
@@ -136,7 +126,7 @@ DESCRIPTION:https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-m
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_aGkmbsAv_@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261022T230000Z
 DURATION:PT3H
 SUMMARY:Olivia Rodrigo: The Unraveled Tour
@@ -146,7 +136,7 @@ DESCRIPTION:https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-m
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G652QqbLC@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261023T230000Z
 DURATION:PT3H
 SUMMARY:JOHN SUMMIT - CTRL ESCAPE ARENA TOUR
@@ -156,7 +146,7 @@ DESCRIPTION:https://www.ticketmaster.ca/john-summit-ctrl-escape-arena-tour-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6G99-tj-@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261025T000000Z
 DURATION:PT3H
 SUMMARY:Aya Nakamura
@@ -166,7 +156,7 @@ DESCRIPTION:https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-24-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6G99xtjE@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261026T000000Z
 DURATION:PT3H
 SUMMARY:Aya Nakamura
@@ -176,7 +166,7 @@ DESCRIPTION:https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-25-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61xOe95K@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261031T000000Z
 DURATION:PT3H
 SUMMARY:KATSEYE: THE WILDWORLD TOUR
@@ -186,7 +176,7 @@ DESCRIPTION:https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1RbjD@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261031T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Pittsburgh Penguins
@@ -196,7 +186,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-pittsburgh-pe
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1YIqe@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261104T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Winnipeg Jets
@@ -206,7 +196,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-winnipeg-jets
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1sIq6@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261106T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Utah Mammoth
@@ -216,7 +206,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-utah-mammoth-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1Sbqo@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261111T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Minnesota Wild
@@ -226,7 +216,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-minnesota-wil
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1Vbq-@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261115T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Colorado Avalanche
@@ -236,7 +226,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-colorado-aval
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1gbqm@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261122T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Philadelphia Flyers
@@ -246,7 +236,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-philadelphia-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6ClFL9p2@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261122T200000Z
 DURATION:PT3H
 SUMMARY:Rocket de Laval c. Calgary Wranglers au Centre Bell
@@ -256,7 +246,7 @@ DESCRIPTION:https://www.ticketmaster.ca/rocket-de-laval-c-calgary-wranglers
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1UIqD@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261124T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Los Angeles Kings
@@ -266,7 +256,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-los-angeles-k
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkGyGkeMVJJT@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261128T003000Z
 DURATION:PT3H
 SUMMARY:Doja Cat - Tour Ma Vie World Tour
@@ -276,7 +266,7 @@ DESCRIPTION:https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1Mzra@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261203T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Tampa Bay Lightning
@@ -286,7 +276,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-tampa-bay-lig
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1zzr_@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261205T180000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Florida Panthers
@@ -296,7 +286,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-florida-panth
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1BFrg@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261207T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Ottawa Senators
@@ -306,7 +296,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-ottawa-senato
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1DFLd@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261209T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Vegas Golden Knights
@@ -316,7 +306,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-vegas-golden-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1HbLG@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261211T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Anaheim Ducks
@@ -326,7 +316,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-anaheim-ducks
 END:VEVENT
 BEGIN:VEVENT
 UID:1Ad7Z_dGkcLbvF3@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261214T010000Z
 DURATION:PT3H
 SUMMARY:ANDREA BOCELLI "Romanza - 30th Anniversary World Tour"
@@ -336,7 +326,7 @@ DESCRIPTION:https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniver
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1WbLj@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261215T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Edmonton Oilers
@@ -346,7 +336,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-edmonton-oile
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1XIL-@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261227T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Toronto Maple Leafs
@@ -356,7 +346,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-toronto-maple
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l5ZFLi@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261228T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Dallas Stars
@@ -366,7 +356,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-dallas-stars-
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l5vFLH@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20261230T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Columbus Blue Jackets
@@ -376,7 +366,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-columbus-blue
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l12Ibf@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270105T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Chicago Blackhawks
@@ -386,7 +376,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-chicago-black
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l18zbO@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270107T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Boston Bruins
@@ -396,7 +386,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-boston-bruins
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l13Fbi@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270110T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Pittsburgh Penguins
@@ -406,7 +396,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-pittsburgh-pe
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1KFbY@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270114T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New Jersey Devils
@@ -416,7 +406,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-new-jersey-de
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1fbbW@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270122T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. St. Louis Blues
@@ -426,7 +416,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-st-louis-blue
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l14b_C@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270124T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Calgary Flames
@@ -436,7 +426,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-calgary-flame
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1pI_4@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270127T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Carolina Hurricanes
@@ -446,7 +436,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-carolina-hurr
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkoaGkeUg7UO@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270206T003000Z
 DURATION:PT3H
 SUMMARY:Hilary Duff: the lucky me tour
@@ -456,7 +446,7 @@ DESCRIPTION:https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montr
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l19z_r@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270213T180000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Washington Capitals
@@ -466,7 +456,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-washington-ca
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1bz_0@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270214T180000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New York Rangers
@@ -476,7 +466,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-new-york-rang
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1QF_l@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270221T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New York Islanders
@@ -486,7 +476,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-new-york-isla
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G6uCXTIxy@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270222T010000Z
 DURATION:PT3H
 SUMMARY:Don Omar "The Last King World Tour"
@@ -496,7 +486,7 @@ DESCRIPTION:https://www.ticketmaster.ca/don-omar-the-last-king-world-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1hF_s@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270305T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Seattle Kraken
@@ -506,7 +496,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-seattle-krake
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1jb_W@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270307T000000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Vancouver Canucks
@@ -516,7 +506,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-vancouver-can
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65tH0d1G@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270309T010000Z
 DURATION:PT3H
 SUMMARY:Gracie Abrams: The Look at My Life Tour presented by Capital One
@@ -526,7 +516,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G65tHPd1K@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270310T010000Z
 DURATION:PT3H
 SUMMARY:Gracie Abrams: The Look at My Life Tour presented by Capital One
@@ -536,7 +526,7 @@ DESCRIPTION:https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montre
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1qbQ6@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270311T003000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Boston Bruins
@@ -546,7 +536,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-boston-bruins
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1rbQG@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270316T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Florida Panthers
@@ -556,7 +546,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-florida-panth
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1LIQK@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270318T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Tampa Bay Lightning
@@ -566,7 +556,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-tampa-bay-lig
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1OIQq@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270322T233000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Toronto Maple Leafs
@@ -576,7 +566,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-toronto-maple
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1-zQR@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270324T233000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Ottawa Senators
@@ -586,7 +576,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-ottawa-senato
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1xzhZ@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270327T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New Jersey Devils
@@ -596,7 +586,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-new-jersey-de
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l10FhC@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270328T220000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. Detroit Red Wings
@@ -606,7 +596,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-detroit-red-w
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G62l1Pbhb@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270401T230000Z
 DURATION:PT3H
 SUMMARY:Montreal Canadiens vs. New York Rangers
@@ -616,7 +606,7 @@ DESCRIPTION:https://www.ticketmaster.ca/montreal-canadiens-vs-new-york-rang
 END:VEVENT
 BEGIN:VEVENT
 UID:17G8v0G61rtd60V@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270402T233000Z
 DURATION:PT3H
 SUMMARY:Niall Horan: Dinner Party Live On Tour
@@ -626,7 +616,7 @@ DESCRIPTION:https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-mo
 END:VEVENT
 BEGIN:VEVENT
 UID:1AsZkfoGkdI4IjM@bell-centre-tracker
-DTSTAMP:20260903T140640Z
+DTSTAMP:20260905T131350Z
 DTSTART:20270418T000000Z
 DURATION:PT3H
 SUMMARY:ANGÈLE - INSTINCT TOUR
