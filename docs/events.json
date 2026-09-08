@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T13:13:50.466056+00:00",
+  "generated": "2026-09-08T14:06:26.181890+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -113,6 +113,16 @@
       "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-san-jose-sharks-montreal-quebec-10-20-2026/event/310064FACAB98731"
     },
     {
+      "id": "17G8v0G62QrNkNM",
+      "name": "SILVER STAR TICKETS - Olivia Rodrigo: The Unraveled Tour",
+      "localDate": "2026-10-21",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-21T23:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/silver-star-tickets-olivia-rodrigo-the-montreal-quebec-10-21-2026/event/310064F69E8C68F7"
+    },
+    {
       "id": "1Ad7Z_aGkmbY4v9",
       "name": "Olivia Rodrigo: The Unraveled Tour",
       "localDate": "2026-10-21",
@@ -121,6 +131,16 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057"
+    },
+    {
+      "id": "17G8v0G62QrNUNH",
+      "name": "SILVER STAR TICKETS - Olivia Rodrigo: The Unraveled Tour",
+      "localDate": "2026-10-22",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2026-10-22T23:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/silver-star-tickets-olivia-rodrigo-the-montreal-quebec-10-22-2026/event/310064F69E8F68FC"
     },
     {
       "id": "1Ad7Z_aGkmbsAv_",
