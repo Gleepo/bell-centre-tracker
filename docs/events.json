@@ -1,17 +1,7 @@
 {
-  "generated": "2026-09-14T16:08:33.251973+00:00",
+  "generated": "2026-09-20T13:55:53.995824+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1JbhI",
-      "name": "Montreal Canadiens vs. Toronto Maple Leafs",
-      "localDate": "2026-09-19",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-09-19T23:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-toronto-maple-leafs-montreal-quebec-09-19-2026/event/310064FACA9986E8"
-    },
     {
       "id": "17G8v0G62l1EbhD",
       "name": "Montreal Canadiens vs. Ottawa Senators",
