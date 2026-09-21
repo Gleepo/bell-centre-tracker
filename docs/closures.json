@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T13:56:03.049130+00:00",
+  "generated": "2026-09-21T16:11:21.985531+00:00",
   "source": "Ville de Montréal — Entraves et travaux en cours",
   "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
   "attribution": "Données: Ville de Montréal",
@@ -12,13 +12,53 @@
   "radius_m": 1000,
   "horizon_days": 14,
   "counts": {
-    "scanned": 1857,
+    "scanned": 1907,
     "in_radius": 155,
-    "reported": 150,
-    "active": 124,
-    "upcoming": 26
+    "reported": 154,
+    "active": 143,
+    "upcoming": 11
   },
   "closures": [
+    {
+      "id": "6a57ddb345ae010012f2ed20",
+      "permit_id": "OCC-2607NF14423368",
+      "reason": "Entretien",
+      "zone": "Canadiens-de-Montréal entre Stanley et Drummond",
+      "borough": "Ville-Marie",
+      "organization": "enseignes valois",
+      "streets": [
+        "avenue des Canadiens-de-Montréal"
+      ],
+      "segments": [
+        {
+          "street": "avenue des Canadiens-de-Montréal",
+          "from": "Stanley",
+          "to": "Drummond",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56929,
+                45.49724
+              ],
+              [
+                -73.57005,
+                45.4966
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-23",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 82
+    },
     {
       "id": "6aaac5df8c75940013ee77c2",
       "permit_id": "OCC-2609JG14310827",
@@ -65,7 +105,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-25",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 160
     },
@@ -623,7 +663,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-22",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 297
     },
@@ -1179,7 +1219,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-10-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 339
     },
@@ -1299,7 +1339,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-21",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 354
     },
@@ -1666,56 +1706,6 @@
       "distance_m": 405
     },
     {
-      "id": "6aa45209b10277001266268b",
-      "permit_id": "OCC-2609HC11869199",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "De La Gauchetière entre Robert-Bourassa et Mansfield",
-      "borough": "Ville-Marie",
-      "organization": "Constructions ConCreate ltée.",
-      "streets": [
-        "rue De La Gauchetière Ouest"
-      ],
-      "segments": [
-        {
-          "street": "rue De La Gauchetière Ouest",
-          "from": "Robert-Bourassa",
-          "to": "Mansfield",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Barré",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56532,
-                45.50071
-              ],
-              [
-                -73.56668,
-                45.49897
-              ]
-            ],
-            [
-              [
-                -73.56519,
-                45.50089
-              ],
-              [
-                -73.56532,
-                45.50071
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-09-19",
-      "end_date": "2026-09-20",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 413
-    },
-    {
       "id": "6aabeda0a0500b0013f48dcb",
       "permit_id": "OCC-2609TL14339417",
       "reason": "Toiture - Rénovation",
@@ -1751,7 +1741,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-23",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 414
     },
@@ -2184,6 +2174,46 @@
       "distance_m": 432
     },
     {
+      "id": "6aaaa253a0500b0013f46a2f",
+      "permit_id": "OCC-2609KR13492626",
+      "reason": "AS-2 Réseau aérosouterrain existant",
+      "zone": "Argyle entre Lucien-L'Allier et Guy",
+      "borough": "Ville-Marie",
+      "organization": "Lignex Télécom Inc.",
+      "streets": [
+        "avenue Argyle"
+      ],
+      "segments": [
+        {
+          "street": "avenue Argyle",
+          "from": "Lucien-L'Allier",
+          "to": "Guy",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.57122,
+                45.49481
+              ],
+              [
+                -73.57322,
+                45.49298
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-23",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 432
+    },
+    {
       "id": "69a06fde1464910012e6c97f",
       "permit_id": "OCC-2602TS23177692",
       "reason": "Égouts et aqueducs - Réhabilitation",
@@ -2565,7 +2595,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-25",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 441
     },
@@ -4211,7 +4241,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-21",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 546
     },
@@ -4461,6 +4491,27 @@
       ],
       "segments": [
         {
+          "street": "rue de l'Aqueduc",
+          "from": "Barré",
+          "to": "Notre-Dame",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56459,
+                45.49185
+              ],
+              [
+                -73.56539,
+                45.49221
+              ]
+            ]
+          ],
+          "located": "between"
+        },
+        {
           "street": "rue Barré",
           "from": "Montagne",
           "to": "Versailles",
@@ -4517,27 +4568,6 @@
               [
                 -73.56477,
                 45.49295
-              ]
-            ]
-          ],
-          "located": "between"
-        },
-        {
-          "street": "rue de l'Aqueduc",
-          "from": "Barré",
-          "to": "Notre-Dame",
-          "impact": "Rue barrée",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56459,
-                45.49185
-              ],
-              [
-                -73.56539,
-                45.49221
               ]
             ]
           ],
@@ -4714,6 +4744,46 @@
       "end_date": "2026-12-18",
       "status": "Permis émis",
       "state": "active",
+      "street_closed": false,
+      "distance_m": 589
+    },
+    {
+      "id": "6aa80e33b10277001266407f",
+      "permit_id": "OCC-2609SF13407017",
+      "reason": "Autre",
+      "zone": "Metcalfe entre Sainte-Catherine et Mount-Royal",
+      "borough": "Ville-Marie",
+      "organization": "Québecor Média Inc.",
+      "streets": [
+        "rue Metcalfe"
+      ],
+      "segments": [
+        {
+          "street": "rue Metcalfe",
+          "from": "Sainte-Catherine",
+          "to": "Mount-Royal",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.57221,
+                45.50072
+              ],
+              [
+                -73.57268,
+                45.50095
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-23",
+      "status": "Permis émis",
+      "state": "upcoming",
       "street_closed": false,
       "distance_m": 589
     },
@@ -5270,6 +5340,126 @@
       "distance_m": 627
     },
     {
+      "id": "6aabcba6a0500b0013f48615",
+      "permit_id": "OCC-2609OG14309380",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "René-Lévesque entre Robert-Bourassa et Mansfield",
+      "borough": "Ville-Marie",
+      "organization": "Construction PCL Inc.",
+      "streets": [
+        "boulevard René-Lévesque Ouest"
+      ],
+      "segments": [
+        {
+          "street": "boulevard René-Lévesque Ouest",
+          "from": "Robert-Bourassa",
+          "to": "Mansfield",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56684,
+                45.50257
+              ],
+              [
+                -73.56736,
+                45.502
+              ]
+            ],
+            [
+              [
+                -73.56747,
+                45.50188
+              ],
+              [
+                -73.56763,
+                45.50171
+              ]
+            ],
+            [
+              [
+                -73.56672,
+                45.50247
+              ],
+              [
+                -73.56723,
+                45.50193
+              ]
+            ],
+            [
+              [
+                -73.56723,
+                45.50193
+              ],
+              [
+                -73.56735,
+                45.50179
+              ]
+            ],
+            [
+              [
+                -73.56736,
+                45.502
+              ],
+              [
+                -73.56747,
+                45.50188
+              ]
+            ],
+            [
+              [
+                -73.56807,
+                45.50103
+              ],
+              [
+                -73.56897,
+                45.50007
+              ]
+            ],
+            [
+              [
+                -73.56735,
+                45.50179
+              ],
+              [
+                -73.56807,
+                45.50103
+              ]
+            ],
+            [
+              [
+                -73.56821,
+                45.50109
+              ],
+              [
+                -73.5691,
+                45.50014
+              ]
+            ],
+            [
+              [
+                -73.56763,
+                45.50171
+              ],
+              [
+                -73.56821,
+                45.50109
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-23",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 627
+    },
+    {
       "id": "6aa803d6346927001230d23a",
       "permit_id": "OCC-2609YM14389083",
       "reason": "Autre",
@@ -5335,7 +5525,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-21",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 633
     },
@@ -5545,7 +5735,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-21",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 637
     },
@@ -5687,7 +5877,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-25",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 651
     },
@@ -5751,7 +5941,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-10-23",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 668
     },
@@ -6195,7 +6385,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-21",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 708
     },
@@ -6389,7 +6579,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-21",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 709
     },
@@ -6949,7 +7139,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-27",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 747
     },
@@ -7395,7 +7585,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-22",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 772
     },
@@ -8347,7 +8537,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-23",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": true,
       "distance_m": 830
     },
@@ -9052,6 +9242,60 @@
       "distance_m": 864
     },
     {
+      "id": "6aabce428c75940013ee8f6b",
+      "permit_id": "OCC-2609AO14303072",
+      "reason": "Entretien",
+      "zone": "Stanley entre Sherbrooke et Docteur-Penfield",
+      "borough": "Ville-Marie",
+      "organization": "Hydro-Québec-Entrave courte durée",
+      "streets": [
+        "rue Stanley"
+      ],
+      "segments": [
+        {
+          "street": "rue Stanley",
+          "from": "Sherbrooke",
+          "to": "Docteur-Penfield",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.57547,
+                45.50023
+              ],
+              [
+                -73.57729,
+                45.50111
+              ]
+            ],
+            [
+              [
+                -73.57729,
+                45.50111
+              ],
+              [
+                -73.57947,
+                45.50217
+              ],
+              [
+                -73.58048,
+                45.50257
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-23",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 865
+    },
+    {
       "id": "6aad64aea0500b0013f4bf96",
       "permit_id": "OCC-2609RX15321521",
       "reason": "Entretien",
@@ -9097,7 +9341,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-23",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": true,
       "distance_m": 867
     },
@@ -9569,7 +9813,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-10-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 910
     },
@@ -9619,7 +9863,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-25",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 919
     },
@@ -9809,7 +10053,7 @@
       "start_date": "2026-09-21",
       "end_date": "2026-09-21",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 939
     },
