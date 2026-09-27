@@ -1,17 +1,7 @@
 {
-  "generated": "2026-09-20T13:55:53.995824+00:00",
+  "generated": "2026-09-27T14:58:31.769565+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1EbhD",
-      "name": "Montreal Canadiens vs. Ottawa Senators",
-      "localDate": "2026-09-26",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-09-26T23:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-ottawa-senators-montreal-quebec-09-26-2026/event/310064FACA9D86FB"
-    },
     {
       "id": "1Ad7Z_AGkn9lp2S",
       "name": "Gorillaz - The Mountain Tour",
