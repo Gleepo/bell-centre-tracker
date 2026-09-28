@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27T14:58:31.769565+00:00",
+  "generated": "2026-09-28T17:57:19.774470+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -601,6 +601,46 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934"
+    },
+    {
+      "id": "1AsZkfNGkePukXL",
+      "name": "Ultimate Fan Pass: Accès exclusif de 30 min. sur le terrain 5:30pm-6pm",
+      "localDate": "2027-04-09",
+      "localTime": "17:30:00",
+      "dateTimeUTC": "2027-04-09T21:30:00Z",
+      "status": "offsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/ultimate-fan-pass-acces-exclusif-de-montreal-quebec-04-09-2027/event/31006523A5346F9F"
+    },
+    {
+      "id": "1AsZkfNGkePGpX4",
+      "name": "MVP Court Pass: (Arrivée: 18h30)",
+      "localDate": "2027-04-09",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2027-04-09T22:30:00Z",
+      "status": "offsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/mvp-court-pass-arrivee-18h30-montreal-quebec-04-09-2027/event/31006523A5316F95"
+    },
+    {
+      "id": "1AsZkfNGkeP5JWT",
+      "name": "Ballon De Match Rivals Replica En Édition Limitée De Spalding®",
+      "localDate": "2027-04-09",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-04-09T23:00:00Z",
+      "status": "offsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/ballon-de-match-rivals-replica-en-montreal-quebec-04-09-2027/event/31006523A52E6F7F"
+    },
+    {
+      "id": "1AsZkf_Gke-M0Ch",
+      "name": "Harlem Globetrotters: Rivalry Tour",
+      "localDate": "2027-04-09",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-04-09T23:00:00Z",
+      "status": "offsale",
+      "segment": "Miscellaneous",
+      "url": "https://www.ticketmaster.ca/harlem-globetrotters-rivalry-tour-montreal-quebec-04-09-2027/event/31006519A1DE439B"
     },
     {
       "id": "1AsZkfoGkdI4IjM",
