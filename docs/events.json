@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-02T16:04:41.433676+00:00",
+  "generated": "2026-10-04T15:07:19.774209+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1Ad7Z_AGkn9lp2S",
-      "name": "Gorillaz - The Mountain Tour",
-      "localDate": "2026-10-03",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-03T23:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/gorillaz-the-mountain-tour-montreal-quebec-10-03-2026/event/3100645A97AD63F3"
-    },
     {
       "id": "17G8v0G62l1IIjd",
       "name": "Montreal Canadiens vs. Carolina Hurricanes",
