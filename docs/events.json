@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-06T16:28:39.841316+00:00",
+  "generated": "2026-10-07T17:13:28.680904+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1IIjd",
-      "name": "Montreal Canadiens vs. Carolina Hurricanes",
-      "localDate": "2026-10-06",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-06T23:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-carolina-hurricanes-montreal-quebec-10-06-2026/event/310064FACAA28703"
-    },
     {
       "id": "1Ad7Z_FGkM9lFwl",
       "name": "Teddy Swims: The UGLY Tour",
