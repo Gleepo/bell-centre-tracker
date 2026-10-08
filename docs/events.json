@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-07T17:13:28.680904+00:00",
+  "generated": "2026-10-08T17:10:35.119645+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1Ad7Z_FGkM9lFwl",
-      "name": "Teddy Swims: The UGLY Tour",
-      "localDate": "2026-10-07",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-07T23:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-montreal-quebec-10-07-2026/event/3100648DD7AC8CAB"
-    },
     {
       "id": "17G8v0G62l1tIj1",
       "name": "Montreal Canadiens vs. Nashville Predators",
@@ -471,6 +461,16 @@
       "status": "onsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-seattle-kraken-montreal-quebec-03-04-2027/event/310064FACA6C8671"
+    },
+    {
+      "id": "1AsZk4AGkdf99BI",
+      "name": "Def Leppard and Goo Goo Dolls  ",
+      "localDate": "2027-03-05",
+      "localTime": "19:00:00",
+      "dateTimeUTC": "2027-03-06T00:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8"
     },
     {
       "id": "17G8v0G62l1jb_W",
