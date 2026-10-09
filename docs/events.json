@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-08T17:10:35.119645+00:00",
+  "generated": "2026-10-09T16:47:33.301638+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1tIj1",
-      "name": "Montreal Canadiens vs. Nashville Predators",
-      "localDate": "2026-10-08",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-08T23:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-nashville-predators-montreal-quebec-10-08-2026/event/310064FACAA6870A"
-    },
     {
       "id": "17G8v0G61BQjJfg",
       "name": "The Smashing Pumpkins: The Rats In A Cage Tour",
@@ -408,7 +398,7 @@
       "localDate": "2027-02-12",
       "localTime": "19:00:00",
       "dateTimeUTC": "2027-02-13T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-montreal-quebec-02-12-2027/event/3100653EE19F95B9"
     },
@@ -511,6 +501,16 @@
       "status": "onsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-boston-bruins-montreal-quebec-03-10-2027/event/310064FACA758687"
+    },
+    {
+      "id": "15d7Z_fQpA0kK",
+      "name": "Nickelback: Everything Under The Sun Tour",
+      "localDate": "2027-03-12",
+      "localTime": "18:30:00",
+      "dateTimeUTC": "2027-03-12T23:30:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193"
     },
     {
       "id": "17G8v0G62l1rbQG",
