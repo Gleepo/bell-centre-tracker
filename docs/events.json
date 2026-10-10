@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-09T16:47:33.301638+00:00",
+  "generated": "2026-10-10T15:40:42.052844+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G61BQjJfg",
-      "name": "The Smashing Pumpkins: The Rats In A Cage Tour",
-      "localDate": "2026-10-09",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-10-10T00:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-montreal-quebec-10-09-2026/event/310064AE9A726535"
-    },
     {
       "id": "17G8v0G62l1nzj8",
       "name": "Montreal Canadiens vs. Detroit Red Wings",
