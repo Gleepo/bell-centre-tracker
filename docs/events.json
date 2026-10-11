@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-10T15:40:42.052844+00:00",
+  "generated": "2026-10-11T16:07:55.902268+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1nzj8",
-      "name": "Montreal Canadiens vs. Detroit Red Wings",
-      "localDate": "2026-10-10",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-10T23:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-detroit-red-wings-montreal-quebec-10-10-2026/event/310064FACAAB8710"
-    },
     {
       "id": "17G8v0G62l1iFjN",
       "name": "Montreal Canadiens vs. Buffalo Sabres",
