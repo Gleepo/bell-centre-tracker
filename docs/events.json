@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T16:07:55.902268+00:00",
+  "generated": "2026-10-13T17:20:16.580551+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -611,6 +611,16 @@
       "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/harlem-globetrotters-rivalry-tour-montreal-quebec-04-09-2027/event/31006519A1DE439B"
+    },
+    {
+      "id": "1ad7Z_fxFqwZdua5",
+      "name": "Calvin Harris - North America Tour",
+      "localDate": "2027-04-16",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-04-17T00:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-montreal-quebec-04-16-2027/event/3100654888772C8A"
     },
     {
       "id": "1AsZkfoGkdI4IjM",
