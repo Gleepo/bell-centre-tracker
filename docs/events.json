@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T14:51:49.198620+00:00",
+  "generated": "2026-10-16T14:30:18.807414+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -428,7 +428,7 @@
       "localDate": "2027-03-05",
       "localTime": "19:00:00",
       "dateTimeUTC": "2027-03-06T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8"
     },
@@ -478,7 +478,7 @@
       "localDate": "2027-03-12",
       "localTime": "18:30:00",
       "dateTimeUTC": "2027-03-12T23:30:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193"
     },
@@ -594,13 +594,13 @@
     },
     {
       "id": "1AsZkf_Gke-M0Ch",
-      "name": "Harlem Globetrotters: Rivalry Tour",
+      "name": "Harlem Globetrotters: Rivalry Tour Presented By Sprite",
       "localDate": "2027-04-09",
       "localTime": "19:00:00",
       "dateTimeUTC": "2027-04-09T23:00:00Z",
       "status": "onsale",
       "segment": "Miscellaneous",
-      "url": "https://www.ticketmaster.ca/harlem-globetrotters-rivalry-tour-montreal-quebec-04-09-2027/event/31006519A1DE439B"
+      "url": "https://www.ticketmaster.ca/harlem-globetrotters-rivalry-tour-presented-by-montreal-quebec-04-09-2027/event/31006519A1DE439B"
     },
     {
       "id": "1ad7Z_fxFqwZdua5",
