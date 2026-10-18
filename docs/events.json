@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-16T14:30:18.807414+00:00",
+  "generated": "2026-10-18T13:44:53.585585+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1cFji",
-      "name": "Montreal Canadiens vs. Buffalo Sabres",
-      "localDate": "2026-10-17",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-17T23:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-buffalo-sabres-montreal-quebec-10-17-2026/event/310064FACAB4872C"
-    },
     {
       "id": "17G8v0G62l1mbjs",
       "name": "Montreal Canadiens vs. San Jose Sharks",
