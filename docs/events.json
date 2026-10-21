@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-19T16:46:28.167390+00:00",
+  "generated": "2026-10-21T14:50:20.783658+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1mbjs",
-      "name": "Montreal Canadiens vs. San Jose Sharks",
-      "localDate": "2026-10-20",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-20T23:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-san-jose-sharks-montreal-quebec-10-20-2026/event/310064FACAB98731"
-    },
     {
       "id": "1Ad7Z_aGkmbY4v9",
       "name": "Olivia Rodrigo: The Unraveled Tour",
