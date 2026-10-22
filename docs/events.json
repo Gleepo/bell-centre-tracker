@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-21T14:50:20.783658+00:00",
+  "generated": "2026-10-22T14:51:05.920043+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1Ad7Z_aGkmbY4v9",
-      "name": "Olivia Rodrigo: The Unraveled Tour",
-      "localDate": "2026-10-21",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-21T23:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057"
-    },
     {
       "id": "1Ad7Z_aGkmbsAv_",
       "name": "Olivia Rodrigo: The Unraveled Tour",
@@ -691,6 +681,16 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/angele-instinct-tour-montreal-quebec-04-17-2027/event/31006511E8568737"
+    },
+    {
+      "id": "1AsZk4KGkd49IbM",
+      "name": "Charlotte Cardin - Midnight, mon amour Tour",
+      "localDate": "2027-10-22",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-10-23T00:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/charlotte-cardin-midnight-mon-amour-tour-montreal-quebec-10-22-2027/event/31006553D55E8637"
     }
   ]
 }
