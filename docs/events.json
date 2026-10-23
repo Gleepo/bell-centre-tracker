@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-22T14:51:05.920043+00:00",
+  "generated": "2026-10-23T14:39:19.066840+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1Ad7Z_aGkmbsAv_",
-      "name": "Olivia Rodrigo: The Unraveled Tour",
-      "localDate": "2026-10-22",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-10-22T23:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059"
-    },
     {
       "id": "17G8v0G652QqbLC",
       "name": "JOHN SUMMIT - CTRL ESCAPE ARENA TOUR",
@@ -668,7 +658,7 @@
       "localDate": "2027-04-16",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-04-17T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-montreal-quebec-04-16-2027/event/3100654888772C8A"
     },
