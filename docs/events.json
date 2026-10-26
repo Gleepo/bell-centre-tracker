@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-25T14:05:11.499622+00:00",
+  "generated": "2026-10-26T16:27:31.681600+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G6G99xtjE",
-      "name": "Aya Nakamura",
-      "localDate": "2026-10-25",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-10-26T00:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-25-2026/event/310064C5D78A9727"
-    },
     {
       "id": "17G8v0G61xOe95K",
       "name": "KATSEYE: THE WILDWORLD TOUR",
