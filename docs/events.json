@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T16:27:31.681600+00:00",
+  "generated": "2026-10-27T15:42:07.925196+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -348,7 +348,7 @@
       "localDate": "2027-02-25",
       "localTime": "19:00:00",
       "dateTimeUTC": "2027-02-26T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-on-ice-presents-spotlight-magic-montreal-quebec-02-25-2027/event/31006548E7BDA42C"
     },
@@ -358,7 +358,7 @@
       "localDate": "2027-02-26",
       "localTime": "19:00:00",
       "dateTimeUTC": "2027-02-27T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-sur-glace-presente-osez-briller-montreal-quebec-02-26-2027/event/31006548E7C1A431"
     },
@@ -368,7 +368,7 @@
       "localDate": "2027-02-27",
       "localTime": "11:00:00",
       "dateTimeUTC": "2027-02-27T16:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-sur-glace-presente-osez-briller-montreal-quebec-02-27-2027/event/31006548E7A6A40C"
     },
@@ -378,7 +378,7 @@
       "localDate": "2027-02-27",
       "localTime": "15:00:00",
       "dateTimeUTC": "2027-02-27T20:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-sur-glace-presente-osez-briller-montreal-quebec-02-27-2027/event/31006548E7B2A41F"
     },
@@ -388,7 +388,7 @@
       "localDate": "2027-02-27",
       "localTime": "19:00:00",
       "dateTimeUTC": "2027-02-28T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-sur-glace-presente-osez-briller-montreal-quebec-02-27-2027/event/31006548E7C8A43F"
     },
@@ -398,7 +398,7 @@
       "localDate": "2027-02-28",
       "localTime": "11:00:00",
       "dateTimeUTC": "2027-02-28T16:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-sur-glace-presente-osez-briller-montreal-quebec-02-28-2027/event/31006548E7AAA40E"
     },
@@ -408,7 +408,7 @@
       "localDate": "2027-02-28",
       "localTime": "15:00:00",
       "dateTimeUTC": "2027-02-28T20:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-on-ice-presents-spotlight-magic-montreal-quebec-02-28-2027/event/31006548E7B5A422"
     },
@@ -418,7 +418,7 @@
       "localDate": "2027-03-01",
       "localTime": "11:00:00",
       "dateTimeUTC": "2027-03-01T16:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-on-ice-presents-spotlight-magic-montreal-quebec-03-01-2027/event/31006548E7ADA417"
     },
@@ -428,7 +428,7 @@
       "localDate": "2027-03-01",
       "localTime": "15:00:00",
       "dateTimeUTC": "2027-03-01T20:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Miscellaneous",
       "url": "https://www.ticketmaster.ca/disney-sur-glace-presente-osez-briller-montreal-quebec-03-01-2027/event/31006548E7B9A426"
     },
