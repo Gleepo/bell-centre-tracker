@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T16:25:17.894498+00:00",
+  "generated": "2026-10-29T16:34:19.321226+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -658,7 +658,7 @@
       "localDate": "2027-10-20",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-10-21T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/charlotte-cardin-midnight-mon-amour-tour-montreal-quebec-10-20-2027/event/31006553D5578627"
     },
@@ -668,7 +668,7 @@
       "localDate": "2027-10-21",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-10-22T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/charlotte-cardin-midnight-mon-amour-tour-montreal-quebec-10-21-2027/event/31006553D55A862A"
     },
@@ -678,7 +678,7 @@
       "localDate": "2027-10-22",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-10-23T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/charlotte-cardin-midnight-mon-amour-tour-montreal-quebec-10-22-2027/event/31006553D55E8637"
     }
