@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T16:34:19.321226+00:00",
+  "generated": "2026-10-30T16:31:17.854400+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -648,7 +648,7 @@
       "localDate": "2027-04-27",
       "localTime": "19:00:00",
       "dateTimeUTC": "2027-04-27T23:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-montreal-quebec-04-27-2027/event/3100655A98812ADA"
     },
