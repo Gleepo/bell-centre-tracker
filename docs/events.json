@@ -1,17 +1,7 @@
 {
-  "generated": "2026-10-30T16:31:17.854400+00:00",
+  "generated": "2026-10-31T15:35:44.252926+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G61xOe95K",
-      "name": "KATSEYE: THE WILDWORLD TOUR",
-      "localDate": "2026-10-30",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-10-31T00:00:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3"
-    },
     {
       "id": "17G8v0G62l1RbjD",
       "name": "Montreal Canadiens vs. Pittsburgh Penguins",
@@ -681,6 +671,16 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/charlotte-cardin-midnight-mon-amour-tour-montreal-quebec-10-22-2027/event/31006553D55E8637"
+    },
+    {
+      "id": "1Ad7Z_4GkS0OyEg",
+      "name": "Charlotte Cardin - Midnight, mon amour Tour",
+      "localDate": "2027-10-25",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-10-26T00:00:00Z",
+      "status": "onsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/charlotte-cardin-midnight-mon-amour-tour-montreal-quebec-10-25-2027/event/3100655CE48399F5"
     }
   ]
 }
