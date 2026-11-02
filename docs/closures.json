@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T16:34:07.844618+00:00",
+  "generated": "2026-11-02T19:57:30.923460+00:00",
   "source": "Ville de Montréal — Entraves et travaux en cours",
   "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
   "attribution": "Données: Ville de Montréal",
@@ -12,11 +12,11 @@
   "radius_m": 1000,
   "horizon_days": 14,
   "counts": {
-    "scanned": 1834,
-    "in_radius": 162,
-    "reported": 145,
-    "active": 116,
-    "upcoming": 29
+    "scanned": 1811,
+    "in_radius": 147,
+    "reported": 142,
+    "active": 136,
+    "upcoming": 6
   },
   "closures": [
     {
@@ -113,7 +113,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 69
     },
@@ -335,7 +335,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 107
     },
@@ -449,7 +449,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": true,
       "distance_m": 110
     },
@@ -609,7 +609,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": true,
       "distance_m": 144
     },
@@ -649,7 +649,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-12-18",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 239
     },
@@ -689,7 +689,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-12-18",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 242
     },
@@ -1893,7 +1893,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 357
     },
@@ -2321,7 +2321,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-04",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 411
     },
@@ -3973,7 +3973,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-06",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 471
     },
@@ -4891,7 +4891,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-06",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 565
     },
@@ -5544,148 +5544,6 @@
       "distance_m": 622
     },
     {
-      "id": "6ad68924d4f58c1f36694880",
-      "permit_id": "OCC-2610HM22156799",
-      "reason": "Autre",
-      "zone": "Mansfield entre Sainte-Catherine et De Maisonneuve",
-      "borough": "Ville-Marie",
-      "organization": "9477-0757 Québec inc.",
-      "streets": [
-        "rue Mansfield",
-        "rue Sainte-Catherine Ouest"
-      ],
-      "segments": [
-        {
-          "street": "rue Sainte-Catherine Ouest",
-          "from": "Mansfield",
-          "to": "Metcalfe",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.57108,
-                45.50187
-              ],
-              [
-                -73.5716,
-                45.50134
-              ]
-            ],
-            [
-              [
-                -73.5716,
-                45.50134
-              ],
-              [
-                -73.57221,
-                45.50072
-              ]
-            ]
-          ],
-          "located": "between"
-        },
-        {
-          "street": "rue Mansfield",
-          "from": "Sainte-Catherine",
-          "to": "De Maisonneuve",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.57076,
-                45.50095
-              ],
-              [
-                -73.5716,
-                45.50134
-              ]
-            ],
-            [
-              [
-                -73.5716,
-                45.50134
-              ],
-              [
-                -73.5734,
-                45.50222
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-10-31",
-      "end_date": "2026-11-01",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 623
-    },
-    {
-      "id": "6ac3af29009c7f0013398d69",
-      "permit_id": "OCC-2610NS04160772",
-      "reason": "Autre",
-      "zone": "Inspecteur entre Saint-Paul et Saint-Maurice",
-      "borough": "Le Sud-Ouest",
-      "organization": "Tisseur Inc.",
-      "streets": [
-        "rue de l'Inspecteur"
-      ],
-      "segments": [
-        {
-          "street": "rue de l'Inspecteur",
-          "from": "Saint-Paul",
-          "to": "Saint-Maurice",
-          "impact": "Rue barrée",
-          "sidewalk": "Barré",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56008,
-                45.49613
-              ],
-              [
-                -73.56096,
-                45.49657
-              ]
-            ],
-            [
-              [
-                -73.56096,
-                45.49657
-              ],
-              [
-                -73.56181,
-                45.49698
-              ]
-            ],
-            [
-              [
-                -73.56181,
-                45.49698
-              ],
-              [
-                -73.56204,
-                45.4971
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-10-05",
-      "end_date": "2026-11-01",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": true,
-      "distance_m": 628
-    },
-    {
       "id": "6ad77fb2d4f58c1f366c2ca5",
       "permit_id": "OCC-2610TE16987468",
       "reason": "Égouts et aqueducs - Excavation",
@@ -5933,7 +5791,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 657
     },
@@ -5983,7 +5841,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-06",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 659
     },
@@ -6309,7 +6167,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-10",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 706
     },
@@ -6656,6 +6514,66 @@
       "distance_m": 747
     },
     {
+      "id": "6ae21574d4f58c1f369f18d0",
+      "permit_id": "OCC-2610WN24825220",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Saint-Antoine entre Gauvin et Robert-Bourassa",
+      "borough": "Ville-Marie",
+      "organization": "Maçonnerie Rainville et Frères",
+      "streets": [
+        "rue Saint-Antoine Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue Saint-Antoine Ouest",
+          "from": "Gauvin",
+          "to": "Robert-Bourassa",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.5621,
+                45.50122
+              ],
+              [
+                -73.56338,
+                45.49969
+              ]
+            ],
+            [
+              [
+                -73.56338,
+                45.49969
+              ],
+              [
+                -73.56352,
+                45.49958
+              ]
+            ],
+            [
+              [
+                -73.56196,
+                45.50139
+              ],
+              [
+                -73.5621,
+                45.50122
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-05",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 750
+    },
+    {
       "id": "6ae38601d4f58c1f36ab43bf",
       "permit_id": "OCC-2610YE25562818",
       "reason": "Construction/rénovation sans excavation",
@@ -6701,7 +6619,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-06",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 752
     },
@@ -6890,66 +6808,6 @@
       ],
       "start_date": "2026-10-21",
       "end_date": "2026-11-06",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 758
-    },
-    {
-      "id": "6ae264e82889b2709f084804",
-      "permit_id": "OCC-2610RN25548472",
-      "reason": "Entretien",
-      "zone": "De Maisonneuve entre McGill College et Mansfield",
-      "borough": "Ville-Marie",
-      "organization": "Richer et frères Lavage de vitres",
-      "streets": [
-        "boulevard De Maisonneuve Ouest"
-      ],
-      "segments": [
-        {
-          "street": "boulevard De Maisonneuve Ouest",
-          "from": "McGill College",
-          "to": "Mansfield",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.57159,
-                45.50407
-              ],
-              [
-                -73.57281,
-                45.50283
-              ]
-            ],
-            [
-              [
-                -73.57289,
-                45.50275
-              ],
-              [
-                -73.5734,
-                45.50222
-              ]
-            ],
-            [
-              [
-                -73.57281,
-                45.50283
-              ],
-              [
-                -73.57289,
-                45.50275
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-11-01",
-      "end_date": "2026-11-01",
       "status": "Permis émis",
       "state": "active",
       "street_closed": false,
@@ -7183,7 +7041,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 764
     },
@@ -7293,69 +7151,9 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-08",
       "status": "Permis émis",
-      "state": "upcoming",
-      "street_closed": false,
-      "distance_m": 773
-    },
-    {
-      "id": "6ad8d7d82889b2709fd008b9",
-      "permit_id": "OCC-2610AJ17917255",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Saint-Jacques entre Gauvin et Robert-Bourassa",
-      "borough": "Ville-Marie",
-      "organization": "Maçonnerie Rainville et Frères",
-      "streets": [
-        "rue Saint-Jacques"
-      ],
-      "segments": [
-        {
-          "street": "rue Saint-Jacques",
-          "from": "Gauvin",
-          "to": "Robert-Bourassa",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56096,
-                45.50072
-              ],
-              [
-                -73.56126,
-                45.50043
-              ]
-            ],
-            [
-              [
-                -73.56126,
-                45.50043
-              ],
-              [
-                -73.56253,
-                45.49913
-              ]
-            ],
-            [
-              [
-                -73.56253,
-                45.49913
-              ],
-              [
-                -73.56266,
-                45.49899
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-10-26",
-      "end_date": "2026-11-01",
-      "status": "Permis émis",
       "state": "active",
       "street_closed": false,
-      "distance_m": 775
+      "distance_m": 773
     },
     {
       "id": "6ad0dbd32889b2709fa28c34",
@@ -7623,7 +7421,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-06",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 794
     },
@@ -7717,7 +7515,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-13",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 798
     },
@@ -8041,7 +7839,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 821
     },
@@ -8141,7 +7939,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-02",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 829
     },
@@ -8213,7 +8011,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-10",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 832
     },
@@ -8974,6 +8772,130 @@
       "distance_m": 857
     },
     {
+      "id": "6ace69f02889b2709f91da4e",
+      "permit_id": "OCC-2610MS24878407",
+      "reason": "Entretien",
+      "zone": "Shannon entre Wellington et Ottawa",
+      "borough": "Le Sud-Ouest",
+      "organization": "Hydro-Québec-Entrave courte durée",
+      "streets": [
+        "rue Dalhousie",
+        "rue Ottawa",
+        "rue du Shannon"
+      ],
+      "segments": [
+        {
+          "street": "rue Dalhousie",
+          "from": "Ottawa",
+          "to": "Ottawa",
+          "impact": "Rue barrée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.55737,
+                45.49549
+              ],
+              [
+                -73.55808,
+                45.49576
+              ]
+            ],
+            [
+              [
+                -73.55808,
+                45.49576
+              ],
+              [
+                -73.55977,
+                45.4964
+              ]
+            ]
+          ],
+          "located": "near-point"
+        },
+        {
+          "street": "rue du Shannon",
+          "from": "Wellington",
+          "to": "Ottawa",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.55619,
+                45.49361
+              ],
+              [
+                -73.55699,
+                45.49391
+              ]
+            ],
+            [
+              [
+                -73.55699,
+                45.49391
+              ],
+              [
+                -73.55893,
+                45.49465
+              ]
+            ]
+          ],
+          "located": "between"
+        },
+        {
+          "street": "rue Ottawa",
+          "from": "Dalhousie",
+          "to": "Shannon",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.55808,
+                45.49576
+              ],
+              [
+                -73.55851,
+                45.4952
+              ]
+            ],
+            [
+              [
+                -73.55851,
+                45.4952
+              ],
+              [
+                -73.55893,
+                45.49465
+              ]
+            ],
+            [
+              [
+                -73.55776,
+                45.49618
+              ],
+              [
+                -73.55808,
+                45.49576
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-04",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": true,
+      "distance_m": 858
+    },
+    {
       "id": "69bafe5a2f414e0012ea009d",
       "permit_id": "OCC-2603ZY19567941",
       "reason": "Entretien",
@@ -9273,7 +9195,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-03",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 892
     },
@@ -9471,7 +9393,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-06",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 909
     },
@@ -9651,7 +9573,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-21",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 933
     },
@@ -9916,46 +9838,6 @@
       "distance_m": 959
     },
     {
-      "id": "6acf6eec2889b2709f983293",
-      "permit_id": "OCC-2610HU24002853",
-      "reason": "Déménagement",
-      "zone": "Payette entre Seigneurs et Chatham",
-      "borough": "Le Sud-Ouest",
-      "organization": null,
-      "streets": [
-        "rue Payette"
-      ],
-      "segments": [
-        {
-          "street": "rue Payette",
-          "from": "Seigneurs",
-          "to": "Chatham",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56817,
-                45.48733
-              ],
-              [
-                -73.56886,
-                45.48663
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-10-31",
-      "end_date": "2026-11-01",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 981
-    },
-    {
       "id": "6adf8dcd2889b2709ff1578e",
       "permit_id": "OCC-2610RN22234188",
       "reason": "Construction/rénovation sans excavation",
@@ -10091,7 +9973,7 @@
       "start_date": "2026-11-02",
       "end_date": "2026-11-06",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 990
     },
