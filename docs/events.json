@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T16:33:58.708679+00:00",
+  "generated": "2026-11-03T17:30:31.330684+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -671,6 +671,16 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/charlotte-cardin-midnight-mon-amour-tour-montreal-quebec-10-25-2027/event/3100655CE48399F5"
+    },
+    {
+      "id": "1Ad7Z_3GkmxM9Qv",
+      "name": "Fredz",
+      "localDate": "2027-12-03",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-12-04T01:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/fredz-montreal-quebec-12-03-2027/event/3100652BA2DD7681"
     }
   ]
 }
