@@ -1,17 +1,7 @@
 {
-  "generated": "2026-11-03T17:30:31.330684+00:00",
+  "generated": "2026-11-04T17:43:58.895836+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1YIqe",
-      "name": "Montreal Canadiens vs. Winnipeg Jets",
-      "localDate": "2026-11-03",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-04T00:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-winnipeg-jets-montreal-quebec-11-03-2026/event/310064FACAC28742"
-    },
     {
       "id": "1Ad7Zb8GkHddkki",
       "name": "Fally Ipupa: Coming To The Americas Tour",
@@ -678,7 +668,7 @@
       "localDate": "2027-12-03",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-12-04T01:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/fredz-montreal-quebec-12-03-2027/event/3100652BA2DD7681"
     }
