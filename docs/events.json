@@ -1,17 +1,7 @@
 {
-  "generated": "2026-11-04T17:43:58.895836+00:00",
+  "generated": "2026-11-05T17:50:01.201468+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1Ad7Zb8GkHddkki",
-      "name": "Fally Ipupa: Coming To The Americas Tour",
-      "localDate": "2026-11-04",
-      "localTime": "20:00:00",
-      "dateTimeUTC": "2026-11-05T01:00:00Z",
-      "status": "cancelled",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/fally-ipupa-coming-to-the-americas-montreal-quebec-11-04-2026/event/3100610F030C61AC"
-    },
     {
       "id": "17G8v0G62l1sIq6",
       "name": "Montreal Canadiens vs. Utah Mammoth",
