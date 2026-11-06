@@ -1,17 +1,7 @@
 {
-  "generated": "2026-11-05T17:50:01.201468+00:00",
+  "generated": "2026-11-06T17:09:06.541861+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1sIq6",
-      "name": "Montreal Canadiens vs. Utah Mammoth",
-      "localDate": "2026-11-05",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-06T00:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-utah-mammoth-montreal-quebec-11-05-2026/event/310064FACAC68747"
-    },
     {
       "id": "17G8v0G62l1Sbqo",
       "name": "Montreal Canadiens vs. Minnesota Wild",
@@ -461,6 +451,16 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193"
+    },
+    {
+      "id": "1Ad7Z_4GkD0ZH9f",
+      "name": "FEID - FERXXO - THE GREEN STAR Tour 2027",
+      "localDate": "2027-03-13",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-03-14T01:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-montreal-quebec-03-13-2027/event/3100655EE403C5D4"
     },
     {
       "id": "17G8v0G62l1rbQG",
