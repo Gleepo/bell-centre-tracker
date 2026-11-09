@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T16:29:48.602466+00:00",
+  "generated": "2026-11-09T20:23:10.937257+00:00",
   "source": "Ville de Montréal — Entraves et travaux en cours",
   "source_url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d",
   "attribution": "Données: Ville de Montréal",
@@ -12,11 +12,11 @@
   "radius_m": 1000,
   "horizon_days": 14,
   "counts": {
-    "scanned": 1716,
-    "in_radius": 166,
-    "reported": 153,
-    "active": 122,
-    "upcoming": 31
+    "scanned": 1741,
+    "in_radius": 162,
+    "reported": 160,
+    "active": 142,
+    "upcoming": 18
   },
   "closures": [
     {
@@ -1048,88 +1048,6 @@
       "distance_m": 295
     },
     {
-      "id": "68cb038a8f7d590012d69e45",
-      "permit_id": "OCC-2509VO15120709",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
-      "borough": "Ville-Marie",
-      "organization": "Service public et approvisionnement  Canada",
-      "streets": [
-        "rue Saint-Antoine Ouest",
-        "rue de la Cathédrale"
-      ],
-      "segments": [
-        {
-          "street": "rue de la Cathédrale",
-          "from": "Saint-Jacques",
-          "to": "Saint-Antoine",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56401,
-                45.49657
-              ],
-              [
-                -73.56469,
-                45.49689
-              ]
-            ],
-            [
-              [
-                -73.56469,
-                45.49689
-              ],
-              [
-                -73.56603,
-                45.49752
-              ]
-            ]
-          ],
-          "located": "between"
-        },
-        {
-          "street": "rue Saint-Antoine Ouest",
-          "from": "Cathédrale",
-          "to": "Peel",
-          "impact": "Aucun impact / non applicable",
-          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56555,
-                45.4979
-              ],
-              [
-                -73.56603,
-                45.49752
-              ]
-            ],
-            [
-              [
-                -73.56603,
-                45.49752
-              ],
-              [
-                -73.56681,
-                45.49689
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2025-11-25",
-      "end_date": "2026-11-24",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 298
-    },
-    {
       "id": "68cb05f5a9e0000012ae1cfe",
       "permit_id": "OCC-2509VO15121995",
       "reason": "Construction/rénovation sans excavation",
@@ -1232,6 +1150,88 @@
               [
                 -73.56575,
                 45.49579
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2025-11-25",
+      "end_date": "2026-11-24",
+      "status": "Permis émis",
+      "state": "active",
+      "street_closed": false,
+      "distance_m": 298
+    },
+    {
+      "id": "68cb038a8f7d590012d69e45",
+      "permit_id": "OCC-2509VO15120709",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Cathédrale entre Saint-Jacques et Saint-Antoine",
+      "borough": "Ville-Marie",
+      "organization": "Service public et approvisionnement  Canada",
+      "streets": [
+        "rue Saint-Antoine Ouest",
+        "rue de la Cathédrale"
+      ],
+      "segments": [
+        {
+          "street": "rue de la Cathédrale",
+          "from": "Saint-Jacques",
+          "to": "Saint-Antoine",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56401,
+                45.49657
+              ],
+              [
+                -73.56469,
+                45.49689
+              ]
+            ],
+            [
+              [
+                -73.56469,
+                45.49689
+              ],
+              [
+                -73.56603,
+                45.49752
+              ]
+            ]
+          ],
+          "located": "between"
+        },
+        {
+          "street": "rue Saint-Antoine Ouest",
+          "from": "Cathédrale",
+          "to": "Peel",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56555,
+                45.4979
+              ],
+              [
+                -73.56603,
+                45.49752
+              ]
+            ],
+            [
+              [
+                -73.56603,
+                45.49752
+              ],
+              [
+                -73.56681,
+                45.49689
               ]
             ]
           ],
@@ -2195,7 +2195,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 380
     },
@@ -5224,6 +5224,88 @@
       "distance_m": 595
     },
     {
+      "id": "6ae4d769d4f58c1f36b2d19d",
+      "permit_id": "OCC-2611XP03307462",
+      "reason": "Entretien",
+      "zone": "De La Gauchetière entre Robert-Bourassa et Mansfield",
+      "borough": "Ville-Marie",
+      "organization": "VisionDel",
+      "streets": [
+        "boulevard Robert-Bourassa",
+        "rue De La Gauchetière Ouest"
+      ],
+      "segments": [
+        {
+          "street": "boulevard Robert-Bourassa",
+          "from": "De La Gauchetière",
+          "to": "Belmont",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56519,
+                45.50089
+              ],
+              [
+                -73.56601,
+                45.50133
+              ]
+            ],
+            [
+              [
+                -73.56532,
+                45.50071
+              ],
+              [
+                -73.56621,
+                45.50114
+              ]
+            ]
+          ],
+          "located": "between"
+        },
+        {
+          "street": "rue De La Gauchetière Ouest",
+          "from": "Robert-Bourassa",
+          "to": "Mansfield",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56532,
+                45.50071
+              ],
+              [
+                -73.56668,
+                45.49897
+              ]
+            ],
+            [
+              [
+                -73.56519,
+                45.50089
+              ],
+              [
+                -73.56532,
+                45.50071
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 597
+    },
+    {
       "id": "6ae395cc2889b2709f0e93f4",
       "permit_id": "OCC-2610XS24871580",
       "reason": "Égouts et aqueducs - Réhabilitation",
@@ -6117,7 +6199,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 693
     },
@@ -6629,7 +6711,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-10",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 750
     },
@@ -6971,7 +7053,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": true,
       "distance_m": 768
     },
@@ -7026,130 +7108,6 @@
       "distance_m": 772
     },
     {
-      "id": "6aac1578a0500b0013f49a8a",
-      "permit_id": "OCC-2609DJ14480153",
-      "reason": "Autre",
-      "zone": "Viger entre Square-Victoria et Robert-Bourassa",
-      "borough": "Ville-Marie",
-      "organization": "Groupe de construction DePiedmont inc.",
-      "streets": [
-        "avenue Viger Ouest"
-      ],
-      "segments": [
-        {
-          "street": "avenue Viger Ouest",
-          "from": "Square-Victoria",
-          "to": "Robert-Bourassa",
-          "impact": "Voie de stationnement et voie de circulation obstruées",
-          "sidewalk": "Barré",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56315,
-                45.50194
-              ],
-              [
-                -73.56396,
-                45.50084
-              ],
-              [
-                -73.5644,
-                45.5004
-              ]
-            ],
-            [
-              [
-                -73.5644,
-                45.5004
-              ],
-              [
-                -73.56454,
-                45.50029
-              ]
-            ],
-            [
-              [
-                -73.56291,
-                45.50224
-              ],
-              [
-                -73.56315,
-                45.50194
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 772
-    },
-    {
-      "id": "6ae21602d4f58c1f369f23ea",
-      "permit_id": "OCC-2610IJ24800203",
-      "reason": "Construction/rénovation sans excavation",
-      "zone": "Saint-Jacques entre Gauvin et Robert-Bourassa",
-      "borough": "Ville-Marie",
-      "organization": "Maçonnerie Rainville et Frères",
-      "streets": [
-        "rue Saint-Jacques"
-      ],
-      "segments": [
-        {
-          "street": "rue Saint-Jacques",
-          "from": "Gauvin",
-          "to": "Robert-Bourassa",
-          "impact": "Voie de stationnement obstruée",
-          "sidewalk": "Aucun impact / non applicable",
-          "bike_path": "Aucun impact / non applicable",
-          "lines": [
-            [
-              [
-                -73.56096,
-                45.50072
-              ],
-              [
-                -73.56126,
-                45.50043
-              ]
-            ],
-            [
-              [
-                -73.56126,
-                45.50043
-              ],
-              [
-                -73.56253,
-                45.49913
-              ]
-            ],
-            [
-              [
-                -73.56253,
-                45.49913
-              ],
-              [
-                -73.56266,
-                45.49899
-              ]
-            ]
-          ],
-          "located": "between"
-        }
-      ],
-      "start_date": "2026-11-02",
-      "end_date": "2026-11-08",
-      "status": "Permis émis",
-      "state": "active",
-      "street_closed": false,
-      "distance_m": 773
-    },
-    {
       "id": "6aec9a5c2889b2709f3cb962",
       "permit_id": "OCC-2611GP04123734",
       "reason": "Construction/rénovation sans excavation",
@@ -7195,7 +7153,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 773
     },
@@ -7255,7 +7213,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-15",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 775
     },
@@ -7271,7 +7229,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-16",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 779
     },
@@ -7321,7 +7279,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-11",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 781
     },
@@ -7381,7 +7339,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-14",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 785
     },
@@ -7605,7 +7563,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": true,
       "distance_m": 786
     },
@@ -7661,7 +7619,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 791
     },
@@ -7714,6 +7672,56 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 792
+    },
+    {
+      "id": "6ae392bf2889b2709f0e5e35",
+      "permit_id": "OCC-2611XJ04056080",
+      "reason": "Autre",
+      "zone": "Ottawa entre Montagne et Séminaire",
+      "borough": "Le Sud-Ouest",
+      "organization": "Les Entreprises Michaudville",
+      "streets": [
+        "rue Ottawa"
+      ],
+      "segments": [
+        {
+          "street": "rue Ottawa",
+          "from": "Montagne",
+          "to": "Séminaire",
+          "impact": "Rue barrée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Obstruée",
+          "lines": [
+            [
+              [
+                -73.56065,
+                45.49243
+              ],
+              [
+                -73.56093,
+                45.49205
+              ]
+            ],
+            [
+              [
+                -73.56093,
+                45.49205
+              ],
+              [
+                -73.56147,
+                45.49135
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": true,
+      "distance_m": 793
     },
     {
       "id": "6ae092942889b2709ff77aa4",
@@ -8098,6 +8106,56 @@
       "distance_m": 820
     },
     {
+      "id": "6aecd008d4f58c1f36d79e0d",
+      "permit_id": "OCC-2611HX04800964",
+      "reason": "AS-2 Réseau aérosouterrain existant",
+      "zone": "De La Gauchetière entre Saint-Alexandre et Beaver Hall",
+      "borough": "Ville-Marie",
+      "organization": "Lignex Télécom Inc.",
+      "streets": [
+        "rue De La Gauchetière Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue De La Gauchetière Ouest",
+          "from": "Saint-Alexandre",
+          "to": "Beaver Hall",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56318,
+                45.50364
+              ],
+              [
+                -73.56344,
+                45.50329
+              ]
+            ],
+            [
+              [
+                -73.56344,
+                45.50329
+              ],
+              [
+                -73.5642,
+                45.50223
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 822
+    },
+    {
       "id": "6ae8a478d4f58c1f36baea9f",
       "permit_id": "OCC-2611QO02191417",
       "reason": "Construction/rénovation sans excavation",
@@ -8143,7 +8201,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 829
     },
@@ -8193,7 +8251,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 830
     },
@@ -8253,7 +8311,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-11",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 831
     },
@@ -8306,6 +8364,56 @@
       "state": "active",
       "street_closed": false,
       "distance_m": 833
+    },
+    {
+      "id": "6aeb3c032889b2709f31d3f1",
+      "permit_id": "OCC-2611MS04923117",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Shannon entre Wellington et Ottawa",
+      "borough": "Le Sud-Ouest",
+      "organization": "Groupe Atwill-Morin inc.",
+      "streets": [
+        "rue du Shannon"
+      ],
+      "segments": [
+        {
+          "street": "rue du Shannon",
+          "from": "Wellington",
+          "to": "Ottawa",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.55619,
+                45.49361
+              ],
+              [
+                -73.55699,
+                45.49391
+              ]
+            ],
+            [
+              [
+                -73.55699,
+                45.49391
+              ],
+              [
+                -73.55893,
+                45.49465
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 837
     },
     {
       "id": "6aeb39582889b2709f31a607",
@@ -8643,7 +8751,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 850
     },
@@ -9323,7 +9431,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-13",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 886
     },
@@ -9612,6 +9720,96 @@
       "distance_m": 899
     },
     {
+      "id": "6aecd267d4f58c1f36d7d625",
+      "permit_id": "OCC-2611CO04783095",
+      "reason": "AS-2 Réseau aérosouterrain existant",
+      "zone": "De La Gauchetière entre Saint-Alexandre et Beaver Hall",
+      "borough": "Ville-Marie",
+      "organization": "Lignex Télécom Inc.",
+      "streets": [
+        "rue De La Gauchetière Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue De La Gauchetière Ouest",
+          "from": "Saint-Alexandre",
+          "to": "Beaver Hall",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Aucun impact / non applicable",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56318,
+                45.50364
+              ],
+              [
+                -73.56344,
+                45.50329
+              ]
+            ],
+            [
+              [
+                -73.56344,
+                45.50329
+              ],
+              [
+                -73.5642,
+                45.50223
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 906
+    },
+    {
+      "id": "6ae9c55bd4f58c1f36c3e3ed",
+      "permit_id": "OCC-2611OQ04933072",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Peel entre Wellington et Ottawa",
+      "borough": "Le Sud-Ouest",
+      "organization": "Grues J-M Francoeur",
+      "streets": [
+        "rue Peel"
+      ],
+      "segments": [
+        {
+          "street": "rue Peel",
+          "from": "Wellington",
+          "to": "Ottawa",
+          "impact": "Voie de stationnement et voie de circulation obstruées",
+          "sidewalk": "Barré",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.55744,
+                45.4933
+              ],
+              [
+                -73.55939,
+                45.49404
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 911
+    },
+    {
       "id": "6aed00822889b2709f423e65",
       "permit_id": "OCC-2611YI04776789",
       "reason": "Entretien",
@@ -9657,7 +9855,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 914
     },
@@ -9698,6 +9896,56 @@
       "end_date": "2026-12-05",
       "status": "Permis émis",
       "state": "active",
+      "street_closed": false,
+      "distance_m": 918
+    },
+    {
+      "id": "6aecd1c42889b2709f4076b5",
+      "permit_id": "OCC-2611RV04780039",
+      "reason": "AS-2 Réseau aérosouterrain existant",
+      "zone": "De La Gauchetière entre Saint-Alexandre et Beaver Hall",
+      "borough": "Ville-Marie",
+      "organization": "Lignex Télécom Inc.",
+      "streets": [
+        "rue De La Gauchetière Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue De La Gauchetière Ouest",
+          "from": "Saint-Alexandre",
+          "to": "Beaver Hall",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.56318,
+                45.50364
+              ],
+              [
+                -73.56344,
+                45.50329
+              ]
+            ],
+            [
+              [
+                -73.56344,
+                45.50329
+              ],
+              [
+                -73.5642,
+                45.50223
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
       "street_closed": false,
       "distance_m": 918
     },
@@ -9747,7 +9995,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-13",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 920
     },
@@ -9809,7 +10057,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-13",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 921
     },
@@ -9979,7 +10227,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": true,
       "distance_m": 932
     },
@@ -10294,6 +10542,56 @@
       "distance_m": 950
     },
     {
+      "id": "6aecd110d4f58c1f36d7b44c",
+      "permit_id": "OCC-2611JL04807265",
+      "reason": "AS-2 Réseau aérosouterrain existant",
+      "zone": "De La Gauchetière entre Hermine et Saint-Alexandre",
+      "borough": "Ville-Marie",
+      "organization": "Lignex Télécom Inc.",
+      "streets": [
+        "rue De La Gauchetière Ouest"
+      ],
+      "segments": [
+        {
+          "street": "rue De La Gauchetière Ouest",
+          "from": "Hermine",
+          "to": "Saint-Alexandre",
+          "impact": "Voie de stationnement obstruée",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.5627,
+                45.50428
+              ],
+              [
+                -73.56318,
+                45.50364
+              ]
+            ],
+            [
+              [
+                -73.56318,
+                45.50364
+              ],
+              [
+                -73.56344,
+                45.50329
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 955
+    },
+    {
       "id": "6ac7c02b009c7f00133a2534",
       "permit_id": "OCC-2610IB06680192",
       "reason": "Construction/rénovation sans excavation",
@@ -10434,6 +10732,56 @@
       "distance_m": 962
     },
     {
+      "id": "6aedf5672889b2709f47fee4",
+      "permit_id": "OCC-2611GF04917152",
+      "reason": "Construction/rénovation sans excavation",
+      "zone": "Président-Kennedy entre Robert-Bourassa et Victoria",
+      "borough": "Ville-Marie",
+      "organization": "Aluvertech",
+      "streets": [
+        "avenue du Président-Kennedy"
+      ],
+      "segments": [
+        {
+          "street": "avenue du Président-Kennedy",
+          "from": "Robert-Bourassa",
+          "to": "Victoria",
+          "impact": "Aucun impact / non applicable",
+          "sidewalk": "Obstrué (un passage piéton de 1,5 m est conservé)",
+          "bike_path": "Aucun impact / non applicable",
+          "lines": [
+            [
+              [
+                -73.5719,
+                45.50505
+              ],
+              [
+                -73.57245,
+                45.50449
+              ]
+            ],
+            [
+              [
+                -73.57245,
+                45.50449
+              ],
+              [
+                -73.57306,
+                45.50387
+              ]
+            ]
+          ],
+          "located": "between"
+        }
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "status": "Permis émis",
+      "state": "upcoming",
+      "street_closed": false,
+      "distance_m": 965
+    },
+    {
       "id": "6ad0d6f4d4f58c1f365301c4",
       "permit_id": "OCC-2611QU03256811",
       "reason": "Entretien",
@@ -10479,7 +10827,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-09",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 970
     },
@@ -10619,7 +10967,7 @@
       "start_date": "2026-11-09",
       "end_date": "2026-11-12",
       "status": "Permis émis",
-      "state": "upcoming",
+      "state": "active",
       "street_closed": false,
       "distance_m": 989
     },

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T17:09:06.541861+00:00",
+  "generated": "2026-11-09T20:23:01.796376+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -541,6 +541,16 @@
       "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934"
+    },
+    {
+      "id": "1AsZk4vGkd9DI_a",
+      "name": "Marc Anthony: THE LAST DANCE",
+      "localDate": "2027-04-04",
+      "localTime": "20:00:00",
+      "dateTimeUTC": "2027-04-05T00:00:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-montreal-quebec-04-04-2027/event/31006541D7EE8649"
     },
     {
       "id": "1AsZkfNGkePukXL",
