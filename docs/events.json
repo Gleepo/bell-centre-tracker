@@ -1,17 +1,7 @@
 {
-  "generated": "2026-11-09T20:23:01.796376+00:00",
+  "generated": "2026-11-11T17:40:57.021242+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1Sbqo",
-      "name": "Montreal Canadiens vs. Minnesota Wild",
-      "localDate": "2026-11-10",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-11T00:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-minnesota-wild-montreal-quebec-11-10-2026/event/310064FACACD8751"
-    },
     {
       "id": "17G8v0G62l1Vbq-",
       "name": "Montreal Canadiens vs. Colorado Avalanche",
