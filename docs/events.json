@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T17:40:57.021242+00:00",
+  "generated": "2026-11-12T17:54:02.175237+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -448,7 +448,7 @@
       "localDate": "2027-03-13",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-03-14T01:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-montreal-quebec-03-13-2027/event/3100655EE403C5D4"
     },
@@ -481,6 +481,16 @@
       "status": "onsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-toronto-maple-leafs-montreal-quebec-03-22-2027/event/310064FACA82869D"
+    },
+    {
+      "id": "1AsZk4JGkd6dpXr",
+      "name": "Phoebe Bridgers : The Lost Tour",
+      "localDate": "2027-03-23",
+      "localTime": "19:30:00",
+      "dateTimeUTC": "2027-03-23T23:30:00Z",
+      "status": "offsale",
+      "segment": "Music",
+      "url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-montreal-quebec-03-23-2027/event/31006566C70D6F9E"
     },
     {
       "id": "17G8v0G62l1-zQR",
