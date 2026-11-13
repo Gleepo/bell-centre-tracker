@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T17:54:02.175237+00:00",
+  "generated": "2026-11-13T17:28:56.345258+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -548,7 +548,7 @@
       "localDate": "2027-04-04",
       "localTime": "20:00:00",
       "dateTimeUTC": "2027-04-05T00:00:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-montreal-quebec-04-04-2027/event/31006541D7EE8649"
     },
