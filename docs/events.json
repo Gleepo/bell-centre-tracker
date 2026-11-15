@@ -1,17 +1,7 @@
 {
-  "generated": "2026-11-13T17:28:56.345258+00:00",
+  "generated": "2026-11-15T16:47:06.998886+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1Vbq-",
-      "name": "Montreal Canadiens vs. Colorado Avalanche",
-      "localDate": "2026-11-14",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-15T00:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-colorado-avalanche-montreal-quebec-11-14-2026/event/310064FACAD18761"
-    },
     {
       "id": "17G8v0G62l1gbqm",
       "name": "Montreal Canadiens vs. Philadelphia Flyers",
