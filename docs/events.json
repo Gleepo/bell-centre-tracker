@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T18:55:46.842339+00:00",
+  "generated": "2026-11-20T18:15:58.901608+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -478,7 +478,7 @@
       "localDate": "2027-03-23",
       "localTime": "19:30:00",
       "dateTimeUTC": "2027-03-23T23:30:00Z",
-      "status": "offsale",
+      "status": "onsale",
       "segment": "Music",
       "url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-montreal-quebec-03-23-2027/event/31006566C70D6F9E"
     },
