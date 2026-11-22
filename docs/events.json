@@ -1,17 +1,7 @@
 {
-  "generated": "2026-11-20T18:15:58.901608+00:00",
+  "generated": "2026-11-22T17:35:58.056237+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1gbqm",
-      "name": "Montreal Canadiens vs. Philadelphia Flyers",
-      "localDate": "2026-11-21",
-      "localTime": "19:00:00",
-      "dateTimeUTC": "2026-11-22T00:00:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-philadelphia-flyers-montreal-quebec-11-21-2026/event/310064FACAD5876E"
-    },
     {
       "id": "17G8v0G6ClFL9p2",
       "name": "Rocket de Laval c. Calgary Wranglers au Centre Bell",
