@@ -1,17 +1,7 @@
 {
-  "generated": "2026-11-23T21:52:55.333897+00:00",
+  "generated": "2026-11-24T20:28:52.567837+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "17G8v0G62l1UIqD",
-      "name": "Montreal Canadiens vs. Los Angeles Kings",
-      "localDate": "2026-11-23",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2026-11-24T00:30:00Z",
-      "status": "onsale",
-      "segment": "Sports",
-      "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-los-angeles-kings-montreal-quebec-11-23-2026/event/310064FACADA877B"
-    },
     {
       "id": "1AsZkGyGkeMVJJT",
       "name": "Doja Cat - Tour Ma Vie World Tour",
