@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T20:28:52.567837+00:00",
+  "generated": "2026-11-26T19:24:11.044418+00:00",
   "venue": "Bell Centre",
   "events": [
     {
@@ -171,6 +171,16 @@
       "status": "onsale",
       "segment": "Sports",
       "url": "https://www.ticketmaster.ca/montreal-canadiens-vs-calgary-flames-montreal-quebec-01-23-2027/event/310064FACA55864E"
+    },
+    {
+      "id": "1AsZk4wGkd01cLt",
+      "name": "Concours d'habiletés des Canadiens présenté par Rona",
+      "localDate": "2027-01-24",
+      "localTime": "13:00:00",
+      "dateTimeUTC": "2027-01-24T18:00:00Z",
+      "status": "offsale",
+      "segment": "Sports",
+      "url": "https://www.ticketmaster.ca/concours-dhabiletes-des-canadiens-presente-par-montreal-quebec-01-24-2027/event/31006572E42AD7E9"
     },
     {
       "id": "17G8v0G62l1pI_4",
