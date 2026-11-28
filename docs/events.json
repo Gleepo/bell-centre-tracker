@@ -1,17 +1,7 @@
 {
-  "generated": "2026-11-26T19:24:11.044418+00:00",
+  "generated": "2026-11-28T17:55:50.777187+00:00",
   "venue": "Bell Centre",
   "events": [
-    {
-      "id": "1AsZkGyGkeMVJJT",
-      "name": "Doja Cat - Tour Ma Vie World Tour",
-      "localDate": "2026-11-27",
-      "localTime": "19:30:00",
-      "dateTimeUTC": "2026-11-28T00:30:00Z",
-      "status": "onsale",
-      "segment": "Music",
-      "url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF"
-    },
     {
       "id": "17G8v0G62l1Mzra",
       "name": "Montreal Canadiens vs. Tampa Bay Lightning",
